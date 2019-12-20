@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EA6CD80-9E08-4E4D-A0A0-1A9629D1470E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Portal.Core</RootNamespace>
+    <AssemblyName>Portal.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.20710.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonTitle\ButtonTitleBL.cs" />
+    <Compile Include="BuyerProduct\BuyerProductBL.cs" />
+    <Compile Include="DeliveryStatus\DeliveryStatusBL.cs" />
+    <Compile Include="GSTPercent\GSTPercentBL.cs" />
+    <Compile Include="GST\GstBL.cs" />
+    <Compile Include="HomeAbout\HomeAboutBL.cs" />
+    <Compile Include="CopyRight\CopyRightBL.cs" />
+    <Compile Include="AboutUs\AboutusBL.cs" />
+    <Compile Include="AttributeHelper.cs" />
+    <Compile Include="BaseController.cs" />
+    <Compile Include="City\CityBL.cs" />
+    <Compile Include="Company\CompanyBL.cs" />
+    <Compile Include="ContactInfo\ContactInfoBL.cs" />
+    <Compile Include="CostCenter\CostCenterBL.cs" />
+    <Compile Include="Currency\CurrencyBL.cs" />
+    <Compile Include="CustomerFormRegister\CustomerFormRegisterBL.cs" />
+    <Compile Include="CustomerForm\CustomerFormBL.cs" />
+    <Compile Include="CustomerPaymentRegister\CustomerPaymentRegisterBL.cs" />
+    <Compile Include="CustomerPayment\CustomerPaymentBL.cs" />
+    <Compile Include="DeliveryChallanRegister\DeliveryChallanRegisterBL.cs" />
+    <Compile Include="DeliveryChallan\DeliveryChallanBL.cs" />
+    <Compile Include="DocumentType\DocumentTypeBL.cs" />
+    <Compile Include="FollowUpActivityType\FollowUpActivityTypeBL.cs" />
+    <Compile Include="FormType\FormTypeBL.cs" />
+    <Compile Include="GL\GLBL.cs" />
+    <Compile Include="HomeSlider\HomeSliderBL.cs" />
+    <Compile Include="HomeUpdate\HomeUpdateBL.cs" />
+    <Compile Include="Logo\LogoBL.cs" />
+    <Compile Include="Menu\MenuBL.cs" />
+    <Compile Include="MRNRegister\MRNRegisterBL.cs" />
+    <Compile Include="MRN\MRNBL.cs" />
+    <Compile Include="MSME\MSMEBL.cs" />
+    <Compile Include="PORegister\PORegisterBL.cs" />
+    <Compile Include="ProductSubChildGroup\ProductSubChildGroupBL.cs" />
+    <Compile Include="PurchaseInvoiceRegister\PurchaseInvoiceRegisterBL.cs" />
+    <Compile Include="QuotationRegister\QuotationRegisterBL.cs" />
+    <Compile Include="SaleInvoiceRegister\SaleInvoiceRegisterBL.cs" />
+    <Compile Include="Schedule\ScheduleBL.cs" />
+    <Compile Include="SellerProduct\SellerProductBL.cs" />
+    <Compile Include="SLDetailBL\SLDetailBL.cs" />
+    <Compile Include="SL\SLBL.cs" />
+    <Compile Include="SORegister\SORegisterBL.cs" />
+    <Compile Include="SOSetting\SOSettingBL.cs" />
+    <Compile Include="ProductTaxMapping\ProductTaxMappingBL.cs" />
+    <Compile Include="PurchaseInvoice\PurchaseInvoiceBL.cs" />
+    <Compile Include="SaleInvoice\SaleInvoiceBL.cs" />
+    <Compile Include="SO\SOBL.cs" />
+    <Compile Include="Specification\SpecificationBL.cs" />
+    <Compile Include="STNRegister\STNRegisterBL.cs" />
+    <Compile Include="STN\STNBL.cs" />
+    <Compile Include="StockLedger\StockLedgerBL.cs" />
+    <Compile Include="STRRegister\STRRegisterBL.cs" />
+    <Compile Include="STR\STRBL.cs" />
+    <Compile Include="SubChildMenu\SubChildMenuBL.cs" />
+    <Compile Include="SubMenu\SubMenuBL.cs" />
+    <Compile Include="TermTemplate\TermTemplateBL.cs" />
+    <Compile Include="GLSubGroup\GLSubGroupBL.cs" />
+    <Compile Include="GLMainGroup\GLMainGroupBL.cs" />
+    <Compile Include="PO\POBL.cs" />
+    <Compile Include="QuotationSetting\QuotationSettingBL.cs" />
+    <Compile Include="Quotation\QuotationBL.cs" />
+    <Compile Include="UploadUtility\UploadUtilityBL.cs" />
+    <Compile Include="UserEmailSetting\UserEmailSettingBL.cs" />
+    <Compile Include="UserRegistration\UserRegistrationBL.cs" />
+    <Compile Include="VendorForm\VendorFormBL.cs" />
+    <Compile Include="VendorPaymentRegister\VendorPaymentRegisterBL.cs" />
+    <Compile Include="VendorPayment\VendorPaymentBL.cs" />
+    <Compile Include="Vendor\VendorBL.cs" />
+    <Compile Include="CustomerType\CustomerTypeBL.cs" />
+    <Compile Include="Customer\CustomerBL.cs" />
+    <Compile Include="EmployeeStateMapping\EmployeeStateMappingBL.cs" />
+    <Compile Include="Employee\EmployeeBL.cs" />
+    <Compile Include="Book\BookBL.cs" />
+    <Compile Include="Tax\TaxBL.cs" />
+    <Compile Include="PaymentMode\PaymentModeBL.cs" />
+    <Compile Include="Designation\DesignationtBL.cs" />
+    <Compile Include="Lead\LeadBL.cs" />
+    <Compile Include="PaymentTerm\PaymentTermBL.cs" />
+    <Compile Include="ProductMainGroup\ProductMainGroupBL.cs" />
+    <Compile Include="ProductSubGroup\ProductSubGroupBL.cs" />
+    <Compile Include="ProductType\ProductTypeBL.cs" />
+    <Compile Include="Country\CountryBL.cs" />
+    <Compile Include="FinYear\FinYearBL.cs" />
+    <Compile Include="LeadSource\LeadSourceBL.cs" />
+    <Compile Include="Product\ProductBOMBL.cs" />
+    <Compile Include="Product\ProductOpeningBL.cs" />
+    <Compile Include="Product\ProductBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseFilter.cs" />
+    <Compile Include="LeadStatus\LeadStatusBL.cs" />
+    <Compile Include="Role\RoleUIMappingBL.cs" />
+    <Compile Include="Role\RoleBL.cs" />
+    <Compile Include="Services\ServicesBL.cs" />
+    <Compile Include="SLType\SLTypeBL.cs" />
+    <Compile Include="State\StateBL.cs" />
+    <Compile Include="Department\DeparmentBL.cs" />
+    <Compile Include="UOM\UOMBL.cs" />
+    <Compile Include="User\UserBL.cs" />
+    <Compile Include="ValidServiceRequest.cs" />
+    <Compile Include="ViewModel\AboutViewModel.cs" />
+    <Compile Include="ViewModel\AddEditUOM_SPCViewModel.cs" />
+    <Compile Include="ViewModel\ProductItemViewModel.cs" />
+    <Compile Include="ViewModel\BuyerProductViewModel.cs" />
+    <Compile Include="ViewModel\ContactInfoViewModel.cs" />
+    <Compile Include="ViewModel\AboutusViewModel.cs" />
+    <Compile Include="ViewModel\ButtonTitleViewModel.cs" />
+    <Compile Include="ViewModel\DeliveryStatusViewModel.cs" />
+    <Compile Include="ViewModel\GSTPercentViewModel.cs" />
+    <Compile Include="ViewModel\GSTViewModel.cs" />
+    <Compile Include="ViewModel\HomeAboutViewModel.cs" />
+    <Compile Include="ViewModel\CopyRightViewModel.cs" />
+    <Compile Include="ViewModel\CurrencyViewModel.cs" />
+    <Compile Include="ViewModel\CityViewModel.cs" />
+    <Compile Include="ViewModel\CostCenterViewModel.cs" />
+    <Compile Include="ViewModel\CustomerFormViewModel .cs" />
+    <Compile Include="ViewModel\CustomerPaymentViewModel.cs" />
+    <Compile Include="ViewModel\DeliveryChallanViewModel.cs" />
+    <Compile Include="ViewModel\DocumentTypeViewModel.cs" />
+    <Compile Include="ViewModel\FormTypeViewModel.cs" />
+    <Compile Include="ViewModel\GLViewModel.cs" />
+    <Compile Include="ViewModel\HomeSliderViewModel.cs" />
+    <Compile Include="ViewModel\HomeUpdateViewModel.cs" />
+    <Compile Include="ViewModel\LogoViewModel.cs" />
+    <Compile Include="ViewModel\MenuViewModel.cs" />
+    <Compile Include="ViewModel\MRNViewModel.cs" />
+    <Compile Include="ViewModel\MSMEViewModel.cs" />
+    <Compile Include="ViewModel\POViewModel.cs" />
+    <Compile Include="ViewModel\ProductArhViewModel.cs" />
+    <Compile Include="ViewModel\ProductSubChildGroupViewModel.cs" />
+    <Compile Include="ViewModel\ProductTechSpecificationViewModel.cs" />
+    <Compile Include="ViewModel\public class BuyerProductSeller.cs" />
+    <Compile Include="ViewModel\ScheduleViewModel.cs" />
+    <Compile Include="ViewModel\SellerProductBuyer.cs" />
+    <Compile Include="ViewModel\SellerProductViewModel.cs" />
+    <Compile Include="ViewModel\SLViewModel.cs" />
+    <Compile Include="ViewModel\SOSettingViewModel.cs" />
+    <Compile Include="ViewModel\ProductSubCategoryStateTaxMappingViewModel.cs" />
+    <Compile Include="ViewModel\PurchaseInvoiceViewModel.cs" />
+    <Compile Include="ViewModel\SIViewModel.cs" />
+    <Compile Include="ViewModel\SOViewModel.cs" />
+    <Compile Include="ViewModel\STNViewModel.cs" />
+    <Compile Include="ViewModel\STRViewModel.cs" />
+    <Compile Include="ViewModel\TermTemplateViewModel.cs" />
+    <Compile Include="ViewModel\QuotationViewModel.cs" />
+    <Compile Include="ViewModel\GLSubGroupViewModel.cs" />
+    <Compile Include="ViewModel\GLGroupViewModel.cs" />
+    <Compile Include="ViewModel\QuotationSettingViewModel.cs" />
+    <Compile Include="ViewModel\BrandViewModel.cs" />
+    <Compile Include="ViewModel\UserEmailSettingViewModel.cs" />
+    <Compile Include="ViewModel\UserRegistrationViewModel.cs" />
+    <Compile Include="ViewModel\VendorFormViewModel.cs" />
+    <Compile Include="ViewModel\VendorPaymentViewModel.cs" />
+    <Compile Include="ViewModel\VendorViewModel.cs" />
+    <Compile Include="ViewModel\EmployeeStateMappingViewModel.cs" />
+    <Compile Include="ViewModel\CustomerViewModel.cs" />
+    <Compile Include="ViewModel\EmployeeViewModel.cs" />
+    <Compile Include="ViewModel\BookViewModel.cs" />
+    <Compile Include="ViewModel\CustomerTypeViewModel.cs" />
+    <Compile Include="ViewModel\FollowUpActivityTypeViewModel.cs" />
+    <Compile Include="ViewModel\TaxViewModel.cs" />
+    <Compile Include="ViewModel\PaymentModeViewModel.cs" />
+    <Compile Include="ViewModel\DesignationViewModel.cs" />
+    <Compile Include="ViewModel\LeadViewModel.cs" />
+    <Compile Include="ViewModel\ProductBOMViewModel.cs" />
+    <Compile Include="ViewModel\ProductOpeningViewModel.cs" />
+    <Compile Include="ViewModel\ProductViewModel.cs" />
+    <Compile Include="ViewModel\ServicesViewModel.cs" />
+    <Compile Include="ViewModel\SLTypeViewModel.cs" />
+    <Compile Include="ViewModel\UOMViewModel.cs" />
+    <Compile Include="ViewModel\ProductSubGroupViewModel.cs" />
+    <Compile Include="ViewModel\ProductMainGroupViewModel.cs" />
+    <Compile Include="ViewModel\PaymentTermViewModel.cs" />
+    <Compile Include="ViewModel\ProductTypeViewModel.cs" />
+    <Compile Include="ViewModel\LeadSourceViewModel.cs" />
+    <Compile Include="ViewModel\LeadStatusViewModel.cs" />
+    <Compile Include="ViewModel\RoleUIMappingViewModel.cs" />
+    <Compile Include="ViewModel\RoleViewModel.cs" />
+    <Compile Include="ViewModel\StateViewModel.cs" />
+    <Compile Include="ViewModel\CountryViewModel.cs" />
+    <Compile Include="ViewModel\CompanyViewModel.cs" />
+    <Compile Include="ViewModel\FinYearViewModel.cs" />
+    <Compile Include="ViewModel\DepartmentViewModel.cs" />
+    <Compile Include="ViewModel\UserViewModel.cs" />
+    <Compile Include="ViewModel\VoucherViewModel.cs" />
+    <Compile Include="ViewModel\WelcomeHomeViewModel.cs" />
+    <Compile Include="Voucher\VoucherBL.cs" />
+    <Compile Include="WebBL\WebBL.cs" />
+    <Compile Include="WelcomeHome\WelcomeHomeBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Portal.Common\MSME.Common.csproj">
+      <Project>{7e75e996-ddde-4f91-9db3-60a4b683e994}</Project>
+      <Name>MSME.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Portal.DAL\MSME.DAL.csproj">
+      <Project>{8E7D26A8-C628-40B3-B7F6-2788242B3BD3}</Project>
+      <Name>MSME.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

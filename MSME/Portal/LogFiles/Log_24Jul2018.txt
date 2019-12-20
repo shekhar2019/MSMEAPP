@@ -1,0 +1,120 @@
+19:52:44 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeSliderList
+Error Line No : 101
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+--------------------------------------------------------------------------------------------------------------------------------
+
+19:52:45 PM
+Source : Portal.Core.HomeSliderBL
+Method Name : GetHomeSliderList
+Error Line No : 77
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:52:45 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : GetHomeSliderList
+Error Line No : 139
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:52:46 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeSliderList
+Error Line No : 101
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:52:46 PM
+Source : Portal.Core.HomeSliderBL
+Method Name : GetHomeSliderList
+Error Line No : 77
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:52:46 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : GetHomeSliderList
+Error Line No : 139
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:52:57 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeSliderList
+Error Line No : 101
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:52:57 PM
+Source : Portal.Core.HomeSliderBL
+Method Name : GetHomeSliderList
+Error Line No : 77
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:53:17 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeSliderList
+Error Line No : 101
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:53:44 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeSliderList
+Error Line No : 101
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:53:44 PM
+Source : Portal.Core.HomeSliderBL
+Method Name : GetHomeSliderList
+Error Line No : 77
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:53:44 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : GetHomeSliderList
+Error Line No : 139
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:54:10 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeSliderList
+Error Line No : 101
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:54:10 PM
+Source : Portal.Core.HomeSliderBL
+Method Name : GetHomeSliderList
+Error Line No : 77
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:54:10 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : GetHomeSliderList
+Error Line No : 139
+Exception Type : System.NotSupportedException
+Details: The specified type member 'UserName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,60 @@
+﻿@model List<Portal.Core.ViewModel.GLViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblGLList">
+            <thead>
+                <tr>
+                    <th>GL Code</th> 
+                    <th>GL Head</th> 
+                    <th>GL Type</th>  
+                    <th>GLMainGroup</th>  
+                    <th>GLSubGroup</th>  
+                    <th>SLType Name</th>  
+                    <th>GL Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.GLCode
+                            @*<input id="hdnGLId" type="hidden" value="@item.GLId" />*@
+                        </td>
+                        <td>@item.GLHead</td>
+                        <td>@item.GLType</td>
+                        <td>@item.GLMainGroupName</td>
+                        <td>@item.GLSubGroupName</td>
+                        <td>@item.SLTypeName</td>
+                         
+                        <td>@(item.GLStatus == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white" class="fa fa-eye" aria-hidden="true" href="~/GL/AddEditGL?GLId=@item.GLId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/GL/AddEditGL?GLId=@item.GLId&AccessMode=2"></a>
+                        </td> 
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblBookList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

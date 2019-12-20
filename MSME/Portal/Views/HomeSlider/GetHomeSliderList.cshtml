@@ -1,0 +1,73 @@
+﻿@model List<Portal.Core.HomeSliderViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblLogoList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Slider Title</th>
+                    <th>Image</th>
+                    <th>Image Title</th>
+                    <th>Image Alt</th>
+                    <th>Description</th>
+                    <th>Link Url</th>
+                    <th>Created By</th>
+                    <th>Status</th>
+
+                    <th align="center"  colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td>
+                            @item.SliderTitle
+                        <input type="hidden" id="hdnSliderid" value="@item.Sliderid" />
+                        <input type="hidden" id="hdnSliderTitle" value="@item.SliderTitle" />
+                        <input type="hidden" id="hdnDescription" value="@item.Description" />
+                        <input type="hidden" id="hdnImage" value="@item.Image" />
+                        <input type="hidden" id="hdnImageAlt" value="@item.ImageAlt" />
+                        <input type="hidden" id="hdnImageTitle" value="@item.ImageTitle" />
+                        <input type="hidden" id="hdnLinkUrl" value="@item.LinkUrl" />
+                        <input type="hidden" id="hdnHomeSiderStatus" value="@(item.HomeSiderStatus == true ? "true" : "false")" />
+                    </td>
+                        <td><img src="..@item.Image" title="@item.SliderTitle" alt="@item.ImageTitle" width="50" height="50" /> </td>
+                        <td>@item.ImageTitle</td>
+                        <td>@item.ImageAlt</td>
+                        <td>@item.Description</td>
+                    <td>@item.LinkUrl</td>
+                    <td>@item.CreatedByUser</td>
+                    <td>@(item.HomeSiderStatus == true ? "Active" : "Inactive")</td>
+                    <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                        <a style="color:white" class="fa fa-pencil-square-o" href="javascript:void(0)" onclick='EditRow(this)'></a> &nbsp;|&nbsp;
+                        
+                    </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                            
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true" href="javascript:void(0)" onclick="RemoveSlider(@item.Sliderid)" title="Remove Slider Image"></a>
+                        </td>
+
+                </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblLogoList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

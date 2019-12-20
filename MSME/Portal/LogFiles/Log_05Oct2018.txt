@@ -1,0 +1,65 @@
+17:14:58 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+17:20:22 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The partial view 'GetHomeUpdateList.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/GetHomeUpdateList.cshtml.aspx
+~/Views/Home/GetHomeUpdateList.cshtml.ascx
+~/Views/Shared/GetHomeUpdateList.cshtml.aspx
+~/Views/Shared/GetHomeUpdateList.cshtml.ascx
+~/Views/Home/GetHomeUpdateList.cshtml.cshtml
+~/Views/Home/GetHomeUpdateList.cshtml.vbhtml
+~/Views/Shared/GetHomeUpdateList.cshtml.cshtml
+~/Views/Shared/GetHomeUpdateList.cshtml.vbhtml
+---------------------------------------------------------------------------------------------------------------------------
+
+18:23:43 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditHomeUpdate
+Error Line No : 6506
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:23:47 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : AddEditHomeUpdate
+Error Line No : 40
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:23:48 PM
+Source : Portal.Controllers.HomeUpdateController
+Method Name : AddEditHomeUpdate
+Error Line No : 61
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:15:07 PM
+Source : Portal.Controllers.HomeUpdateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\HomeUpdate\GetHomeUpdateList.cshtml(37): error CS1061: 'Portal.Core.HomeUpdateViewModel' does not contain a definition for 'UpdateArea' and no extension method 'UpdateArea' accepting a first argument of type 'Portal.Core.HomeUpdateViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:17:25 PM
+Source : Portal.Controllers.HomeUpdateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\HomeUpdate\GetHomeUpdateList.cshtml(37): error CS1061: 'Portal.Core.HomeUpdateViewModel' does not contain a definition for 'UpdateArea' and no extension method 'UpdateArea' accepting a first argument of type 'Portal.Core.HomeUpdateViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+

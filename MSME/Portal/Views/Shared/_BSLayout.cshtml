@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+   
+    <link href="~/Content/dashstyle.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://cmsbox.in/wordpress/roaringtrades/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <section id="main_content_area">
+        <div class="container">
+            <ul class="main_content">
+                <li class="small what_new">
+                    <div class="welcome main_head">
+                        <h3>Welcome <span>@Session["UserFullName"]</span></h3>
+                    </div>
+                    <div class="profile_img wn_list">
+                        <figure>
+                            <img src="~/Images/admin.png" alt="" />
+                        </figure>
+                    </div>
+                    <div class="logo_img wn_list">
+                        <figure>
+
+                            <img src="~/Images/CompanyLogo/MSMELogo.png" alt="" />
+                        </figure>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            @RenderSection("UserMenu", required: true)
+                        </ul>
+                    </div>
+                    <div class="advertise wn_list">
+                        <a href="">
+                            <figure>
+                                <img src="img/advertisement.gif" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="logo wn_list">
+                        <a href="">
+                            <figure>
+                                <img src="img/msme.png" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                </li>
+                <!-- small what_new -->
+                <li class="medium what_rising">
+                    <h4 class="main_head_cate blue"></h4>
+                    <div class="creative_tabs ">
+                        @RenderSection("MiddleSection", required: true)                        
+                    </div>
+                </li>
+                <!-- mideum what_rising -->
+                <li class="big what_hot">
+                    <div class="search_div">
+                        <form role="search" method="get" class="search-form">
+                            <button type="submit" class="search-submit"><img src="img/search.png" width="" height="" alt=""></button>
+                            <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                        </form>
+                    </div>
+                    @RenderSection("RightSection", required: true)
+                </li><!-- big what_hot -->
+            </ul><!-- main_content -->
+        </div>
+    </section>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- <script src="js/jquery.js"></script> -->
+
+    @RenderSection("DashboardScripts", required: false)   
+    <div>
+        @RenderBody()
+    </div>
+    <div class="modal fade" id="alertModel" role="dialog">
+        <div class="modal-dialog  modal-sm">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" id="modelHeader"></h4>
+                </div>
+                <div class="modal-body">
+                    <p id="modelText"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary  btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿@model List<Portal.Core.ViewModel.SubMenuViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblCountryList">
+            <thead>
+                <tr>
+                    <th>Menu</th>
+                    <th>Sub Menu Name</th>
+                    <th>Sub Menu Link</th>
+                    <th>Page Name</th>
+                    <th>Sequence No</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.MenuName</td>
+                        <td>
+                            @item.SubMenuName
+                        <input type="hidden" id="hdnMenuId" name="hdnMenuId" value="@item.MenuId" />
+                        <input type="hidden" id="hdnPageName" name="hdnPageName" value="@item.PageName" />
+                        <input type="hidden" id="hdnSubMenuId" name="hdnSubMenuId" value="@item.SubMenuId" />
+                        <input type="hidden" id="hdnSubMenuName" name="hdnSubMenuName" value="@item.SubMenuName" />
+                        <input type="hidden" id="hdnSubMenuLink" name="hdnSubMenuLink" value="@item.SubMenuLink" />
+                        <input type="hidden" id="hdnSubMenuStatus" name="hdnSubMenuStatus" value="@(item.SubMenuStatus == true ? "true" : "false")" />
+                        <input type="hidden" id="hdnSubMenuSequenceNo" name="hdnSubMenuSequenceNo" value="@item.SequenceNo" />
+                    </td>
+
+                    <td>@item.SubMenuLink</td>
+                    <td>@item.PageName</td>
+                    <td>@item.SequenceNo</td>
+                    <td>@(item.SubMenuStatus == true ? "Active" : "Inactive")</td>
+
+                    <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                        <a style="color:white" class="fa fa-pencil-square-o" onclick="EditMenuDetail(this)"></a>
+                    </td>
+                    <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                        <a style="color:white" class="fa fa-trash" aria-hidden="true" onclick="RemoveSubMenu(@item.SubMenuId)"></a>
+                    </td>
+                </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblCountryList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

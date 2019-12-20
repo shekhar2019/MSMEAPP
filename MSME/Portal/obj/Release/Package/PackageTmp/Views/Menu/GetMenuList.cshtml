@@ -1,0 +1,59 @@
+﻿@model List<Portal.Core.ViewModel.MenuViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblCountryList">
+            <thead>
+                <tr>
+                    <th>Menu Name</th>
+                    <th>Menu Link</th>
+                    <th>Sequence No</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.MenuName
+                        <input type="hidden" id="hdnMainMenuId" name="hdnMainMenuId" value="@item.MenuId" />
+                        <input type="hidden" id="hdnMenuName" name="hdnMenuName" value="@item.MenuName" />
+                        <input type="hidden" id="hdnMenuLink" name="hdnMenuLink" value="@item.MenuLink" />
+                        <input type="hidden" id="hdnMenuStatus" name="hdnMenuStatus" value="@(item.MenuStatus == true ? "true" : "false")" />
+                        <input type="hidden" id="hdnMenuSequenceNo" name="hdnMenuSequenceNo" value="@item.SequenceNo" />    
+                        </td>
+
+                        <td>@item.MenuLink</td>
+                        <td>@item.SequenceNo</td>
+                        <td>@(item.MenuStatus == true ? "Active" : "Inactive")</td>
+                      
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" onclick="EditMenuDetail(this)"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true"  onclick="RemoveMenu(@item.MenuId)"></a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblCountryList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

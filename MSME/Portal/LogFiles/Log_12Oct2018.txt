@@ -1,0 +1,24 @@
+18:50:48 PM
+Source : Portal.DAL.DBInterface
+Method Name : RemoveSubMenu
+Error Line No : 6807
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+--------------------------------------------------------------------------------------------------------------------------------
+
+18:50:51 PM
+Source : Portal.Core.SubMenuBL
+Method Name : RemoveSubMenu
+Error Line No : 114
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+18:59:12 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditSubMenu
+Error Line No : 6728
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,56 @@
+21:05:45 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsByGroupList
+Error Line No : 382
+Exception Type : System.ArgumentException
+Details: Column 'AssemblyType' does not belong to table .
+--------------------------------------------------------------------------------------------------------------------------------
+
+21:05:45 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetProductList
+Error Line No : 66
+Exception Type : System.ArgumentException
+Details: Column 'AssemblyType' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:02 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:41 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsByGroupList
+Error Line No : 382
+Exception Type : System.ArgumentException
+Details: Column 'AssemblyType' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:59 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetProductList
+Error Line No : 66
+Exception Type : System.ArgumentException
+Details: Column 'AssemblyType' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:59 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:00:31 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

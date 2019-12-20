@@ -1,0 +1,12 @@
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\Portal.Core.dll
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\Portal.Core.pdb
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\Portal.Common.dll
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\Portal.DAL.dll
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\EntityFramework.dll
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\System.Net.Http.Formatting.dll
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\Portal.Common.pdb
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\Portal.DAL.pdb
+D:\AnilWorkArea\CMS\Portal.Core\bin\Debug\System.Net.Http.Formatting.xml
+D:\AnilWorkArea\CMS\Portal.Core\obj\Debug\CMS.Core.csprojResolveAssemblyReference.cache
+D:\AnilWorkArea\CMS\Portal.Core\obj\Debug\Portal.Core.dll
+D:\AnilWorkArea\CMS\Portal.Core\obj\Debug\Portal.Core.pdb

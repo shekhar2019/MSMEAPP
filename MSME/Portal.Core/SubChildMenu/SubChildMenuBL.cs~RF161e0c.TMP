@@ -1,0 +1,122 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Portal.Core.ViewModel;
+using Portal.DAL;
+using Portal.Common;
+using System.Reflection;
+using System.Data;
+
+namespace Portal.Core
+{
+ public  class SubChildMenuBL
+    {
+        DBInterface dbInterface;
+        public SubChildMenuBL()
+        {
+            dbInterface = new DBInterface();
+        }
+        public List<SubMenuViewModel> GetSubMenuList(int menuId)
+        {
+            List<SubMenuViewModel> subMenuList = new List<SubMenuViewModel>();
+            try
+            {
+                List<SubMenu> menus = dbInterface.GetSubMenuList(menuId);
+                foreach (SubMenu subMenu in menus)
+                {
+                    if (subMenu.SubMenuStatus == true)
+                    {
+                        subMenuList.Add(new SubMenuViewModel
+                        {
+                            SubMenuId = subMenu.SubMenuId,
+                            SubMenuName = subMenu.SubMenuName,
+                        });
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return subMenuList;
+        }
+
+        public ResponseOut AddEditSubChildMenu(SubChildMenuViewModel subChildMenuViewModel)
+        {
+            ResponseOut responseOut = new ResponseOut();
+            try
+            {
+                SubChildMenu menu = new SubChildMenu
+                {
+                    MenuId=subChildMenuViewModel.MenuId,
+                    SubMenuId = subChildMenuViewModel.SubMenuId,
+                    SubChildMenuId = subChildMenuViewModel.SubChildMenuId,
+                    SubChildPageName= subChildMenuViewModel.SubChildPageName,
+                    SubChildMenuName = subChildMenuViewModel.SubChildMenuName,
+                    SubChildMenuLink = subChildMenuViewModel.SubChildMenuLink,
+                    SubChildMenuStatus = subChildMenuViewModel.SubChildMenuStatus,
+                    SequenceNo = subChildMenuViewModel.SequenceNo
+                };
+                responseOut = dbInterface.AddEditSubChildMenu(menu);
+
+            }
+            catch (Exception ex)
+            {
+                responseOut.status = ActionStatus.Fail;
+                responseOut.message = ActionMessage.ApplicationException;
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return responseOut;
+        }
+
+        public List<SubChildMenuViewModel> GetSubChildMenu(int subMenuId=0)
+        {
+            List<SubChildMenuViewModel> subChildMenuList = new List<SubChildMenuViewModel>();
+            try
+            {
+                List<SubChildMenu> menus = dbInterface.GetSubChildMenuList(subMenuId);
+                foreach (SubChildMenu menu in menus)
+                {
+                    subChildMenuList.Add(new SubChildMenuViewModel
+                    {
+                        SubChildMenuId=menu.SubChildMenuId,
+                        SubChildMenuName=menu.SubChildMenuName,
+                        SubMenuId = Convert.ToInt32(menu.SubMenuId),
+                        SubChildPageName=menu.SubChildPageName,
+                        SubMenuName = menu.SubMenuName,
+                        SubChildMenuLink = menu.SubChildMenuLink,
+                        SubChildMenuStatus = Convert.ToBoolean(menu.SubChildMenuStatus),
+                        SequenceNo = Convert.ToInt32(menu.SequenceNo)
+                    });
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return subChildMenuList;
+        }
+
+        public ResponseOut RemoveSubChildMenu(int subChildMenuId)
+        {
+            ResponseOut responseOut = new ResponseOut();
+            try
+            {
+                responseOut = dbInterface.RemoveSubChildMenu(subChildMenuId);
+
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+            }
+            return responseOut;
+        }
+    }
+}

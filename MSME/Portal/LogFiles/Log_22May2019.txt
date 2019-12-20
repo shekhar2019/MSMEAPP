@@ -1,0 +1,96 @@
+01:37:43 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+12:02:53 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:10:51 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:17:50 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:21:17 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:21:27 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:24:41 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:26:06 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:58:51 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:43:43 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:44:13 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:56:04 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

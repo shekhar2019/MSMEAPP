@@ -1,0 +1,384 @@
+20:13:59 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+--------------------------------------------------------------------------------------------------------------------------------
+
+20:13:59 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:27:16 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:27:16 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:40:55 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:40:55 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:46:11 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:46:11 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:47:01 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:47:01 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:26 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:26 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:34 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:34 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:26:11 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:26:11 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:21 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:21 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:26 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:26 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:34 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:34 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:51 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:28:51 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:01 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:01 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:03 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:03 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:17 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:17 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:25 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:25 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:30:27 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:30:27 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:30:38 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:30:38 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:36:37 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:36:37 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:38:42 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:38:42 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:38:53 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:38:53 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:40:14 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:40:14 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:40:52 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:40:52 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:44:28 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:44:28 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,633 @@
+19:27:22 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+19:29:01 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:29:26 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:29:29 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:30:10 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:32:43 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:32:45 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:33:35 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:33:37 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:33:58 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:00 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:02 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:03 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:05 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:17 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:18 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:19 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:20 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:34:26 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:36:25 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:36:26 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:36:50 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:36:51 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:36:53 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:36:59 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:12 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:13 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:20 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:43 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:50 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:52 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:54 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:56 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:57 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:37:59 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:38:01 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:40:24 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:40:26 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:40:26 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:41:28 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:41:31 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:41:33 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:42:05 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:34 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:35 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:36 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:38 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:40 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:43 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:44 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:48 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:51 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:58 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:01 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:56 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:00 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:31 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:36 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:40 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:50:36 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:51:08 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:51:10 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:51:12 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:51:13 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:29 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult CategoryGroup(System.String, Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+20:23:48 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:25:19 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:35:36 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:35 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:49:23 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

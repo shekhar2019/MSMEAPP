@@ -1,0 +1,42 @@
+﻿@model  IEnumerable<Portal.Core.ViewModel.SellerProductPriceDashboardViewModel>
+@using Newtonsoft.Json
+
+
+
+@if (Model != null && Model.Count() > 0)
+{
+
+    int i = 0;
+
+    foreach (Portal.Core.ViewModel.SellerProductPriceDashboardViewModel item in Model)
+    {
+        i++;
+        <div class="cls">
+            <div class="col-lg-3">
+                @{ string cls = "";
+                }
+                @if (i == 1)
+                {
+                    cls = "height: 90px;background-color: #fcf8e3 !important;";
+                }
+
+                else
+                {
+                    cls = "height: 90px;background-color: #fcf8e3 !important;background-size:cover;- webkit - filter: blur(4px); -moz - filter: blur(4px);-ms - filter: blur(4px); -o - filter: blur(4px); filter: blur(0.9px); ";
+                }
+                <div class="alert alert-warning text-center" style="@cls">
+                    @*<div style="background-color:#9B0214; color:#fff; padding:3px;"><b class="buyer-name">@item.ProductFullDesc </b></div>*@
+                    <div style="padding:5px;">
+                        <span style="color:#9B0214;"> Date: @item.Priceupdatedate.ToString("dd/MM/yyyy") </span> <br />
+                        <span style="color:#9B0214;"> Price: ₹​. @item.SelllerProductPrice/@item.UOMName  </span> <br />
+                        <span style="color:#9B0214;"> Min Order Qty: @item.SellerMinimumorderQty </span> <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+
+
+
+}

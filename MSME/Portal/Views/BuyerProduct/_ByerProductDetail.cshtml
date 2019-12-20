@@ -1,0 +1,41 @@
+﻿@model  IEnumerable<Portal.Core.ViewModel.BuyerProductDashboardViewModel>
+
+@if (Model != null && Model.Count() > 0)
+{
+    foreach (Portal.Core.ViewModel.BuyerProductDashboardViewModel item in Model)
+    {
+        <div class="row">
+            <div class="col-lg-3 product-info" onclick="ShowProductModal('@item.ProductId');">
+                <div class="alert alert-danger text-center">
+                    <span>Product Name</span><br />
+                    <b class="product-name">@item.ProductName</b>
+                    <button style="padding:5px; font-size:15px; visibility: hidden! important;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                </div>
+            </div>
+            <div class="col-lg-9 seller-list">
+                <div class="carousel carousel-showmanymoveone slide" id="carousel123">
+                    <div class="carousel-inner">
+
+                        @foreach (var seller in item.Sellers)
+                        {
+                            <div class="item active seller-item">
+                                <div class="col-lg-3" onclick="ShowSellerModal('@seller.SellerId');">
+                                    <div class="alert alert-warning text-center">
+                                        <b class="seller-name">@seller.SellerName </b><br />
+                                        PH:@seller.Contact<br />
+                                        @@: @seller.SalePrice <br />
+                                        Date:@seller.ProductDate <br />
+                                        <button style="padding:3px; font-size:10px; visibility:hidden;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Open Modal</button>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <a class="left carousel-control" href="#carousel123" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                    <a class="right carousel-control" href="#carousel123" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </div>
+            </div>
+            <!--end quick info section -->
+        </div>
+    }
+}

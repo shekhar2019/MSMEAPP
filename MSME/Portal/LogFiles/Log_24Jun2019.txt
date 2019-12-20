@@ -1,0 +1,24 @@
+11:58:39 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+12:13:12 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:22:29 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Portal.Core.ViewModel.SellerProductViewModel>
+<style>
+    table td {
+        border: 1px solid black !important;
+    }
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th style="color:white;">Product Name</th>
+            <th style="color:white;">Specification Name</th>
+            <th style="color:white;">Specification Value</th>
+            <th style="color:white;">UOM</th>
+            <th style="color:white;">Brand</th>
+            <th style="color:white;">Item Code</th>
+            <th style="color:white;">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0)
+        {
+            foreach (Portal.Core.ViewModel.SellerProductViewModel item in Model)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+
+                    <td>
+                        @foreach (var spc in item.Specifications)
+                        {
+                            <div>
+                                @spc.SpecName
+                            </div>
+                        }
+                    </td>
+                    <td>
+                        @foreach (var spc in item.Specifications)
+                        {
+                            <div>
+                                @spc.SpecValue
+                            </div>
+                        }
+                    </td>
+                    <td>
+                        @foreach (var spc in item.Specifications)
+                        {
+                            <div>
+                                @spc.UomName
+                            </div>
+                        }
+                    </td>
+
+                    <td>@item.BrandName</td>
+                    <td>@item.ProductCode</td>
+                    <td>
+                        @Html.Hidden("SellerProductDetailId", item.SellerProductDetailId, new { @class = "DeleteId" })
+                        <a onclick="DeleteSellerProduct(this)" class="btn btn-default">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7">
+                    No details found
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

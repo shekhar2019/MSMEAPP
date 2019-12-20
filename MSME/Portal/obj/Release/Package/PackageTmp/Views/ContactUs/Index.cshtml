@@ -1,0 +1,120 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMSME.cshtml";
+}
+<div class="row" style="background-color:#fff;">
+    @*<div class="contact100-map" id="google_map1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3208323575705!2d77.37791881508237!3d28.620144982422627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef8db2fb6471%3A0xc872602ce09db65d!2sHTS!5e0!3m2!1sen!2sin!4v1545490958667" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>*@
+
+    <div class="col-12">
+        <div class="col-md-6">
+            <div class="wrap-contact100">
+                <h3>Contact Us</h3>
+                <hr />
+                @{
+                    foreach (var item in ViewBag.contactInfo)
+                    {
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="col-md-12">
+                                    <h3>@item.ContactTitle</h3>
+
+
+                                    <p>Address :   @Html.Raw(HttpUtility.HtmlDecode(item.Address))</p>
+                                    @*<p>Web   :   @Html.Raw(HttpUtility.HtmlDecode(item.Website))</p>*@
+                                    <p>Email   :   @Html.Raw(HttpUtility.HtmlDecode(item.Email))</p>
+                                    <p>Phone   :   @Html.Raw(HttpUtility.HtmlDecode(item.Phone))</p>
+
+
+                                </div>
+                                @*<div class="col-md-4">
+                            @if (@item.MSMEImageUrl != null)
+                            {
+                                <img src="/Images/MSME/@Url.Content(@item.MSMEImageUrl)" title="Faq" alt="Faq " width="150" height="150">
+
+                            }
+                            else
+                            {
+                                <img src="~/Images/ImageNotFound.jpg" title="Not Uploaded" alt="Image Not Uploaded" width="150" height="150" style="margin-top:150px">
+                            }
+                        </div>*@
+                            </div>
+
+                        </div>
+
+
+                    }
+                }
+            </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="wrap-contact100">
+                    <form class="contact100-form validate-form">
+                        <div class="form_contact">
+                            <span class="contact100-form-title">
+                                Enquiry Now
+                            </span>
+                           
+
+                            <div class="wrap-input100 validate-input">
+                                <input class="form-control" type="text" name="txtName" id="txtName" placeholder="Your Name">
+                                <span class="focus-input100"></span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input">
+                                <input class="form-control" type="text" name="txtEmail" id="txtEmail" placeholder="Enter Your Email">
+                                <span class="focus-input100"></span>
+                            </div>
+
+                            <div class="wrap-input100">
+                                <input class="form-control" type="text" name="txtMobile" id="txtMobile" placeholder="Enter Your Mobile No">
+                                <span class="focus-input100"></span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input">
+                                <textarea class="form-control" name="txtMessage" id="txtMessage" placeholder="Questions/Comments..."></textarea>
+                                <span class="focus-input100"></span>
+                            </div>
+
+                            <div class="container-contact100-form-btn">
+                                @*<div class="wrap-contact100-form-btn">*@
+                                    <div class="contact100-form-bgbtn"></div>
+                                    <input type="button" class="contact100-form-btn" value="Send" style="color:white;background-color:black;" onclick="SendData()" />
+                                    @*<button class="contact100-form-btn">
+                                    Send
+                                </button>*@
+                                @*</div>*@
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    
+</div>
+<!-- Modal -->
+<div class="modal fade" id="alertModel" role="dialog">
+    <div class="modal-dialog  modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="modelHeader"></h4>
+            </div>
+            <div class="modal-body">
+                <p id="modelText"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary  btn-block" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="~/Scripts/ContactInfo/AddContactInfo.js"></script>
+<!-- *********************section**************** -->

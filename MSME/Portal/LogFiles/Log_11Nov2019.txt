@@ -1,0 +1,144 @@
+13:53:17 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+--------------------------------------------------------------------------------------------------------------------------------
+
+13:53:17 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:53:17 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:24:35 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7796
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:24:35 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditUOM_SPC
+Error Line No : 650
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:24:35 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditUOM_SPC
+Error Line No : 588
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:24:50 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7796
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:24:50 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditUOM_SPC
+Error Line No : 650
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:24:51 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditUOM_SPC
+Error Line No : 588
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:25:10 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7796
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:25:11 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditUOM_SPC
+Error Line No : 650
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:25:11 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditUOM_SPC
+Error Line No : 588
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:26:00 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7796
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:26:00 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditUOM_SPC
+Error Line No : 650
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:26:00 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditUOM_SPC
+Error Line No : 588
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:30:04 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7796
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:30:13 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditUOM_SPC
+Error Line No : 650
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:30:13 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditUOM_SPC
+Error Line No : 588
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+

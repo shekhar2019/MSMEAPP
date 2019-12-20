@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Sale Dashboard";
+    Layout = "~/Views/Shared/_SaleLayout.cshtml";
+}
+<div class="row top-head">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6" style="margin-top: 1%;margin-bottom:1%">
+        <b><label for="ddlFinYear" class="col-sm-4" style="margin-top: 1%;color:#fff">Financial Year</label></b>
+        <div class="col-sm-8">
+            <select id="ddlFinYear" name="ddlFinYear" onchange="SetFinancialYearSession()" tabindex="1" class="form-control"></select>
+            <input type="hidden" id="hdnCurrentFinyearId" value="@ViewData["currentFinyearId"]" />
+                    
+        </div>
+    </div>
+    <div class="col-md-3" style="margin-top: 1%;margin-bottom:1%">
+    </div>
+</div>
+<script src="~/Scripts/Dashboard/SaleDashboard.js"></script>
+

@@ -1,0 +1,65 @@
+﻿@model List<Portal.Core.ViewModel.MSMEViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblMSMEList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Content Area</th>
+                    <th>Image</th>
+                    <th>Status</th>
+                    <th align="center" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td>
+                            @item.MSMETitle
+                        <input type="hidden" id="hdnMSMEId" value="@item.MSMEId" />
+                        <input type="hidden" id="hdnMSMETitle" value="@item.MSMETitle" />
+                        <input type="hidden" id="hdnMSMEDescription" value="@item.MSMEDescription" />
+                        <input type="hidden" id="hdnMSMEContentArea" value="@item.MSMEContentArea" />
+                        <input type="hidden" id="hdnMSMEImageUrl" value="@item.MSMEImageUrl" />
+                        <input type="hidden" id="hdnMSMEStatus" value="@(item.MSMEStatus == true ? "true" : "false")" />
+                    </td>
+                        <td>@item.MSMEDescription</td>
+                        <td>@item.MSMEContentArea</td>
+                   
+                    <td><img src="~/Images/MSME/@item.MSMEImageUrl" title="@item.MSMETitle" alt="@item.MSMETitle" width="50" height="50" /> </td>
+                  
+                    <td>@(item.MSMEStatus == true ? "Active" : "Inactive")</td>
+                    <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                        <a style="color:white" class="fa fa-pencil-square-o" href="javascript:void(0)" onclick="EditRow(this)"></a>
+
+                    </td>
+                    <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                        <a style="color:white" class="fa fa-trash" aria-hidden="true" href="javascript:void(0)" onclick="RemoveMSME(@item.MSMEId)" title="Remove MSME Details"></a>
+                    </td>
+
+                </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblMSMEList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

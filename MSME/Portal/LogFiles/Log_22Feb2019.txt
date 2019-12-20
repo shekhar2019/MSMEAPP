@@ -1,0 +1,41 @@
+20:22:26 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Category.cshtml(31): error CS0103: The name 'i' does not exist in the current context
+--------------------------------------------------------------------------------------------------------------------------------
+
+20:25:27 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+20:42:29 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Category(Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+20:43:25 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: 'Portal.Core.ViewModel.ProductSubChildGroupViewModel' does not contain a definition for 'ProductSubGroupImageUrl'
+---------------------------------------------------------------------------------------------------------------------------
+
+20:43:51 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: 'Portal.Core.ViewModel.ProductSubChildGroupViewModel' does not contain a definition for 'ProductSubGroupImageUrl'
+---------------------------------------------------------------------------------------------------------------------------
+

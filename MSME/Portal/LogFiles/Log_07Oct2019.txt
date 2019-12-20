@@ -1,0 +1,374 @@
+18:28:59 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+--------------------------------------------------------------------------------------------------------------------------------
+
+18:28:59 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:48:30 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:48:30 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:51:20 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:51:35 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:05:27 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:05:27 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:05:46 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:27 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:33 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:33 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:06:42 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:10:10 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:13:03 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:24:33 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:27:01 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:17 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:20 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:26 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+22:20:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:20:05 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+22:20:18 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+22:20:40 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:21:09 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:21:11 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+22:21:38 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:21:39 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "{" after "@" character. Once inside the body of a code block (@if {}, @{}, etc.) you do not need to use "@{" to switch to code.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+22:21:54 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:25:14 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:25:47 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:45:13 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:19 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:57:42 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:59:42 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:04:43 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:06:08 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:07:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:07:09 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:07:19 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:07:19 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:07:28 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:10:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:10:22 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:11:18 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:55:37 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

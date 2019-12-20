@@ -1,0 +1,584 @@
+19:42:15 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+--------------------------------------------------------------------------------------------------------------------------------
+
+19:42:15 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:42:16 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:43:55 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:43:55 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:43:56 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:44:03 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:44:03 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:44:03 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:16 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:16 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:19 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:19 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:55:13 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:55:14 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:58:49 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:58:49 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:32:57 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The cast to value type 'System.Int64' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:32:58 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:41:17 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: Cannot compare elements of type 'System.Collections.Generic.IEnumerable`1[[Portal.DAL.ProductCode, Portal.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. Only primitive types, enumeration types and entity types are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:41:17 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:43:09 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: Cannot compare elements of type 'System.Collections.Generic.IEnumerable`1[[Portal.DAL.ProductCode, Portal.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. Only primitive types, enumeration types and entity types are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:43:15 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:46:15 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:46:15 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:53 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: Cannot compare elements of type 'System.Collections.Generic.IEnumerable`1[[Portal.DAL.ProductCode, Portal.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. Only primitive types, enumeration types and entity types are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:53 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:30:07 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetPRoductCodeName
+Error Line No : 7841
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'sp_GetPRoductCodeName' expects parameter '@ProductCodeID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:30:08 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'sp_GetPRoductCodeName' expects parameter '@ProductCodeID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:30:08 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:31:46 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetPRoductCodeName
+Error Line No : 7841
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'sp_GetPRoductCodeName' expects parameter '@ProductCodeID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:31:47 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'sp_GetPRoductCodeName' expects parameter '@ProductCodeID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:31:47 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:37:38 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:40:34 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:41:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:50:50 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:50:52 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:50:53 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:52:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:52:02 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:52:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:52:23 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:52:23 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:52:23 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:53:08 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:53:08 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:53:09 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:53:48 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:53:48 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:53:49 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:03 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:03 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:24 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:24 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:24 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:52 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:53 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:54:53 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:55:48 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:55:48 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:55:49 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:45 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:46 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:46 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:55 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:55 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:55 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:57:09 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:57:10 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NotSupportedException
+Details: LINQ to Entities does not recognize the method 'System.String GetPRoductCodeName(System.String)' method, and this method cannot be translated into a store expression.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:57:10 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:00:24 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

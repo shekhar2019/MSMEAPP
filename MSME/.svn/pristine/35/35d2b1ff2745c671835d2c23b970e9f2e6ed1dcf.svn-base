@@ -1,0 +1,366 @@
+﻿@model Portal.DAL.UserRegistration
+
+@{
+    ViewBag.Title = "EditProfile";
+    Layout = "~/Views/Shared/_BuyerLayout.cshtml";
+}
+@section UserMenu{
+
+    @if (Session["KYCCode"].ToString() == "B")
+    {
+        <li>
+            <a href="../Dashboard/BuyerDashboard">Dashboard</a>
+        </li>
+        <li>
+            <a href="../UserRegister/EditProfile">Your Profile</a>
+        </li>
+
+        <li>
+            <a href="../KnowledgeCenter">Knowledge Center</a>
+        </li>
+        <li>
+            <a href="../BuyerProduct/AddEditBuyerProduct">Add Product</a>
+        </li>
+        <li>
+            <a href="../UserLogin/SignOut">Logout</a>
+        </li>
+
+    }
+    else
+    {
+
+        <li>
+            <a href="../SellerProduct/AddEditSellerProduct">Add Product</a>
+        </li>
+        <li>
+            <a href="../Dashboard/SalerDashboard">Dashboard</a>
+        </li>
+        <li>
+            <a href="../KnowledgeCenter">Knowledge Center</a>
+        </li>
+
+        <li>
+            <a href="../UserRegister/EditProfile">Your Profile</a>
+        </li>
+        <li>
+            <a href="../UserLogin/SignOut">Logout</a>
+        </li>
+    }
+}
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.1.min.js"></script>
+<style>
+    .Mandatory {
+        color: red;
+        font-weight: bold;
+    }
+    /*** custom checkboxes ***/
+
+    input[type=checkbox] {
+        display: none;
+    }
+        /* to hide the checkbox itself */
+        input[type=checkbox] + label:before {
+            font-family: FontAwesome;
+            display: inline-block;
+        }
+
+        input[type=checkbox] + label:before {
+            content: "\f096";
+        }
+        /* unchecked icon */
+        input[type=checkbox] + label:before {
+            letter-spacing: 10px;
+        }
+        /* space between checkbox and label */
+
+        input[type=checkbox]:checked + label:before {
+            content: "\f046";
+        }
+        /* checked icon */
+        input[type=checkbox]:checked + label:before {
+            letter-spacing: 5px;
+        }
+    /* allow space for check mark */
+</style>
+<div class="right-pane">
+
+
+    <h4 class="main_head_cate blue" style="background:#9B0214; padding:10px; color:#fff;">Edit Profile</h4>
+    <div class="creative_tabs ">
+        <div class="creative_tabs_container">
+            <div class="Your_Profile_div">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>First Name &nbsp;<span class="Mandatory">(*)</span></label>
+                            <input type="text" id="txtFirstName" name="txtFirstName" class="form-control" placeholder="Enter First Name" value="@Model.FirstName">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>Last Name &nbsp;</label>
+                            <input type="text" id="txtLastName" name="txtLastName" class="form-control" placeholder="Enter Last Name" value="@Model.LastName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>Email &nbsp;<span class="Mandatory">(*)</span></label>
+                            <input type="text" id="txtEmail" name="txtEmail" class="form-control" placeholder="Enter Email Name" value="@Model.Email">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>Company Name </label>
+                            <input type="text" id="txtCompanyName" name="txtCompanyName" class="form-control" placeholder="Enter Company Name" value="@Model.CompanyName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>Primary Contact No &nbsp;<span class="Mandatory">(*)</span></label>
+                            <input type="text" id="txtContactNo" name="txtContactNo" class="form-control" placeholder="Enter Contact No" value="@Model.ContactNo">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>Alternate Contact No </label>
+                            <input type="text" id="txtAlternateContactNo" name="txtAlternateContactNo" class="form-control" placeholder="Enter Alternate Contact No." value="@Model.AlternateContactno">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>Landline No</label>
+                            <input type="text" id="txtFaxNo" name="txtFaxNo" class="form-control" placeholder="Enter Contact No" value="@Model.Fax">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>State Name &nbsp;<span class="Mandatory">(*)</span></label>
+                            <select id="ddlStateName" name="ddlProductMainGroup" tabindex="4" class="form-control" data-state="@Model.StateId" onchange="LoadCities()"></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>City Name &nbsp;<span class="Mandatory">(*)</span></label>
+                            <input type="text" id="ddlCityName" name="ddlCityName" class="form-control" placeholder="Enter City Name" value="@Model.City">
+                            @*<select id="ddlCityName" name="ddlCityName" tabindex="4" class="form-control" data-city="@Model.City"></select>*@
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>Sub City &nbsp;</label>
+                            <input type="text" id="txtSubCity" name="txtSubCity" class="form-control" placeholder="Enter Sub City" value="@Model.SubCity">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>Landmark &nbsp;</label>
+                            <input type="text" id="txtLandmark" name="txtLandmark" class="form-control" placeholder="Enter Landmark" value="@Model.Landmark">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>Building No &nbsp;</label>
+                            <input type="text" id="txtBuildingNo" name="txtBuildingNo" class="form-control"  placeholder="Enter Building No" value="@Model.BuildingNo">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>PIN Code &nbsp;<span class="Mandatory">(*)</span></label>
+                            <input type="text" id="txtPINCode" name="txtPINCode" class="form-control" placeholder="Enter PIN Code" value="@Model.PINCode">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>GST No &nbsp;</label>
+                            <input type="text" id="txtGSTNo" name="txtGSTNo" class="form-control" placeholder="Enter GST No" value="@Model.GSTNo">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>Udyog Aadhaar No &nbsp;</label>
+                            <input type="text" id="txtUdyogAadhaarNo" name="txtUdyogAadhaarNo" class="form-control" placeholder="Enter Udyog Aadhaar No" value="@Model.UdyogAadhaarNo">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>Pan No &nbsp;</label>
+                            <input type="text" id="txtPANNo" name="txtPANNo" class="form-control" placeholder="Enter PAN No" value="@Model.PANNo">
+                        </div>
+                    </div>
+
+
+                    <input type="button" class="btn btn-default" onclick="SaveChanges()" value="Save" />
+                    <input type="button" class="btn btn-default" onclick="ResetPage()" style="display:none;" value="Reset" />
+
+                    <!-- Modal -->
+
+                </form>
+            </div>
+
+        </div><!--creative_tabs_container-->
+    </div>
+</div>
+
+<div class="modal fade" id="AlertModal" role="dialog">
+    <div class="modal-dialog modal-small">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-ui.js"></script>
+<script src="~/Scripts/paging.js"></script>
+
+
+@section DashboardScripts{
+
+
+    <script>
+        $(document).ready(function () {
+            LoadStates();
+            setTimeout(function () {
+                //var selectedCity = $("#ddlCityName").attr("data-city");
+                //$("#ddlCityName").val(selectedCity);
+            }, 2000)
+        });
+
+        function LoadCities() {
+            $("#ddlCityName").html("");
+            $("#ddlCityName").append($("<option></option>").val("0").html("-- selct city --"));
+            $.ajax(
+                {
+                    url: "../City/GetStateCities?stateId=" + $("#ddlStateName").val(),
+                    contentType: 'application/json',
+                    success: function (data) {
+                        $(data).each(function () {
+                            $("#ddlCityName").append($("<option></option>").val(this.CityName).html(this.CityName));
+                        });
+                    },
+                    error: function (err) {
+                        ShowModel("Error", err)
+                    }
+                });
+        }
+
+        function LoadStates() {
+            $("#ddlStateName").html("");
+            $("#ddlStateName").append($("<option></option>").val("0").html("-- selct state --"));
+            $.ajax(
+                {
+                    url: "../State/GetStates",
+                    contentType: 'application/json',
+                    success: function (data) {
+                        $(data).each(function () {
+                            $("#ddlStateName").append($("<option></option>").val(this.Stateid).html(this.StateName));
+                        });
+                        var selectedState = $("#ddlStateName").attr("data-state");
+                        $("#ddlStateName").val(selectedState);
+                        LoadCities();
+                    },
+                    error: function (err) {
+                        ShowModel("Error", err)
+                    }
+                });
+        }
+
+        function SaveChanges() {
+            var txtFirstName = $("#txtFirstName").val();
+            var txtLastName = $("#txtLastName").val();
+            var txtEmail = $("#txtEmail").val();
+            var txtCompanyName = $("#txtCompanyName").val();
+            var txtContactNo = $("#txtContactNo").val();
+            var txtAlternateContactNo = $("#txtAlternateContactNo").val();
+            var txtFaxNo = $("#txtFaxNo").val();
+            var ddlStateName = $("#ddlStateName").val();
+            var ddlCityName = $("#ddlCityName").val();
+            var txtSubCity = $("#txtSubCity").val();
+            var txtLandmark = $("#txtLandmark").val();
+            var txtBuildingNo = $("#txtBuildingNo").val();
+            var txtPINCode = $("#txtPINCode").val();
+            var txtGSTNo = $("#txtGSTNo").val();
+            var txtUdyogAadhaarNo = $("#txtUdyogAadhaarNo").val();
+            var txtPANNo = $("#txtPANNo").val();
+
+            if (txtFirstName == "") {
+                showAlert("Error", "Please enter the first name");
+                return;
+            }
+            if (txtEmail == "") {
+                showAlert("Error", "Please enter the email");
+                return;
+            }
+            if (txtContactNo == "") {
+                showAlert("Error", "Please enter the contact number");
+                return;
+            }
+            if (ddlStateName == null || ddlStateName == undefined || ddlStateName == "0") {
+                showAlert("Error", "Please select the state");
+                return;
+            }
+            if (ddlCityName == null || ddlCityName == undefined || ddlCityName == "0") {
+                showAlert("Error", "Please select the city");
+                return;
+            }
+            //if (txtBuildingNo == "") {
+            //    showAlert("Error", "Please enter the building number");
+            //    return;
+            //}
+            if (txtPINCode == "") {
+                showAlert("Error", "Please enter the pin code");
+                return;
+            }
+
+
+
+            var data =
+                {
+                    FirstName: txtFirstName,
+                    LastName: txtLastName,
+                    Email: txtEmail,
+                    ContactNo: txtContactNo,
+                    AlternateContactno: txtAlternateContactNo,
+                    Fax: txtFaxNo,
+                    StateId: ddlStateName,
+                    City: ddlCityName,
+                    SubCity: txtSubCity,
+                    Landmark: txtLandmark,
+                    BuildingNo: txtBuildingNo,
+                    PINCode: txtPINCode,
+                    GSTNo: txtGSTNo,
+                    PANNo: txtPANNo,
+                    UdyogAadhaarNo: txtUdyogAadhaarNo,
+                    CompanyName: txtCompanyName
+                };
+
+
+
+            $.ajax(
+                {
+                    type: "POST",
+                    url: "../UserRegister/UpdateProfile",
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function (response) {
+                        if (response.status == "SUCCESS") {
+                            showAlert("Success", "Profile updated successfully");
+                        }
+                        else {
+                            showAlert("Error", response.message);
+                        }
+                    },
+                    error: function (err) {
+                        showAlert("Error", "Error occurd whil updating profile");
+                    }
+                });
+        }
+
+        function ResetPage() {
+            window.location.href = window.location.href;
+        }
+
+        function showAlert(title, body) {
+            $("#AlertModal").modal();
+            $("#AlertModal .modal-title").text(title);
+            $("#AlertModal .modal-body").text(body);
+        }
+    </script>
+
+}

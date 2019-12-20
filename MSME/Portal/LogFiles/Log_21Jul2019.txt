@@ -1,0 +1,457 @@
+16:00:27 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+--------------------------------------------------------------------------------------------------------------------------------
+
+16:00:27 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+16:00:27 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+16:14:18 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+16:14:18 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+16:14:18 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+16:15:37 PM
+Source : Portal.Core.ProductBL
+Method Name : UpdateSellerProductPrice
+Error Line No : 511
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_AddEditSellerPrice' expects parameter '@sellerproductdetailsID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:18:18 PM
+Source : Portal.Core.ProductBL
+Method Name : UpdateSellerProductPrice
+Error Line No : 511
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_AddEditSellerPrice' expects parameter '@sellerproductdetailsID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:19:18 PM
+Source : Portal.Core.ProductBL
+Method Name : UpdateSellerProductPrice
+Error Line No : 511
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_AddEditSellerPrice' expects parameter '@sellerproductdetailsID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:20:25 PM
+Source : Portal.Core.ProductBL
+Method Name : UpdateSellerProductPrice
+Error Line No : 511
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_AddEditSellerPrice' expects parameter '@sellerproductdetailsID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:23:52 PM
+Source : Portal.Core.ProductBL
+Method Name : UpdateSellerProductPrice
+Error Line No : 511
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_AddEditSellerPrice' expects parameter '@sellerproductdetailsID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:29:14 PM
+Source : Portal.Core.ProductBL
+Method Name : UpdateSellerProductPrice
+Error Line No : 511
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_AddEditSellerPrice' expects parameter '@sellerproductdetailsID', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:52:04 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+16:52:04 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+16:52:04 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:04:15 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:04:15 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:04:15 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:07:43 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:11:43 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:11:43 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:11:43 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:48:38 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:48:38 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:48:38 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+17:48:54 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\UK\MSME July 7 2019.bak\Portal\Views\Shared\_DashboardLayout.cshtml(574): error CS0103: The name 'cls' does not exist in the current context
+---------------------------------------------------------------------------------------------------------------------------
+
+18:42:59 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+18:42:59 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+18:42:59 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+18:46:20 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The partial view '_SellerDashboardProductspricedetails' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Dashboard/_SellerDashboardProductspricedetails.aspx
+~/Views/Dashboard/_SellerDashboardProductspricedetails.ascx
+~/Views/Shared/_SellerDashboardProductspricedetails.aspx
+~/Views/Shared/_SellerDashboardProductspricedetails.ascx
+~/Views/Dashboard/_SellerDashboardProductspricedetails.cshtml
+~/Views/Dashboard/_SellerDashboardProductspricedetails.vbhtml
+~/Views/Shared/_SellerDashboardProductspricedetails.cshtml
+~/Views/Shared/_SellerDashboardProductspricedetails.vbhtml
+---------------------------------------------------------------------------------------------------------------------------
+
+18:50:17 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+18:50:17 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+18:50:17 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+18:50:49 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\UK\MSME July 7 2019.bak\Portal\Views\SellerProduct\_SellerDashboardProductspricedetails.cshtml(20): error CS0103: The name 'item' does not exist in the current context
+---------------------------------------------------------------------------------------------------------------------------
+
+18:51:56 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The partial view 'SellerProduct/_SellerDashboardProductspricedetails' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Dashboard/SellerProduct/_SellerDashboardProductspricedetails.aspx
+~/Views/Dashboard/SellerProduct/_SellerDashboardProductspricedetails.ascx
+~/Views/Shared/SellerProduct/_SellerDashboardProductspricedetails.aspx
+~/Views/Shared/SellerProduct/_SellerDashboardProductspricedetails.ascx
+~/Views/Dashboard/SellerProduct/_SellerDashboardProductspricedetails.cshtml
+~/Views/Dashboard/SellerProduct/_SellerDashboardProductspricedetails.vbhtml
+~/Views/Shared/SellerProduct/_SellerDashboardProductspricedetails.cshtml
+~/Views/Shared/SellerProduct/_SellerDashboardProductspricedetails.vbhtml
+---------------------------------------------------------------------------------------------------------------------------
+
+18:52:19 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\UK\MSME July 7 2019.bak\Portal\Views\SellerProduct\_SellerDashboardProductspricedetails.cshtml(20): error CS0103: The name 'item' does not exist in the current context
+---------------------------------------------------------------------------------------------------------------------------
+
+18:54:24 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The partial view '../SellerProduct/_SellerDashboardProductspricedetails/' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Dashboard/../SellerProduct/_SellerDashboardProductspricedetails/.aspx
+~/Views/Dashboard/../SellerProduct/_SellerDashboardProductspricedetails/.ascx
+~/Views/Shared/../SellerProduct/_SellerDashboardProductspricedetails/.aspx
+~/Views/Shared/../SellerProduct/_SellerDashboardProductspricedetails/.ascx
+~/Views/Dashboard/../SellerProduct/_SellerDashboardProductspricedetails/.cshtml
+~/Views/Dashboard/../SellerProduct/_SellerDashboardProductspricedetails/.vbhtml
+~/Views/Shared/../SellerProduct/_SellerDashboardProductspricedetails/.cshtml
+~/Views/Shared/../SellerProduct/_SellerDashboardProductspricedetails/.vbhtml
+---------------------------------------------------------------------------------------------------------------------------
+
+18:56:12 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\UK\MSME July 7 2019.bak\Portal\Views\SellerProduct\_SellerDashboardProductspricedetails.cshtml(20): error CS0103: The name 'item' does not exist in the current context
+---------------------------------------------------------------------------------------------------------------------------
+
+19:00:50 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "{" after "@" character. Once inside the body of a code block (@if {}, @{}, etc.) you do not need to use "@{" to switch to code.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+19:19:10 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:19:10 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:19:10 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:20:09 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:20:09 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:20:09 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:27:35 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:27:35 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:27:35 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:41:16 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:41:16 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:41:16 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:57 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:50:04 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:50:14 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

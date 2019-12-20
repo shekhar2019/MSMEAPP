@@ -1,0 +1,593 @@
+﻿
+<style>
+    li {
+        list-style-type: circle;
+    }
+</style>
+<style>
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active, .collapsible:hover {
+            background-color: #ccc;
+        }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<style type="text/css">
+table td{ border-top:0px!important; }
+.table { width:auto!important; border: 0px!important; }
+a.canvasjs-chart-credit { display:none!important;}
+.bold { font-weight:bold; }
+.Crm_Controlfield { margin-top:0!important; }
+</style>
+
+<script src="~/Scripts/jquery-ui.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#txtfromdate").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: 'dd-M-yy',
+
+            onSelect: function (selected) {
+                GetRateGraphData();
+            }
+        });
+        $("#txtTodate").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: 'dd-M-yy',
+
+            onSelect: function (selected) {
+                GetRateGraphData2();
+            }
+        });
+    });
+</script>
+
+<script>
+    function setelectedproductisinhidden(e) {
+
+        $("#hdnproductID").val(e);
+        $('.content').attr("style", "display:none;");
+        var id = e.replace('div ', '');
+        $("#" + id).attr("style", "display:block;");
+        GetRateGraphData2();
+
+    }
+    function GetRateGraphData2() {
+
+        var productID = "";
+        var FromDate = "";
+        var ToDate = "";
+        var graphtype = "";
+        var Year = "";
+        var Fmonth = "";
+        var Tmonth = "";
+        var FYear = "";
+        var TYear = "";
+        var ratejson = "";
+        var demandjson = "";
+
+        $("#hdnratejson").val("");
+        $("#hdndemandjson").val("");
+
+        var hdnproductID = $("#hdnproductID").val().replace("div ", "");
+        productID = hdnproductID;
+
+        graphtype = $("#" + hdnproductID).find('.graphtype').val();
+
+        if (graphtype == '1') {
+
+            FromDate = $("#" + hdnproductID).find('.txtfromdate').val();
+            ToDate = $("#" + hdnproductID).find('.txtTodate').val();
+            if (FromDate != "" && ToDate != "") {
+
+            }
+            else {
+                return;
+            }
+
+
+        }
+        else if (graphtype == '2') {
+            Year = $("#" + hdnproductID).find('.ddlmonthyear').val();
+            Fmonth = $("#" + hdnproductID).find('.ddlFromMonth').val();
+            Tmonth = $("#" + hdnproductID).find('.ddlToMonth').val();
+            if (Fmonth != "0" && Tmonth != "0" && Year != "0") {
+
+            }
+            else {
+                return;
+            }
+
+        }
+        else if (graphtype == '3') {
+            FYear = $("#" + hdnproductID).find('.ddlFromYear').val();
+            TYear = $("#" + hdnproductID).find('.ddlToYear').val();
+            if (FYear != "0" && TYear != "0") {
+
+            }
+            else {
+                return;
+            }
+
+        }
+
+
+        GetRateGraphDatajosn3(productID, FromDate, ToDate, graphtype, Year, Fmonth, Tmonth, FYear, TYear);
+
+        if (graphtype != "1") {
+
+            GetdemandGraphDatajosn2(productID, FromDate, ToDate, graphtype, Year, Fmonth, Tmonth, FYear, TYear);
+
+        }
+        else {
+            $("#hdndemandjson").val("x");
+        }
+
+
+    }
+
+    function GetRateGraphDatajosn3(productID, FromDate, ToDate, graphtype, Year, Fmonth, Tmonth, FYear, TYear) {
+
+
+        $.ajax(
+            {
+                url: "../KnowledgeCenter/GetGraphData?productID=" + productID + "&FromDate=" + FromDate + "&ToDate=" + ToDate + "&graphtype=" + graphtype + "&Year=" + Year + "&Fmonth=" + Fmonth + "&Tmonth=" + Tmonth + "&FYear=" + FYear + "&TYear=" + TYear + "&BSType=1",
+                cache: false,
+                type: "POST",
+                dataType: "html",
+                data: "{}",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                    $("#hdnratejson").val(data);
+                    // ratejson = JSON.stringify(data);
+                },
+                error: function (err) {
+
+                }
+            }
+        );
+        return "";
+    }
+    function GetdemandGraphDatajosn2(productID, FromDate, ToDate, graphtype, Year, Fmonth, Tmonth, FYear, TYear) {
+
+        $.ajax(
+            {
+                url: "../KnowledgeCenter/GetGraphData?productID=" + productID + "&FromDate=" + FromDate + "&ToDate=" + ToDate + "&graphtype=" + graphtype + "&Year=" + Year + "&Fmonth=" + Fmonth + "&Tmonth=" + Tmonth + "&FYear=" + FYear + "&TYear=" + TYear + "&BSType=2",
+                cache: false,
+                type: "POST",
+                dataType: "html",
+                data: "{}",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    // alert(data);
+                    $("#hdndemandjson").val(data);
+
+                },
+                error: function (err) {
+
+                }
+            }
+        );
+        return "";
+    }
+
+
+    function Changegraphtype() {
+
+        var hdnproductID = $("#hdnproductID").val().replace("div ", "");
+
+        var graphtype = $("#" + hdnproductID).find('.graphtype').val();
+
+        if (graphtype == '1') {
+
+            $("#" + hdnproductID).find('.divdaily').attr("style", "display:block");
+            $("#" + hdnproductID).find('.divMonthly').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divYearly').attr("style", "display:none");
+        }
+        else if (graphtype == '2') {
+            $("#" + hdnproductID).find('.divdaily').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divMonthly').attr("style", "display:block");
+            $("#" + hdnproductID).find('.divYearly').attr("style", "display:none");
+        }
+        else if (graphtype == '3') {
+            $("#" + hdnproductID).find('.divdaily').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divMonthly').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divYearly').attr("style", "display:block");
+        }
+
+    }
+
+
+
+    function generategrpah(e, ratejson, demandjson) {
+
+        if (demandjson == "x") {
+            demandjson = "";
+        }
+
+        var obj = JSON.parse(ratejson);
+      
+
+        var dPoints = [];
+        for (var i = 0; i < obj.length; i++) {
+
+            dPoints.push({ label: obj[i].Text, y: parseInt(obj[i].Value), indexLabel: obj[i].Value.toString() });
+        }
+        CreateGraph("chartContainer " + e, dPoints, 'line', 'Rate Graph in kg');
+        if (demandjson != "") {
+            var demandobj = JSON.parse(demandjson);
+
+            var ddemandPoints = [];
+            for (var i = 0; i < obj.length; i++) {
+
+                ddemandPoints.push({ label: demandobj[i].Text, y: parseInt(demandobj[i].Value), indexLabel: demandobj[i].Value.toString() });
+                CreateDemandGraph("chartContainer2 " + e, ddemandPoints, 'column', 'Demand Graph in kg');
+            }
+        }
+    }
+
+    function CreateGraph(id, dpTarget, dpActual, gtitle) {
+        var chart = new CanvasJS.Chart(id,
+            {
+                title: {
+                    text: gtitle,
+                    fontSize: 30
+                },
+                animationEnabled: true,
+                axisX: {
+                    title: '',
+                    titleFontWeight: 'Bold',
+                    titleFontFamily: 'Verdana',
+                    titleFontStyle: 'Normal',
+                    titleFontColor: '#73001a',
+                    labelFontColor: "black",
+                    labelFontFamily: 'Verdana',
+                    labelFontWeight: 'Bold',
+                    titleFontSize: 12,
+                    labelFontSize: 11
+                },
+                axisY: {
+                    title: 'Rate',
+                    gridThickness: 1,
+                    gridColor: "#E3E6E5",
+                    titleFontWeight: 'Bold',
+                    titleFontFamily: 'Verdana',
+                    titleFontStyle: 'Normal',
+                    titleFontColor: '#73001a',
+                    labelFontColor: "black",
+                    labelFontFamily: 'Verdana',
+                    labelFontWeight: 'Bold',
+                    titleFontSize: 12,
+                    labelFontSize: 11
+                },
+                toolTip: {
+                    shared: true,
+                    fontFamily: 'Verdana',
+                    fontWeight: 'Bold',
+                    fontStyle: 'Normal',
+                    fontSize: 12
+                },
+                theme: "theme3",
+                legend: {
+                    verticalAlign: "center",
+                    horizontalAlign: "right"
+                },
+                data: [
+                    {
+                        type: dpActual,
+                        showInLegend: true,
+                        lineThickness: 3,
+                        name: "",
+                        markerType: "square",
+                        color: "#8C1136",
+                        cursor: "pointer",
+                        indexLabelFontSize: 11,
+                        indexLabelFontWeight: "bold",
+                        indexLabelFontFamily: "Verdana",
+                        indexLabelFontColor: "black",
+                        indexLabelLineColor: "darkgrey",
+                        indexLabelPlacement: "outside",
+                        dataPoints: dpTarget
+                    }
+                ],
+                legend: {
+                    cursor: "pointer",
+                    fontFamily: "Verdana",
+                    fontColor: "black",
+                    fontSize: 12,
+                    fontWeight: 'Bold',
+                    itemclick: function (e) {
+                        if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                            e.dataSeries.visible = false;
+                        }
+                        else {
+                            e.dataSeries.visible = true;
+                        }
+                        chart.render();
+                    }
+                }
+            });
+
+        chart.render();
+    }
+
+    function CreateDemandGraph(id, dpTarget, dpActual, gtitle) {
+        var chart = new CanvasJS.Chart(id,
+            {
+                title: {
+                    text: gtitle,
+                    fontSize: 30
+                },
+                animationEnabled: true,
+                axisX: {
+                    title: '',
+                    titleFontWeight: 'Bold',
+                    titleFontFamily: 'Verdana',
+                    titleFontStyle: 'Normal',
+                    titleFontColor: '#73001a',
+                    labelFontColor: "black",
+                    labelFontFamily: 'Verdana',
+                    labelFontWeight: 'Bold',
+                    titleFontSize: 12,
+                    labelFontSize: 11
+                },
+                axisY: {
+                    title: 'Demand',
+                    gridThickness: 1,
+                    gridColor: "#E3E6E5",
+                    titleFontWeight: 'Bold',
+                    titleFontFamily: 'Verdana',
+                    titleFontStyle: 'Normal',
+                    titleFontColor: '#73001a',
+                    labelFontColor: "black",
+                    labelFontFamily: 'Verdana',
+                    labelFontWeight: 'Bold',
+                    titleFontSize: 12,
+                    labelFontSize: 11
+                },
+                toolTip: {
+                    shared: true,
+                    fontFamily: 'Verdana',
+                    fontWeight: 'Bold',
+                    fontStyle: 'Normal',
+                    fontSize: 12
+                },
+                theme: "theme3",
+                legend: {
+                    verticalAlign: "center",
+                    horizontalAlign: "right"
+                },
+                data: [
+                    {
+                        type: dpActual,
+                        showInLegend: true,
+                        lineThickness: 3,
+                        name: "",
+                        markerType: "square",
+                        color: "#8C1136",
+                        cursor: "pointer",
+                        indexLabelFontSize: 11,
+                        indexLabelFontWeight: "bold",
+                        indexLabelFontFamily: "Verdana",
+                        indexLabelFontColor: "black",
+                        indexLabelLineColor: "darkgrey",
+                        indexLabelPlacement: "outside",
+                        dataPoints: dpTarget
+                    }
+                ],
+                legend: {
+                    cursor: "pointer",
+                    fontFamily: "Verdana",
+                    fontColor: "black",
+                    fontSize: 12,
+                    fontWeight: 'Bold',
+                    itemclick: function (e) {
+                        if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                            e.dataSeries.visible = false;
+                        }
+                        else {
+                            e.dataSeries.visible = true;
+                        }
+                        chart.render();
+                    }
+                }
+            });
+
+        chart.render();
+    }
+
+   
+
+  
+    window.setInterval(function () {
+
+        var ratejson = $('#hdnratejson').val();
+        var demandjson = $('#hdndemandjson').val();
+        if (ratejson != "" && demandjson != "") {
+
+            generategrpah($("#hdnproductID").val().replace("div ", ""), ratejson, demandjson);
+            $('#hdnratejson').val("");
+            $('#hdndemandjson').val("");
+
+        }
+
+    }, 1000);
+
+
+</script>
+
+
+
+<input id="hdnproductID" type="hidden" />
+
+<input id="hdnratejson" type="hidden" />
+<input id="hdndemandjson" type="hidden" />
+@for (int i = 0; i < ViewBag.Products.Count; i++)
+{
+
+    @*<div class="product_image_div">*@
+
+
+    <button type="button" id="div @ViewBag.Products[i].ProductFullDesc" onclick="setelectedproductisinhidden(this.id)" style="margin-top:5px;" class="collapsible"> <b> @ViewBag.Products[i].ProductName </b></button>
+
+    <div class="content" id="@ViewBag.Products[i].ProductFullDesc">
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-5">
+                    <label>Graph Type</label>
+                    <select id="ddlGraphtype" tabindex="4" class="form-control graphtype" onchange="Changegraphtype();">
+                        <option value="1">Daily</option>
+                        <option value="2">Monthly</option>
+                        <option value="3">Yearly</option>
+                    </select>
+                </div>
+
+                <div class="col-md-7 divdaily" id="divdaily" style="display:block;">
+                    <div class="col-md-6">
+                        <label>From Date</label>
+
+                        <input class="form-control txtfromdate" id="txtfromdate" readonly="readonly" name="txtfromdate" tabindex="2" placeholder="Enter From Date" value="@ViewData["currentDate"]" type="text" maxlength="50" />
+                    </div>
+                    <div class="col-md-6">
+                        <label>To Date</label>
+
+                        <input class="form-control txtTodate" id="txtTodate" readonly="readonly" name="txtTodate" tabindex="3" placeholder="Enter To Date" value="@ViewData["currentDate"]" type="text" maxlength="50" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 divMonthly" id="divMonthly" style="display:none;">
+                    <div class="col-md-4">
+                        <label>Year</label>
+                        <select id="ddlmonthyear" tabindex="4" class="form-control ddlmonthyear" onchange="GetRateGraphData2();">
+                            <option value="0">Select Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-4">
+                        <label>From Month</label>
+                        <select id="ddlFromMonth" tabindex="4" class="form-control ddlFromMonth" onchange="GetRateGraphData2();">
+                            <option value="0">Select Month</option>
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-4">
+                        <label>To Month</label>
+                        <select id="ddlToMonth" tabindex="4" class="form-control ddlToMonth" onchange="GetRateGraphData2();">
+                            <option value="0">Select Month</option>
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="col-md-7 divYearly" id="divYearly" style="display:none;">
+
+                    <div class="col-md-6">
+                        <label>From Year</label>
+                        <select id="ddlFromYear" tabindex="4" class="form-control ddlFromYear" onchange="GetRateGraphData2();">
+                            <option value="0">Select Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-6">
+                        <label>To Year</label>
+                        <select id="ddlToYear" tabindex="4" class="form-control ddlToYear" onchange="GetRateGraphData2();">
+                            <option value="0">Select Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row" style="margin-top:10px;margin-bottom:5px;">
+            <div class="col-lg-6">
+                @*<div id="chartContainer" style="height: 300px; width: 100%;"></div>*@
+                <div id="chartContainer @ViewBag.Products[i].ProductFullDesc" style="height: 290px;"></div>
+
+
+                @*<canvas id="chartContainer @ViewBag.Products[i].ProductFullDesc" width="800" height="450"></canvas>*@
+            </div>
+
+            <div class="col-lg-6">
+                @*<div id="chartContainer2 @ViewBag.Products[i].ProductFullDesc" style="height: 300px; width: 100%;"></div>*@
+                <div id="chartContainer2 @ViewBag.Products[i].ProductFullDesc" style="height: 290px;"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+}
+

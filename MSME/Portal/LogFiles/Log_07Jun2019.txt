@@ -1,0 +1,184 @@
+00:04:11 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+00:04:55 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetSellerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetSellerProduct' expects parameter '@ProductName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+09:58:01 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:06:10 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:14:37 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:46:03 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:50:15 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:03:39 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:05:48 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:05:51 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\BuyerProduct\_BuyerDashboardProducts.cshtml(41): error CS1501: No overload for method 'ToString' takes 1 arguments
+---------------------------------------------------------------------------------------------------------------------------
+
+11:06:05 AM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:31:32 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:39:34 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:39:36 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\BuyerProduct\_BuyerDashboardProducts.cshtml(41): error CS1501: No overload for method 'ToString' takes 1 arguments
+---------------------------------------------------------------------------------------------------------------------------
+
+11:39:47 AM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:49:27 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:40:11 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:58:47 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:59:29 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetSellerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetSellerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:59:29 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : GetSellerProductDetail
+Error Line No : 219
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetSellerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:04:19 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetSellerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetSellerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:05:49 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : GetSellerProductDetail
+Error Line No : 219
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetSellerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:05:53 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMSME.cshtml";
+}
+
+<section id="section_home">
+
+    <div class="container">
+
+        @{
+            foreach (var item in ViewBag.MSMEList)
+            {
+                if (item.MSMEContentArea == "msme")
+                {
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                <div class="fdiv_knowledge_center_head">
+                                    <p class="Knowledge_head">@item.MSMETitle</p>
+
+                                </div>
+                                <p style="text-align:justify;"> @Html.Raw(HttpUtility.HtmlDecode(item.MSMEDescription))</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="Knowledge_head">&nbsp;</p>
+                                <div class="display-field" style="margin-top:100px;">
+                                    <img src="/Images/MSME/@Url.Content(@item.MSMEImageUrl)" title="msme" alt="msme" width="350" style="height:350px!important;">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                   
+
+                      
+                   
+                }
+            }
+        }
+
+        @*<h2>What is MSME?</h2>
+            <p>We present us as a manufacturer of Thermoplastics and Rubber Hoses Tubes and Pipes for smooth flow of Water, Air, Gas & Fuel. These hoses are suitable for numerous applications in flow of fluids under various working pressures and temperatures. With maximum test pressure of 160kg/cm and temp range from -40 to 130 C. We also undertake to make Sleeves according to customer specifications and needs. </p>
+            <br>
+            <h2>How and where we make?</h2>
+            <p>We have a well organized manufacturing set up in Delhi which is lined up with latest extrusion and reinforcement technology in Hoses Production. We make the product with appropriate Polymeric Raw Materials like Plasticized Soft PVC, Thermoplastic Elastomers , Rubbers (TPR s), Thermoplastic Poly-Urethane (TPU s), Polymers like Polyethylene (PEs), Polypropylene (PP) and other engineering Plastics like Nylon etc. </p>
+            <br>*@
+
+        <br>
+    </div>
+
+</section>

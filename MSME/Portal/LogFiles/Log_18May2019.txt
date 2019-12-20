@@ -1,0 +1,256 @@
+16:08:30 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+18:21:43 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7335
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:21:43 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:30:47 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7335
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:30:48 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:51 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7335
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:51 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:22:42 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7335
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:22:42 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:24:35 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:03 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:04 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:04 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:10 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:10 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:10 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:16 PM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateBSUser
+Error Line No : 7879
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:16 PM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateBSUser
+Error Line No : 294
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:25:16 PM
+Source : Portal.Controllers.UserLoginController
+Method Name : Index
+Error Line No : 41
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:31:07 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7335
+Exception Type : System.InvalidOperationException
+Details: The connection string 'ERPEntities' in the application's configuration file does not contain the required providerName attribute."
+---------------------------------------------------------------------------------------------------------------------------
+
+23:31:07 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.InvalidOperationException
+Details: The connection string 'ERPEntities' in the application's configuration file does not contain the required providerName attribute."
+---------------------------------------------------------------------------------------------------------------------------
+
+23:31:33 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The connection string 'ERPEntities' in the application's configuration file does not contain the required providerName attribute."
+---------------------------------------------------------------------------------------------------------------------------
+
+23:31:41 PM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateBSUser
+Error Line No : 7879
+Exception Type : System.InvalidOperationException
+Details: The connection string 'ERPEntities' in the application's configuration file does not contain the required providerName attribute."
+---------------------------------------------------------------------------------------------------------------------------
+
+23:31:41 PM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateBSUser
+Error Line No : 294
+Exception Type : System.InvalidOperationException
+Details: The connection string 'ERPEntities' in the application's configuration file does not contain the required providerName attribute."
+---------------------------------------------------------------------------------------------------------------------------
+
+23:31:41 PM
+Source : Portal.Controllers.UserLoginController
+Method Name : Index
+Error Line No : 41
+Exception Type : System.InvalidOperationException
+Details: The connection string 'ERPEntities' in the application's configuration file does not contain the required providerName attribute."
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:25 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7335
+Exception Type : System.Data.Entity.Infrastructure.UnintentionalCodeFirstException
+Details: The context is being used in Code First mode with code that was generated from an EDMX file for either Database First or Model First development.  This will not work correctly. To fix this problem do not remove the line of code that throws this exception. If you wish to use Database First or Model First, then make sure that the Entity Framework connection string is included in the app.config or web.config of the start-up project. If you are creating your own DbConnection, then make sure that it is an EntityConnection and not some other type of DbConnection, and that you pass it to one of the base DbContext constructors that take a DbConnection. To learn more about Code First, Database First, and Model First see the Entity Framework documentation here: http://go.microsoft.com/fwlink/?LinkId=394715
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:26 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Infrastructure.UnintentionalCodeFirstException
+Details: The context is being used in Code First mode with code that was generated from an EDMX file for either Database First or Model First development.  This will not work correctly. To fix this problem do not remove the line of code that throws this exception. If you wish to use Database First or Model First, then make sure that the Entity Framework connection string is included in the app.config or web.config of the start-up project. If you are creating your own DbConnection, then make sure that it is an EntityConnection and not some other type of DbConnection, and that you pass it to one of the base DbContext constructors that take a DbConnection. To learn more about Code First, Database First, and Model First see the Entity Framework documentation here: http://go.microsoft.com/fwlink/?LinkId=394715
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:27 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Infrastructure.UnintentionalCodeFirstException
+Details: The context is being used in Code First mode with code that was generated from an EDMX file for either Database First or Model First development.  This will not work correctly. To fix this problem do not remove the line of code that throws this exception. If you wish to use Database First or Model First, then make sure that the Entity Framework connection string is included in the app.config or web.config of the start-up project. If you are creating your own DbConnection, then make sure that it is an EntityConnection and not some other type of DbConnection, and that you pass it to one of the base DbContext constructors that take a DbConnection. To learn more about Code First, Database First, and Model First see the Entity Framework documentation here: http://go.microsoft.com/fwlink/?LinkId=394715
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:42 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:42 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:42 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Login failed for user ''.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:39:18 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

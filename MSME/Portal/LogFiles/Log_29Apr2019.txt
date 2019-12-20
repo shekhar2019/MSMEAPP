@@ -1,0 +1,1377 @@
+10:23:44 AM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+10:24:24 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:24:24 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:24:24 AM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:25:47 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:25:47 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:25:47 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:25:47 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:25:47 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:25:47 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:36:57 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:36:57 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:36:57 AM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:37:23 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:37:23 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:37:23 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:37:24 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:37:24 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:37:24 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:41:47 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:41:47 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:41:47 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:41:48 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:41:49 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.tm2mocdd.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:42:05 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:42:05 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:42:05 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:42:05 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:23 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:26 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.nphma4jl.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:26 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:45 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:45 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:45 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:45 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:58:46 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.ckzjesqx.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:59:01 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:59:02 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:59:02 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:59:02 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+10:59:40 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:59:42 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.ge8lidyd.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+10:59:43 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:01:22 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:01:23 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.lpmbx38d.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:01:25 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:15 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:18 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.fagtergg.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:19 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:30 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:33 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.c2-idh-x.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:33 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:36 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:38 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.c2-idh-x.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:15:40 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:17:35 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:17:37 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.xmg_0sr2.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:17:38 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:18:33 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:18:59 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:18:59 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:18:59 AM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:19:22 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:19:22 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:19:22 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:19:22 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:19:22 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:19:22 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:19:58 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:20:01 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.ad9t5pgb.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:20:02 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:22:24 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:22:28 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.7m7szxsk.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:22:29 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:24:48 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:24:51 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.djb7kjse.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:24:52 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:25:35 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:25:38 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.rlskdmem.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:25:39 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:25:49 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:26:30 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:26:54 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__byerproductdetail.cshtml.2534e43e.4f30styt.0.cs(34): error CS0234: The type or namespace name 'BuyerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+11:26:54 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+11:31:42 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:31:47 AM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:06 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:06 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:06 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:51 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:51 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:51 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:53 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:53 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:53 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:17:41 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 657
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:17:41 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:17:41 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:18:09 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7372
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:18:09 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 78
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:18:09 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:18:10 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7372
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:18:10 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 78
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:18:10 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:47 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7372
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:47 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 78
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:47 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:47 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7372
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:47 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 78
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:47 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:48 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 119
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:52 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+22:21:39 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 119
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:21:42 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+22:48:52 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_BSLayout.cshtml": "UserMenu".
+---------------------------------------------------------------------------------------------------------------------------
+
+22:49:36 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_BSLayout.cshtml": "UserMenu".
+---------------------------------------------------------------------------------------------------------------------------
+
+23:16:40 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:16:40 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:16:40 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:08 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:08 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:08 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:11 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:11 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:17:11 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:32:37 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:32:37 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:32:37 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:05 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:05 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:05 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:08 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__sellerproductdetail.cshtml.316b987f.igr6ofvv.0.cs(34): error CS0234: The type or namespace name 'SellerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:08 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:08 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:09 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:25 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\chandra\AppData\Local\Temp\Temporary ASP.NET Files\root\ec47334f\d60b2d9\App_Web__sellerproductdetail.cshtml.316b987f.m0o23rbo.0.cs(34): error CS0234: The type or namespace name 'SellerProductViewDetailListModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:51 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The model item passed into the dictionary is of type 'System.Linq.Enumerable+WhereSelectListIterator`2[Portal.DAL.EntityModels.BuyerProductDetailList,Portal.Core.ViewModel.BuyerProductDashboardViewModel]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Portal.Core.ViewModel.SellerProductDashboardViewModel]'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:33:57 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The model item passed into the dictionary is of type 'System.Linq.Enumerable+WhereSelectListIterator`2[Portal.DAL.EntityModels.BuyerProductDetailList,Portal.Core.ViewModel.BuyerProductDashboardViewModel]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Portal.Core.ViewModel.SellerProductDashboardViewModel]'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:34:48 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The model item passed into the dictionary is of type 'System.Linq.Enumerable+WhereSelectListIterator`2[Portal.DAL.EntityModels.BuyerProductDetailList,Portal.Core.ViewModel.BuyerProductDashboardViewModel]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Portal.Core.ViewModel.SellerProductDashboardViewModel]'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:36:03 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The model item passed into the dictionary is of type 'System.Linq.Enumerable+WhereSelectListIterator`2[Portal.DAL.EntityModels.BuyerProductDetailList,Portal.Core.ViewModel.BuyerProductDashboardViewModel]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Portal.Core.ViewModel.SellerProductDashboardViewModel]'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:37:15 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The model item passed into the dictionary is of type 'System.Linq.Enumerable+WhereSelectListIterator`2[Portal.DAL.EntityModels.BuyerProductDetailList,Portal.Core.ViewModel.BuyerProductDashboardViewModel]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Portal.Core.ViewModel.SellerProductDashboardViewModel]'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:14 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:14 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:14 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:48 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:48 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:48 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:49 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:49 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:38:49 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:39:22 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The model item passed into the dictionary is of type 'System.Linq.Enumerable+WhereSelectListIterator`2[Portal.DAL.EntityModels.BuyerProductDetailList,Portal.Core.ViewModel.BuyerProductDashboardViewModel]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Portal.Core.ViewModel.SellerProductDashboardViewModel]'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:42:52 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The model item passed into the dictionary is of type 'System.Linq.Enumerable+WhereSelectListIterator`2[Portal.DAL.EntityModels.BuyerProductDetailList,Portal.Core.ViewModel.BuyerProductDashboardViewModel]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Portal.Core.ViewModel.SellerProductDashboardViewModel]'.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:22 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 666
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:22 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 105
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:22 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:48 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:48 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:48 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:48 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:48 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:44:48 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:10 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:10 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:10 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 231
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:10 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:26 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7373
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:26 PM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:26 PM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 247
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:27 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:59:33 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

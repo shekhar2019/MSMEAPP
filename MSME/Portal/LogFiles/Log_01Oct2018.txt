@@ -1,0 +1,80 @@
+18:51:39 PM
+Source : Portal.Controllers.ContactInfoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\ContactInfo\GetContactInfoList.cshtml(25): error CS1502: The best overloaded method match for 'System.Tuple.Create<object,int>(object, int)' has some invalid arguments
+--------------------------------------------------------------------------------------------------------------------------------
+
+18:51:48 PM
+Source : Portal.Controllers.ContactInfoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\ContactInfo\GetContactInfoList.cshtml(25): error CS1502: The best overloaded method match for 'System.Tuple.Create<object,int>(object, int)' has some invalid arguments
+---------------------------------------------------------------------------------------------------------------------------
+
+18:52:56 PM
+Source : Portal.Controllers.ContactInfoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\ContactInfo\GetContactInfoList.cshtml(25): error CS1502: The best overloaded method match for 'System.Tuple.Create<object,int>(object, int)' has some invalid arguments
+---------------------------------------------------------------------------------------------------------------------------
+
+18:54:47 PM
+Source : Portal.Controllers.ContactInfoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\ContactInfo\GetContactInfoList.cshtml(25): error CS1502: The best overloaded method match for 'System.Tuple.Create<object,int>(object, int)' has some invalid arguments
+---------------------------------------------------------------------------------------------------------------------------
+
+18:55:38 PM
+Source : Portal.Controllers.ContactInfoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\ContactInfo\GetContactInfoList.cshtml(42): error CS1502: The best overloaded method match for 'System.Tuple.Create<object,int>(object, int)' has some invalid arguments
+---------------------------------------------------------------------------------------------------------------------------
+
+19:07:47 PM
+Source : Portal.Controllers.ContactInfoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\ContactInfo\GetContactInfoList.cshtml(42): error CS1502: The best overloaded method match for 'System.Tuple.Create<object,int>(object, int)' has some invalid arguments
+---------------------------------------------------------------------------------------------------------------------------
+
+19:31:47 PM
+Source : Portal.DAL.DBInterface
+Method Name : RemoveLogo
+Error Line No : 5739
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:31:47 PM
+Source : Portal.Core.LogoBL
+Method Name : RemoveLogo
+Error Line No : 101
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:31:47 PM
+Source : Portal.Controllers.LogoController
+Method Name : RemoveLogo
+Error Line No : 158
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:31:47 PM
+Source : Portal.Controllers.LogoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+

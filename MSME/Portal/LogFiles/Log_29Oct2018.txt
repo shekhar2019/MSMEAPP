@@ -1,0 +1,96 @@
+18:01:10 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 31
+Exception Type : System.Data.Entity.Infrastructure.DbUpdateException
+Details: An error occurred while updating the entries. See the inner exception for details.
+--------------------------------------------------------------------------------------------------------------------------------
+
+18:01:13 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Infrastructure.DbUpdateException
+Details: An error occurred while updating the entries. See the inner exception for details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:02:05 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 31
+Exception Type : System.Data.Entity.Infrastructure.DbUpdateException
+Details: An error occurred while updating the entries. See the inner exception for details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:02:05 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Infrastructure.DbUpdateException
+Details: An error occurred while updating the entries. See the inner exception for details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:02:44 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetLogo
+Error Line No : 5761
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:02:45 PM
+Source : Portal.Core.LogoBL
+Method Name : GetLogo
+Error Line No : 117
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:02:53 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:03:34 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 31
+Exception Type : System.Data.Entity.Infrastructure.DbUpdateException
+Details: An error occurred while updating the entries. See the inner exception for details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:03:34 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Infrastructure.DbUpdateException
+Details: An error occurred while updating the entries. See the inner exception for details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:04:03 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetLogo
+Error Line No : 5761
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:04:04 PM
+Source : Portal.Core.LogoBL
+Method Name : GetLogo
+Error Line No : 117
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:04:10 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

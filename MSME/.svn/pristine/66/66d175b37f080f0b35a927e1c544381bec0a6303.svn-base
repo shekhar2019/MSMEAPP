@@ -1,0 +1,356 @@
+﻿@{
+    // ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_LayoutWebSite.cshtml";
+}
+<script src="~/Scripts/jquery-1.10.1.min.js"></script>
+<script src="~/Scripts/Home/Login.js"></script>
+<div class="slider1-area overlay-default">
+    <div class="bend niceties preview-1">
+
+        <div id="ensign-nivoslider-3" class="slides">
+            @foreach (var homeSlider in ViewBag.homeSliderList)
+            {
+                <img src="@homeSlider.Image" alt="slider" title="#slider-direction-@homeSlider.Sliderid" />            
+            }
+        </div>
+
+        @foreach (var homeSlider in ViewBag.homeSliderList)
+        {
+            <div id="slider-direction-@homeSlider.Sliderid" class="t-cn slider-direction">
+
+                <div class="slider-content s-tb slide-1">
+
+                    <div class="title-container s-tb-c">
+                        <p class="title1" style="text-align:center;"><span style="font-size:30px;">@homeSlider.SliderTitle</span></p>
+                        <p style="text-align:center;">@homeSlider.Description</p>
+
+                    </div>
+                </div>
+            </div>
+        }
+        @*<div id="slider-direction-2" class="t-cn slider-direction">
+
+                <div class="slider-content s-tb slide-2">
+
+                    <div class="title-container s-tb-c">
+                        <p class="title1" style="text-align:center;"><span style="font-size:30px;">Centrifugal Pumps & Dosing pumps</span></p>
+                        <p style="text-align:center;">World Class Pumping Solutions from ... GRUNDFOS</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="slider-direction-3" class="t-cn slider-direction">
+
+                <div class="slider-content s-tb slide-3">
+
+                    <div class="title-container s-tb-c">
+                        <p class="title1" style="text-align:center;"><span style="font-size:30px;">Brazed Plate Heat Exchangers...</span></p>
+                        <p style="text-align:center;">Copper, Nickel and SS316 Brazed plate heat exchangers (CBE / BPHE) from ... SWEP</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="slider-direction-4" class="t-cn slider-direction">
+
+                <div class="slider-content s-tb slide-4">
+
+                    <div class="title-container s-tb-c">
+                        <p class="title1" style="text-align:center;"><span style="font-size:30px;">Gasketed and Welded Plate heat exchangers</span></p>
+                        <p style="text-align:center;">World leading Brand in heat transfer solutions..</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="slider-direction-5" class="t-cn slider-direction">
+
+                <div class="slider-content s-tb slide-5">
+
+                    <div class="title-container s-tb-c">
+                        <p class="title1" style="text-align:center;"><span style="font-size:30px;">Chillers, Panel AC and Cold Rooms ...</span></p>
+                        <p style="text-align:center;">Process cooling since 1986... WERNER FINELY</p>
+
+                    </div>
+                </div>
+            </div>*@
+
+
+
+
+    </div>
+</div>
+<!-- Slider 1 Area End Here -->
+<!-- About 2 Area Start Here -->
+<div class="about2-area" style="box-shadow:10px -2px 18px 1px;">
+    <div class="row">
+        
+        <div class="col-md-3"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farhtechnologies%2F&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=128064130539495" width="300px" height="350px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+        <div class="col-md-9">
+         @{ 
+             foreach (var item in ViewBag.homeContent)
+             {
+                 if(item.WelcomeHomeStatus == true)
+                 {
+                    <h2 class="about-title">@item.Title</h2>
+                    <p>
+                            @Html.Raw(@item.WelcomeContent);
+                    </p>
+                   }
+                 }
+             }
+          
+    </div> 
+
+</div>
+
+    </div>
+
+<!-- About 2 Area End Here -->
+<!-- Lecturers Area Start Here -->
+<div class="lecturers-area">
+    <div class="row">
+        <h2 class="title-default-left" style="padding-left:27px;">feature Product all</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="rc-carousel"
+             data-loop="true"
+             data-items="4"
+             data-margin="30"
+             data-autoplay="true"
+             data-autoplay-timeout="1000"
+             data-smart-speed="2000"
+             data-dots="false"
+             data-nav="true"
+             data-nav-speed="false"
+             data-r-x-small="1"
+             data-r-x-small-nav="true"
+             data-r-x-small-dots="false"
+             data-r-x-medium="2"
+             data-r-x-medium-nav="true"
+             data-r-x-medium-dots="false"
+             data-r-small="3"
+             data-r-small-nav="true"
+             data-r-small-dots="false"
+             data-r-medium="4"
+             data-r-medium-nav="true"
+             data-r-medium-dots="false"
+             data-r-large="4"
+             data-r-large-nav="true"
+             data-r-large-dots="false">
+         
+            @{
+                foreach (var items in ViewBag.products)
+                {
+                    if (@items.ImageUrl != "")
+                    {
+                    <div class="single-item" >
+                        <div class="lecturers1-item-wrapper" >
+                            <div class="lecturers-img-wrapper">
+                                <a href="@items.ImageNavigateUrl"><img class="img-responsive" src="../Images/ProductImage/@items.ImageUrl" title="@items.ImageTitle" alt="@items.ImageAlt" style="height:300px!important;"></a>
+                            </div>
+                            <div class="lecturers-content-wrapper">
+                                <h3 class="item-title"><a href="@items.ImageNavigateUrl">@items.ProductName</a></h3>
+                                <a href="@items.ImageNavigateUrl" class="btn default-btn product-btn">Get Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                        }
+                    }
+                }
+         
+
+
+
+
+        </div>
+    </div>
+</div>
+<!-- Lecturers Area End Here -->
+<!-- News and Event Area Start Here -->
+<style>
+    .container-marquee {
+        position: relative;
+        height: 250px; /*marquee height */
+    }
+</style>
+<div class="news-event-area" style="box-shadow:0px 0px 7px 1px;">
+    <div class="row">
+        <div class="container-fluid">
+            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-8 news-inner-area" id="divHomeUpdateList"></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 event-inner-area" id="divHomeNewUpdateList"></div>
+            <div class="brand-area">
+                <h2 class="title-default-center" style="margin-bottom:11px;">Our Associates</h2>
+                <div class="container">
+
+                    <div class="rc-carousel"
+                         data-loop="true"
+                         data-items="4"
+                         data-margin="30"
+                         data-autoplay="true"
+                         data-autoplay-timeout="5000"
+                         data-smart-speed="2000"
+                         data-dots="false"
+                         data-nav="false"
+                         data-nav-speed="false"
+                         data-r-x-small="2"
+                         data-r-x-small-nav="false"
+                         data-r-x-small-dots="false"
+                         data-r-x-medium="3"
+                         data-r-x-medium-nav="false"
+                         data-r-x-medium-dots="false"
+                         data-r-small="4"
+                         data-r-small-nav="false"
+                         data-r-small-dots="false"
+                         data-r-medium="4"
+                         data-r-medium-nav="false"
+                         data-r-medium-dots="false"
+                         data-r-large="4"
+                         data-r-large-nav="false"
+                         data-r-large-dots="false" >
+                        @foreach (var item in ViewBag.homeUpdates)
+                        {
+                            if (item.UpdateStatus == true)
+                            {
+                            <div class="brand-area-box">
+                                <a href="javascript:void(0)"><img src="~/Images/HomeUpdate/@item.ImageUrl" title="@item.ImageTitile" alt="slider" /></a>
+                            </div>
+                            }
+                        }
+
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+</div>
+
+
+<script type="text/javascript">
+
+    /***********************************************
+    * Simple Marquee (04-October-2012)
+    * by Vic Phillips - http://www.vicsjavascripts.org.uk/
+    ***********************************************/
+
+    var zxcMarquee = {
+
+        init: function (o) {
+            var mde = o.Mode, mde = typeof (mde) == 'string' && mde.charAt(0).toUpperCase() == 'H' ? ['left', 'offsetWidth', 'top', 'width'] : ['top', 'offsetHeight', 'left', 'height'], id = o.ID, srt = o.StartDelay, ud = o.StartDirection, p = document.getElementById(id), obj = p.getElementsByTagName('DIV')[0], sz = obj[mde[1]], clone;
+            p.style.overflow = 'hidden';
+            obj.style.position = 'absolute';
+            obj.style[mde[0]] = '0px';
+            obj.style[mde[3]] = sz + 'px';
+            clone = obj.cloneNode(true);
+            clone.style[mde[0]] = sz + 'px';
+            clone.style[mde[2]] = '0px';
+            obj.appendChild(clone);
+            o = this['zxc' + id] = {
+                obj: obj,
+                mde: mde[0],
+                sz: sz
+            }
+            if (typeof (srt) == 'number') {
+                o.dly = setTimeout(function () { zxcMarquee.scroll(id, typeof (ud) == 'number' ? ud : -1); }, srt);
+            }
+            else {
+                this.scroll(id, 0)
+            }
+        },
+
+        scroll: function (id, ud) {
+            var oop = this, o = this['zxc' + id], p;
+            if (o) {
+                ud = typeof (ud) == 'number' ? ud : 0;
+                clearTimeout(o.dly);
+                p = parseInt(o.obj.style[o.mde]) + ud;
+                if ((ud > 0 && p > 0) || (ud < 0 && p < -o.sz)) {
+                    p += o.sz * (ud > 0 ? -1 : 1);
+                }
+                o.obj.style[o.mde] = p + 'px';
+                o.dly = setTimeout(function () { oop.scroll(id, ud); }, 50);
+            }
+        }
+    }
+
+    function init() {
+
+        zxcMarquee.init({
+            ID: 'marquee1',     // the unique ID name of the parent DIV.                        (string)
+            Mode: 'Vertical',   //(optional) the mode of execution, 'Vertical' or 'Horizontal'. (string, default = 'Vertical')
+            StartDelay: 2000,   //(optional) the auto start delay in milli seconds'.            (number, default = no auto start)
+            StartDirection: -1  //(optional) the auto start scroll direction'.                  (number, default = -1)
+        });
+
+
+    }
+
+    if (window.addEventListener)
+        window.addEventListener("load", init, false)
+    else if (window.attachEvent)
+        window.attachEvent("onload", init)
+    else if (document.getElementById)
+        window.onload = init
+
+    var zxcMarquee2 = {
+
+        init2: function (o2) {
+            var mde2 = o2.Mode2, mde2 = typeof (mde2) == 'string' && mde2.charAt(0).toUpperCase() == 'H' ? ['left', 'offsetWidth', 'top', 'width'] : ['top', 'offsetHeight', 'left', 'height'], id2 = o2.ID2, srt2 = o2.StartDelay2, ud2 = o2.StartDirection2, p2 = document.getElementById(id2), obj2 = p2.getElementsByTagName('DIV')[0], sz2 = obj2[mde2[1]], clone2;
+            p2.style.overflow = 'hidden';
+            obj2.style.position = 'absolute';
+            obj2.style[mde2[0]] = '0px';
+            obj2.style[mde2[3]] = sz2 + 'px';
+            clone2 = obj2.cloneNode(true);
+            clone2.style[mde2[0]] = sz2 + 'px';
+            clone2.style[mde2[2]] = '0px';
+            obj2.appendChild(clone2);
+            o2 = this['zxc2' + id2] = {
+                obj2: obj2,
+                mde2: mde2[0],
+                sz2: sz2
+            }
+            if (typeof (srt2) == 'number') {
+                o2.dly2 = setTimeout(function () { zxcMarquee2.scroll2(id2, typeof (ud2) == 'number' ? ud2 : -1); }, srt2);
+            }
+            else {
+                this.scroll2(id2, 0)
+            }
+        },
+
+        scroll2: function (id2, ud2) {
+            var oop2 = this, o2 = this['zxc2' + id2], p2;
+            if (o2) {
+                ud2 = typeof (ud2) == 'number' ? ud2 : 0;
+                clearTimeout(o2.dly2);
+                p2 = parseInt(o2.obj2.style[o2.mde2]) + ud2;
+                if ((ud2 > 0 && p2 > 0) || (ud2 < 0 && p2 < -o2.sz2)) {
+                    p2 += o2.sz2 * (ud2 > 0 ? -1 : 1);
+                }
+                o2.obj2.style[o2.mde2] = p2 + 'px';
+                o2.dly2 = setTimeout(function () { oop2.scroll2(id2, ud2); }, 50);
+            }
+        }
+    }
+
+    function init2() {
+        zxcMarquee2.init2({
+            ID2: 'marquee2',     // the unique ID name of the parent DIV.                        (string)
+            Mode2: 'Vertical',   //(optional) the mode of execution, 'Vertical' or 'Horizontal'. (string, default = 'Vertical')
+            StartDelay2: 2000,   //(optional) the auto start delay in milli seconds'.            (number, default = no auto start)
+            StartDirection2: -1  //(optional) the auto start scroll direction'.                  (number, default = -1)
+        });
+
+
+    }
+
+    if (window.addEventListener)
+        window.addEventListener("load", init2, false)
+    else if (window.attachEvent)
+        window.attachEvent("onload", init2)
+    else if (document.getElementById)
+        window.onload = init2
+
+
+</script>
+<!-- News and Event Area End Here -->
+<!-- Brand Area Start Here -->
+<!-- Brand Area End Here -->

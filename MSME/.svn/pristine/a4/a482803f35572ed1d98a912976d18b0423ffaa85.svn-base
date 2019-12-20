@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSME BAZAR</title>
+    <!-- Core CSS - Include with every page -->
+    @*<link href="assets/css/bootstrap.css" rel="stylesheet" />*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    @*<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />*@
+    @*<link href="~/Content/fonts/font-awesome.min.css" rel="stylesheet" />*@
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    @*<link href="assets/css/style.css" rel="stylesheet" />*@
+    <link href="~/Content/dashboard-style.css" rel="stylesheet" />
+    @*<link href="assets/css/main-style.css" rel="stylesheet" />*@
+    <link href="~/Content/main-style.css" rel="stylesheet" />
+    <!-- Page-Level CSS -->
+    @*<link href="assets/css/custom-0.4.3.min.css" rel="stylesheet" />*@
+    <link href="~/Content/custom-0.4.3.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Bitter" rel="stylesheet" type="text/css">
+    <style>
+        .modal-small {
+            width: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--  wrapper -->
+    <div id="wrapper">
+        <!-- navbar top -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+            <!-- navbar-header -->
+            <div class="row">
+                <!-- Page Header -->
+                <!--slider-->
+
+                <div class="col-lg-2"><a href="../Dashboard/BuyerDashboard" style="border-bottom:none! important;" class="waves-effect"><img src="../Images/Vector.png" class="img-responsive" style="width:70%; margin:18px auto;"></a></div>
+                <!--end slider-->
+                
+                <!--End Page Header -->
+            </div>
+
+        </nav>
+        <!-- end navbar top -->
+        <!-- navbar side -->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <!-- sidebar-collapse -->
+            <div class="sidebar-collapse">
+                <!-- side-menu -->
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <!-- user image section-->
+                        <div class="user-section">
+                            <div class="user-section-inner">
+
+                                <img src="../Images/dash-user.jpg" alt="">
+                            </div>
+                            <div class="user-info">
+                                <div>Welcome<br /> <strong>@Session["UserFullName"]</strong></div>
+
+
+                                @{ string cls = @Session["KYCCode"].ToString();
+                                }
+                                @if (cls == "B")
+                                {
+
+                                    <span style="font-size: 17px;font-family:it">Buyer</span>
+                                }
+                                else if (cls == "S")
+                                {
+                                    <span style="font-size: 17px;">Seller</span>
+                                }
+                            </div>
+                        </div>
+                        <!--end user image section-->
+                    </li>
+                    <li style="background:white; border:none; height:111px; display:none;">
+                        <a href="../Dashboard/BuyerDashboard" style="border-bottom:none! important;" class="waves-effect"><img src="../Images/logo.jpg" class="img-responsive" style="width:60%;"></a>
+                    </li>
+                    @RenderSection("UserMenu", required: true)
+                    <li style="border:none; border-bottom:none! important; top:-10px;height:111px;">
+                        <a href="../Dashboard/BuyerDashboard" style="border-bottom:none! important; " class="waves-effect"><img src="../Images/advertisement.gif" class="img-responsive" style="width:80%;"></a>
+                    </li>
+
+
+                </ul>
+                <!-- end side-menu -->
+            </div>
+            <!-- end sidebar-collapse -->
+        </nav>
+        <!-- end navbar side -->
+        <!--  page-wrapper -->
+        <div id="page-wrapper">
+            @RenderBody()
+        </div>
+
+    </div>
+ 
+
+    <div class="modal fade" id="ErrorModal" role="dialog">
+        <div class="modal-dialog modal-small">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Seller Details</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    @*<script src="assets/js/jquery-1.10.2.js"></script>*@
+    @*<script src="~/Scripts/jquery.js"></script>*@
+    <script src="~/Scripts/jquery-2.2.4.min.js"></script>
+    @*<script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>*@
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+
+        (function () {
+            // setup your carousels as you normally would using JS
+            // or via data attributes according to the documentation
+            // https://getbootstrap.com/javascript/#carousel
+            $('.carousel-showmanymoveone').carousel({ interval: 900000 });
+            $('#carouselABC').carousel({ interval: 500000 });
+        }());
+
+        (function () {
+            $('.carousel-showmanymoveone .item').each(function () {
+                var itemToClone = $(this);
+                for (var i = 1; i < 4; i++) {
+                    itemToClone = itemToClone.next();
+
+                    // wrap around if at end of item collection
+                    if (!itemToClone.length) {
+                        itemToClone = $(this).siblings(':first');
+                    }
+
+                    // grab item, clone, add marker class, add to collection
+                    itemToClone.children(':first-child').clone()
+                      .addClass("cloneditem-" + (i))
+                      .appendTo($(this));
+                }
+            });
+        }());
+
+        function ShowPersonModal(productId, sellerId, user) {
+
+            var userType = 0;
+            if (user == "Buyer")
+            { userType = 2; }
+            else if (user == "Seller")
+            { userType = 1; }
+
+            $.ajax({
+                url: "../User/GetUserDetailWithProduct",
+                data: { productId: productId, userId: sellerId, userType: userType },
+                contentType: "json",
+                success: function (data) {
+
+                    $("#PersonModal .user-name").text(data.UserName);
+                    $("#PersonModal .user-email").text(data.Email);
+                    $("#PersonModal .contact").text(data.MobileNo);
+
+                    $("#PersonModal .address").text(data.FullAddress);
+                    $("#PersonModal .rate").text(data.RatePerUnit);
+
+                    $("#PersonModal .moq").text(data.MOQ);
+
+                    $("#PersonModal .gst").text(data.GSTStatus);
+                    $("#PersonModal .modal-title").text(user + " Details");
+                    $("#PersonModal").modal();
+                },
+                error: function () {
+                    ShowErrorModal("Product Specifications", "Error fetching details")
+                }
+            });
+        }
+
+        function ShowProductModal(productId) {
+            $.ajax({
+                url: "../Product/GetProductDetail",
+                data: { productId: productId },
+                contentType: "json",
+                success: function (data) {
+                    $("#ProductSpecModal .product-name").text(data.ProductName);
+                    $("#ProductSpecModal .product-code").text(data.ProductCode);
+                    $("#ProductSpecModal .product-c1").text(data.ProductMainGroupName);
+                    $("#ProductSpecModal .product-c2").text(data.ProductSubGroupName);
+                    $("#ProductSpecModal .product-c3").text(data.ProductSubChildGroupName);
+                    $("#ProductSpecModal .product-spec-name").text(data.SpecificationName);
+                    $("#ProductSpecModal .product-spec-value").text(data.SpecificationValue);
+                    $("#ProductSpecModal .product-brand").text(data.BrandName);
+                    $("#ProductSpecModal .product-uom").text(data.UOMName);
+                    $("#ProductSpecModal").modal();
+                },
+                error: function () {
+                    ShowErrorModal("Product Specifications", "Error fetching details")
+                }
+            });
+        }
+
+        function ShowErrorModal(title, body) {
+            $("#ErrorModal .modal-title").text(title);
+            $("#ErrorModal .modal-body").text(body);
+            $("#ErrorModal").modal();
+        }
+
+    </script>
+    
+</body>
+
+</html>
+
+@RenderSection("DashboardScripts", required: false)

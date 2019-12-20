@@ -1,0 +1,51 @@
+00:00:39 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+10:07:03 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:07:42 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:25:08 AM
+Source : Portal.Controllers.CommodityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Value cannot be null or empty.
+Parameter name: contentPath
+---------------------------------------------------------------------------------------------------------------------------
+
+11:25:41 AM
+Source : Portal.Controllers.CommodityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Value cannot be null or empty.
+Parameter name: contentPath
+---------------------------------------------------------------------------------------------------------------------------
+
+11:26:56 AM
+Source : Portal.Controllers.CommodityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Value cannot be null or empty.
+Parameter name: contentPath
+---------------------------------------------------------------------------------------------------------------------------
+

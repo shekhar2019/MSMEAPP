@@ -1,0 +1,69 @@
+﻿@model  IEnumerable<Portal.Core.ViewModel.SellerProductDashboardViewModel>
+@using Newtonsoft.Json
+
+@if (Model != null && Model.Count() > 0)
+{
+    int i = 0;
+    foreach (Portal.Core.ViewModel.SellerProductDashboardViewModel item in Model)
+    {
+        string productshortname = (@item.ProductName.Length) > 40 ? @item.ProductName.Substring(1, 39) + "..." : @item.ProductName;
+
+        <div class="row">
+            <div class="col-lg-3 product-info" style="line-height:1.5em;">
+                <div class="alert alert-danger text-center" style="background-color:#9B0214; color:#fff; padding:10px;" data-toggle="popover" title="@item.CategoryId         @item.SubCategoryId     @item.SpecificationName @item.SpecificationValue   @item.UomId">
+                    @*<span style="text-transform:uppercase;">@item.CategoryName    &nbsp;&nbsp;     @item.SubCategoryName</span>*@
+              
+                    <span title="@item.ProductName" style="text-transform:uppercase;">@productshortname</span>
+                    <input type="hidden" id="ParentClassId" name="ParentClassId" value="@item.ParentClassId" />
+                    <input type="hidden" id="CategoryId" name="CategoryId" value="@item.CategoryId" />
+                    <br />
+                    <span data-placement="top">@item.SpecificationName @item.SpecificationValue   @item.UOMName</span><br />
+
+
+                    <button style="padding:5px; font-size:15px; background:transparent; border:none; margin-top:10px; float:right; color:#fff;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"
+                            onclick="ShowProductModal('@item.ProductName','@item.ProductCode','@item.ParentClassName','@item.CategoryName','@item.SubCategoryName','@item.BrandName','@JsonConvert.SerializeObject(item.Specifications)');">
+                        More Details
+                    </button>
+
+                    <button style="padding:0px; font-size:15px; background:transparent; border:none; margin-top:14px; float:left; color:#fff;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"
+                            onclick="ShowSellerPriceProductModal('@item.SellerProductDetailId','@item.ProductName');">
+                        My Quote
+                    </button>
+
+
+                </div>
+            </div>
+            <div class="col-lg-9 buyer-list">
+                @{ string crouselId = "crouselId" + i;}
+                <div class="carousel carousel-showmanymoveone slide" id="@crouselId">
+                    <div class="carousel-inner">
+                        @{ int j = 0; }
+                        @foreach (var buyer in item.Buyers)
+                        {
+                            string cls = j == 0 ? "item active buyer-item" : "item  buyer-item";
+                            <div class="@cls">
+                                <div class="col-lg-3" onclick="ShowBuyerModal('@buyer.BuyerProductDetailId');">
+                                    <div class="alert alert-warning text-center">
+                                        <div style="background-color:#9B0214; color:#fff; padding:3px;"><b class="buyer-name">@buyer.BuyerName </b></div>
+                                        <div style="padding:5px;">
+                                            <img src="../Images/phone.png" width="20"> +91 @buyer.Contact<br />
+                                            <span style="color:#9B0214;"> Date: @buyer.ProductDate.Value.ToString("MM/dd/yyyy") </span> <br />
+                                            <button style="padding:3px; float:right; background:transparent; margin-top:8px; border:none; color:#9B0214; font-size:10px;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">More Details</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            j++;
+                        }
+                    </div>
+                    <a class="left carousel-control" href="#@crouselId" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                    <a class="right carousel-control" href="#@crouselId" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </div>
+            </div>
+            <!--end quick info section -->
+        </div>
+        i++;
+    }
+
+}

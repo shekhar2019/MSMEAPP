@@ -1,0 +1,88 @@
+15:37:26 PM
+Source : Portal.Common.SendMail
+Method Name : SendEmail
+Error Line No : 97
+Exception Type : System.FormatException
+Details: The specified string is not in the form required for an e-mail address.
+--------------------------------------------------------------------------------------------------------------------------------
+
+20:33:55 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\MSME Oct 16 2019\MSME\Portal\Views\Shared\_LayoutMSME.cshtml(172): error CS0103: The name 'contactInfo' does not exist in the current context
+---------------------------------------------------------------------------------------------------------------------------
+
+20:35:57 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:37:10 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:49:10 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:11:55 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:29:55 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:07:53 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:08:36 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: 'Portal.Core.ViewModel.ProductViewModel' does not contain a definition for 'Productidd'
+---------------------------------------------------------------------------------------------------------------------------
+
+22:32:17 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:00:46 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

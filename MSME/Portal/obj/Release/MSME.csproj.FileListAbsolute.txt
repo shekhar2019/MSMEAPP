@@ -1,0 +1,149 @@
+D:\AnilWorkArea\MSME\Portal\bin\Portal.dll.config
+D:\AnilWorkArea\MSME\Portal\bin\Portal.dll
+D:\AnilWorkArea\MSME\Portal\bin\Portal.pdb
+D:\AnilWorkArea\MSME\Portal\bin\Microsoft.Contracts.dll
+D:\AnilWorkArea\MSME\Portal\bin\Portal.Common.dll
+D:\AnilWorkArea\MSME\Portal\bin\Portal.Core.dll
+D:\AnilWorkArea\MSME\Portal\bin\Portal.DAL.dll
+D:\AnilWorkArea\MSME\Portal\bin\Microsoft.SqlServer.Types.dll
+D:\AnilWorkArea\MSME\Portal\bin\Portal.Common.pdb
+D:\AnilWorkArea\MSME\Portal\bin\Portal.Core.pdb
+D:\AnilWorkArea\MSME\Portal\bin\Portal.DAL.pdb
+D:\AnilWorkArea\MSME\Portal\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Portal\obj\Release\MSME.csprojResolveAssemblyReference.cache
+D:\AnilWorkArea\MSME\Portal\obj\Release\RdlCompile.cache
+D:\AnilWorkArea\MSME\Portal\obj\Release\RdlCompile.compiled
+D:\AnilWorkArea\MSME\Portal\obj\Release\Portal.dll
+D:\AnilWorkArea\MSME\Portal\obj\Release\Portal.pdb
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.dll.config
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.pdb
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Microsoft.Contracts.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.Common.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.Core.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.DAL.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Microsoft.SqlServer.Types.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.Common.pdb
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.Core.pdb
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\Portal.DAL.pdb
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\obj\Release\MSME.csprojResolveAssemblyReference.cache
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\obj\Release\RdlCompile.cache
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\obj\Release\RdlCompile.compiled
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\obj\Release\Portal.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal\obj\Release\Portal.pdb
+D:\UK\MSME\Portal\bin\Portal.dll.config
+D:\UK\MSME\Portal\bin\Portal.dll
+D:\UK\MSME\Portal\bin\Portal.pdb
+D:\UK\MSME\Portal\bin\Microsoft.Contracts.dll
+D:\UK\MSME\Portal\bin\Portal.Common.dll
+D:\UK\MSME\Portal\bin\Portal.Core.dll
+D:\UK\MSME\Portal\bin\Portal.DAL.dll
+D:\UK\MSME\Portal\bin\Microsoft.SqlServer.Types.dll
+D:\UK\MSME\Portal\bin\Portal.Common.pdb
+D:\UK\MSME\Portal\bin\Portal.Core.pdb
+D:\UK\MSME\Portal\bin\Portal.DAL.pdb
+D:\UK\MSME\Portal\bin\Portal.DAL.dll.config
+D:\UK\MSME\Portal\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\Portal\obj\Release\MSME.csprojAssemblyReference.cache
+D:\UK\MSME\Portal\obj\Release\MSME.csproj.CoreCompileInputs.cache
+D:\UK\MSME\Portal\obj\Release\MSME.csproj.CopyComplete
+D:\UK\MSME\Portal\obj\Release\Portal.dll
+D:\UK\MSME\Portal\obj\Release\Portal.pdb
+D:\MSME\Portal\bin\Portal.dll.config
+D:\MSME\Portal\bin\Portal.dll
+D:\MSME\Portal\bin\Portal.pdb
+D:\MSME\Portal\bin\Microsoft.Contracts.dll
+D:\MSME\Portal\bin\Portal.Common.dll
+D:\MSME\Portal\bin\Portal.Core.dll
+D:\MSME\Portal\bin\Portal.DAL.dll
+D:\MSME\Portal\bin\Portal.Common.pdb
+D:\MSME\Portal\bin\Portal.Core.pdb
+D:\MSME\Portal\bin\Portal.DAL.pdb
+D:\MSME\Portal\bin\Portal.DAL.dll.config
+D:\MSME\Portal\obj\Release\MSME.csprojAssemblyReference.cache
+D:\MSME\Portal\obj\Release\MSME.csproj.CoreCompileInputs.cache
+D:\MSME\Portal\obj\Release\MSME.csproj.CopyComplete
+D:\MSME\Portal\obj\Release\Portal.dll
+D:\MSME\Portal\obj\Release\Portal.pdb
+D:\UK\MSME\MSME\Portal\bin\Portal.dll.config
+D:\UK\MSME\MSME\Portal\bin\Portal.dll
+D:\UK\MSME\MSME\Portal\bin\Portal.pdb
+D:\UK\MSME\MSME\Portal\bin\Microsoft.Contracts.dll
+D:\UK\MSME\MSME\Portal\bin\Portal.Common.dll
+D:\UK\MSME\MSME\Portal\bin\Portal.Core.dll
+D:\UK\MSME\MSME\Portal\bin\Portal.DAL.dll
+D:\UK\MSME\MSME\Portal\bin\Microsoft.SqlServer.Types.dll
+D:\UK\MSME\MSME\Portal\bin\Portal.Common.pdb
+D:\UK\MSME\MSME\Portal\bin\Portal.Core.pdb
+D:\UK\MSME\MSME\Portal\bin\Portal.DAL.pdb
+D:\UK\MSME\MSME\Portal\bin\Portal.DAL.dll.config
+D:\UK\MSME\MSME\Portal\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\UK\MSME\MSME\Portal\obj\Release\MSME.csprojAssemblyReference.cache
+D:\UK\MSME\MSME\Portal\obj\Release\MSME.csproj.CoreCompileInputs.cache
+D:\UK\MSME\MSME\Portal\obj\Release\MSME.csproj.CopyComplete
+D:\UK\MSME\MSME\Portal\obj\Release\Portal.dll
+D:\UK\MSME\MSME\Portal\obj\Release\Portal.pdb
+D:\Application\MVC\MSME\Portal\bin\Portal.dll.config
+D:\Application\MVC\MSME\Portal\bin\Portal.dll
+D:\Application\MVC\MSME\Portal\bin\Portal.pdb
+D:\Application\MVC\MSME\Portal\bin\Microsoft.Contracts.dll
+D:\Application\MVC\MSME\Portal\bin\Portal.Common.dll
+D:\Application\MVC\MSME\Portal\bin\Portal.Core.dll
+D:\Application\MVC\MSME\Portal\bin\Portal.DAL.dll
+D:\Application\MVC\MSME\Portal\bin\Microsoft.SqlServer.Types.dll
+D:\Application\MVC\MSME\Portal\bin\Portal.Common.pdb
+D:\Application\MVC\MSME\Portal\bin\Portal.Core.pdb
+D:\Application\MVC\MSME\Portal\bin\Portal.DAL.pdb
+D:\Application\MVC\MSME\Portal\bin\Portal.DAL.dll.config
+D:\Application\MVC\MSME\Portal\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Application\MVC\MSME\Portal\obj\Release\MSME.csprojAssemblyReference.cache
+D:\Application\MVC\MSME\Portal\obj\Release\MSME.csproj.CoreCompileInputs.cache
+D:\Application\MVC\MSME\Portal\obj\Release\MSME.csproj.CopyComplete
+D:\Application\MVC\MSME\Portal\obj\Release\Portal.dll
+D:\Application\MVC\MSME\Portal\obj\Release\Portal.pdb

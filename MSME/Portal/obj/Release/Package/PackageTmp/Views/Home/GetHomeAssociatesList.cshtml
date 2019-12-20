@@ -1,0 +1,15 @@
+﻿@model List<Portal.Core.HomeUpdateViewModel>
+
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    if (item.UpdateStatus == true)
+                    {
+                    <div class="brand-area-box">
+                        <a href="javascript:void(0)"><img src="~/Images/HomeUpdate/@item.ImageUrl" alt="slider"/> </a>
+                    </div>
+                    }
+                }
+            }
+

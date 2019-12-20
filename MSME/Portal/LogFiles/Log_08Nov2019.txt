@@ -1,0 +1,144 @@
+00:00:18 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+18:12:26 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:12:26 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:19:03 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:11:45 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:14:28 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:20:05 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:41:26 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:55:37 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:03:18 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:13:38 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:19:42 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:35:05 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:24 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:24 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 126
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:25 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerSellerProductList
+Error Line No : 735
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:25 PM
+Source : Portal.Core.ProductBL
+Method Name : GetBuyerSellerProductList
+Error Line No : 107
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+22:56:25 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetBuyerSellerProductList
+Error Line No : 142
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+

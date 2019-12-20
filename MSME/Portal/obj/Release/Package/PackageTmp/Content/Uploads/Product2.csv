@@ -1,0 +1,4 @@
+ProductName,ProductCode,ProductShortDesc,ProductFullDesc,ProductTypeName,ProductMainGroupName,ProductSubGroupName,AssemblyType,UOMName,PurchasePrice,SalePrice,LocalTaxRate,CentralTaxRate,OtherTaxRate,IsSerializedProduct,BrandName,ReOrderQty,MinOrderQty,
+Electric Passenger Rickshaw 4 Seater1,EPR1,E-Rickshaw1,Electric Passenger Rickshaw,Insulation,a,b,MA,Kg,100,90,2,2,0,0,Victory,100,0,12
+Solar Rickshaw 4 Seater1,SRS1,Solar Rickshaw,NULL,Insulation,a,b,MA,Kg,20000,35000,12,5,5,1,Victory,100,20,25
+Battery Operated E rickshaw1,BOE1,NULL,NULL,Insulation,a,b,SA,Kg,0,0,0,0,0,0,Victory,324,0,22

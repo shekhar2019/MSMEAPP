@@ -1,0 +1,56 @@
+﻿@model List<Portal.Core.ViewModel.ProductSubGroupViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblProductSubGroupList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th style="width:20%;">Category Name</th>
+                    <th style="width:10%;">Category Code</th>
+                    <th style="width:10%;">Parent Class</th>
+                    <th style="width:30%;">Description</th>
+                    <th style="width:10%;">Image</th>
+                    <th style="width:10%;">Status</th>
+                    <th colspan="2" align="center" style="width:10%;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.ProductSubGroupName</td>
+                        <td>@item.ProductSubGroupCode</td>
+                        <td>@item.ProductMainGroupName</td>
+                        <td style="text-align:justify;">@item.ProductSubGroupDesc</td>
+                        <td><img src="../Images/ProductSubGroupImages/@item.ProductSubGroupImageUrl" title="@item.ProductSubGroupName" alt="@item.ProductSubGroupName" width="50" height="50" /> </td>
+                        <td>@(item.ProductSubGroup_Status == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white" class="fa fa-eye" aria-hidden="true" href="~/ProductSubGroup/AddEditProductSubGroup?ProductSubGroupId=@item.ProductSubGroupId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/ProductSubGroup/AddEditProductSubGroup?ProductSubGroupId=@item.ProductSubGroupId&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblProductSubGroupList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

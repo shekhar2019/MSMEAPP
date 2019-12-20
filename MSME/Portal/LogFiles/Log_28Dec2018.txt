@@ -1,0 +1,64 @@
+15:05:28 PM
+Source : Portal.DAL.DBInterface
+Method Name : UserRegistration
+Error Line No : 7088
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+--------------------------------------------------------------------------------------------------------------------------------
+
+15:05:28 PM
+Source : Portal.Core.UserRegistrationBL
+Method Name : AddEditUserRegistration
+Error Line No : 52
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:10:01 PM
+Source : Portal.DAL.DBInterface
+Method Name : UserRegistration
+Error Line No : 7088
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:10:01 PM
+Source : Portal.Core.UserRegistrationBL
+Method Name : AddEditUserRegistration
+Error Line No : 52
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:13:39 PM
+Source : Portal.DAL.DBInterface
+Method Name : UserRegistration
+Error Line No : 7088
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:13:39 PM
+Source : Portal.Core.UserRegistrationBL
+Method Name : AddEditUserRegistration
+Error Line No : 52
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:16:39 PM
+Source : Portal.DAL.DBInterface
+Method Name : UserRegistration
+Error Line No : 7088
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:16:39 PM
+Source : Portal.Core.UserRegistrationBL
+Method Name : AddEditUserRegistration
+Error Line No : 52
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+

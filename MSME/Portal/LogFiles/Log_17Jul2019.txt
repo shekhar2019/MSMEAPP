@@ -1,0 +1,160 @@
+20:57:54 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+--------------------------------------------------------------------------------------------------------------------------------
+
+20:57:54 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+20:57:54 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:16:56 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:16:57 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:16:57 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:27:22 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:27:22 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:27:22 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:36:37 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:37:59 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:38:11 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:38:48 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:49:38 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:49:38 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:49:38 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+21:50:46 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:00:09 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:02:21 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+23:04:51 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

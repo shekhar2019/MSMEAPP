@@ -1,0 +1,67 @@
+﻿@model List<Portal.Core.ViewModel.RoleUIMappingViewModel>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table mapping-list" id="tblRoleList">
+            <thead>
+                <tr>
+                    <th>Interface Name</th>
+                    <th style="text-align:center;">Add Access<br />
+                        <input type="checkbox" id="chkAddAccessAll" onclick="CheckAllAddAccess(this)" />
+                    </th>
+                    <th style="text-align:center;">Edit Access<br />
+                        <input type="checkbox" id="chkEditAccessAll" onclick="CheckAllEditAccess(this)" />
+                    </th>
+                    <th style="text-align:center;">View Access<br />
+                        <input type="checkbox" id="chkViewAccessAll" onclick="CheckAllViewAccess(this)" /></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.InterfaceName
+                        <input type="hidden" id="hdnInterfaceId" value="@item.InterfaceId" />
+                        </td>
+                        <td  style="text-align:center;">
+                            @if (item.AddAccess)
+                            {
+                                <input type="checkbox" class="AddAccess" id="chkAddAccess" checked="checked" />
+                            }
+                            else
+                            {
+                                <input type="checkbox" class="AddAccess" id="chkAddAccess" />
+                            }
+                        </td>
+                        <td style="text-align:center;">
+                            @if (item.EditAccess)
+                            {
+                                <input type="checkbox" class="EditAccess" id="chkEditAccess" checked="checked" />
+                            }
+                            else
+                            {
+                                <input type="checkbox" class="EditAccess" id="chkEditAccess" />
+                            }
+                        </td>
+                        <td style="text-align:center;">
+                            @if (item.ViewAccess)
+                            {
+                                <input type="checkbox" class="ViewAccess" id="chkViewAccess" checked="checked" />
+                            }
+                            else
+                            {
+                                <input type="checkbox" class="ViewAccess" id="chkViewAccess" />
+                            }
+                        </td>
+
+                    </tr>
+                }
+              
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}

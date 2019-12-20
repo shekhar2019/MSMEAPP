@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "SellerFavouriteProduct";
+    Layout = "~/Views/Shared/_BuyerLayout.cshtml";
+}
+
+
+<div class="creative_tabs ">
+    <div class="creative_tabs_container">
+        <h4 class="main_head_cate blue">Buyer Favourite Product</h4>
+        <div class="Your_Profile_div">
+            <div class="portItem">
+                <h3>PVC</h3>
+                <div class="portItemCont" style="display: none;">
+                    <div class="category">
+                        <p><strong>Category : </strong><span>Building Materials</span></p>
+                        <p><strong>Sub-Category : </strong><span>Pipes</span></p>
+                    </div>
+                    <div class="product_detail">
+                        <p><strong>Code : </strong><span>text</span></p>
+                        <p><strong>Sell Price : </strong><span>5rs</span></p>
+                        <p><strong>Purchase Price : </strong><span>4rs</span></p>
+                        <p><strong>HSN Code : </strong><span>text</span></p>
+                        <p><strong>UOM : </strong><span>text</span></p>
+                        <p><strong>Brand/Manufacturer : </strong><span>text</span></p>
+                        <p><strong>Item Code : </strong><span>text</span></p>
+                    </div>
+                    <div class="Product_desc">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s</p>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="../Images/papers.jpg" alt="" class="Product_img">
+                        </figure>
+                    </div>
+                </div><!--portItemCont-->
+            </div><!--portItem-->
+            <div class="portItem">
+                <h3>Pipes</h3>
+                <div class="portItemCont" style="display: none;">
+                    <div class="category">
+                        <p><strong>Category : </strong><span>Building Materials</span></p>
+                        <p><strong>Sub-Category : </strong><span>Pipes</span></p>
+                    </div>
+                    <div class="product_detail">
+                        <p><strong>Code : </strong><span>text</span></p>
+                        <p><strong>Sell Price : </strong><span>5rs</span></p>
+                        <p><strong>Purchase Price : </strong><span>4rs</span></p>
+                        <p><strong>HSN Code : </strong><span>text</span></p>
+                        <p><strong>UOM : </strong><span>text</span></p>
+                        <p><strong>Brand/Manufacturer : </strong><span>text</span></p>
+                        <p><strong>Item Code : </strong><span>text</span></p>
+                    </div>
+                    <div class="Product_desc">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s</p>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="../Images/papers.jpg" alt="" class="Product_img">
+                        </figure>
+                    </div>
+                </div><!--portItemCont-->
+            </div><!--portItem-->
+</div>
+</div>
+    
+</div>
+<script src="../Scripts/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		const portItem = jQuery('.portItem');
+        const portItemCont = jQuery('.portItemCont');
+        portItem.find(portItemCont).slideUp();
+        portItem.first().find(portItemCont).slideDown();
+        portItem.find('h3').on('click', function() {
+	        portItemCont.slideUp();
+	        jQuery(this).next(portItemCont).slideDown();
+        });
+	});
+</script>

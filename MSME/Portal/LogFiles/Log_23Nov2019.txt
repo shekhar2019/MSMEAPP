@@ -1,0 +1,152 @@
+20:04:35 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+--------------------------------------------------------------------------------------------------------------------------------
+
+20:04:35 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:39 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:39 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:43 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:43 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:49 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:49 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:52 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:04:52 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:07:56 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:08:45 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:08:45 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:08:47 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:08:48 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:08:52 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:08:52 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:09:24 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetBuyerProductDetail
+Error Line No : 277
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:09:24 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : GetBuyerProductDetail
+Error Line No : 214
+Exception Type : System.Data.SqlClient.SqlException
+Details: Could not find stored procedure 'proc_GetBuyerProduct'.
+---------------------------------------------------------------------------------------------------------------------------
+

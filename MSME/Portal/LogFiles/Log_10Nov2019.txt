@@ -1,0 +1,710 @@
+01:03:36 AM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+--------------------------------------------------------------------------------------------------------------------------------
+
+01:03:36 AM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:03:45 AM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:06:07 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+---------------------------------------------------------------------------------------------------------------------------
+
+01:06:07 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+---------------------------------------------------------------------------------------------------------------------------
+
+01:06:07 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 333
+Exception Type : System.Data.SqlClient.SqlException
+Details: A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+---------------------------------------------------------------------------------------------------------------------------
+
+01:06:37 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+01:06:37 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+01:06:37 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 349
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+01:13:10 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:13:10 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:13:10 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:27:46 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:27:46 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:27:46 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:27:49 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:27:49 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:27:49 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:28:25 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:28:25 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:28:25 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:29:40 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:29:40 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+01:29:40 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:18:17 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthorizeUser
+Error Line No : 693
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:17 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2037; handshake=14739; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:17 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2037; handshake=14739; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:17 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 333
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2037; handshake=14739; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:17 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2037; handshake=14739; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:17 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2037; handshake=14739; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:17 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 349
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2037; handshake=14739; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:57 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:57 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:32:57 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:33:18 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:33:18 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:33:18 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:37:16 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:37:16 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:37:16 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:38:39 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:38:39 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:38:39 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:39:41 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:39:41 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:39:41 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:01 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:01 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:01 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:24 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2832; handshake=14898; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:24 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2832; handshake=14898; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:24 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 333
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2832; handshake=14898; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:25 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2832; handshake=14898; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:25 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2832; handshake=14898; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:40:25 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 349
+Exception Type : System.Data.SqlClient.SqlException
+Details: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2832; handshake=14898; 
+---------------------------------------------------------------------------------------------------------------------------
+
+02:41:03 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:41:03 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:41:03 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:16 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:16 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:16 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeLetestUpdateList
+Error Line No : 333
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:17 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetHomeUpdateList
+Error Line No : 7531
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:17 AM
+Source : Portal.Core.HomeUpdateBL
+Method Name : GetHomeUpdateList
+Error Line No : 81
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:17 AM
+Source : Portal.Controllers.HomeController
+Method Name : GetHomeNewUpdateList
+Error Line No : 349
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:48 AM
+Source : Portal.DAL.DBInterface
+Method Name : AuthenticateUser
+Error Line No : 122
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:48 AM
+Source : Portal.Core.UserBL
+Method Name : AuthenticateUser
+Error Line No : 57
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:42:48 AM
+Source : Portal.Controllers.HomeController
+Method Name : Login
+Error Line No : 38
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:43:24 AM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+02:43:24 AM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+09:47:25 AM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+09:47:25 AM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:04:28 AM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:04:28 AM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:21:35 AM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+10:22:18 AM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7699
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:04:42 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:22:48 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:24:39 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:26:00 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:27:54 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:31:22 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+13:07:30 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7795
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:07:30 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditUOM_SPC
+Error Line No : 650
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:07:30 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditUOM_SPC
+Error Line No : 590
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:30:18 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7795
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:30:18 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditUOM_SPC
+Error Line No : 650
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:30:18 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditUOM_SPC
+Error Line No : 590
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:14:04 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : AddEditUOM_SPC
+Error Line No : 7795
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_Edit_UOM' expects parameter '@RetId', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+

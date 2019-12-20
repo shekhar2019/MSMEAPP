@@ -1,0 +1,67 @@
+﻿@model List<Portal.Core.ViewModel.SubChildMenuViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblCountryList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Sub Menu Name</th>
+                    <th>Sub Child Menu</th>
+                    <th>Sub Child Menu Link</th>
+                    <th>Sub Child Page Name</th>
+                    <th>Sequence No</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.SubMenuName</td>
+                        <td>
+                            @item.SubChildMenuName
+                            <input type="hidden" id="hdnMenuId" name="hdnMenuId" value="@item.MenuId" />
+                            <input type="hidden" id="hdnSubChildMenuId" name="hdnSubChildMenuId" value="@item.SubChildMenuId" />
+                            <input type="hidden" id="hdnSubChildPageName" name="hdnSubChildPageName" value="@item.SubChildPageName" />
+                            <input type="hidden" id="hdnSubMenuId" name="hdnSubMenuId" value="@item.SubMenuId" />
+                            <input type="hidden" id="hdnSubChildMenuName" name="hdnSubChildMenuName" value="@item.SubChildMenuName" />
+                            <input type="hidden" id="hdnSubChildMenuLink" name="hdnSubChildMenuLinkk" value="@item.SubChildMenuLink" />
+                            <input type="hidden" id="hdnSubChildMenuStatus" name="hdnSubChildMenuStatus" value="@(item.SubChildMenuStatus == true ? "true" : "false")" />
+                            <input type="hidden" id="hdnSequenceNo" name="hdnSequenceNo" value="@item.SequenceNo" />
+                        </td>
+
+                        <td>@item.SubChildMenuLink</td>
+                        <td>@item.SubChildPageName</td>
+                        <td>@item.SequenceNo</td>
+                        <td>@(item.SubChildMenuStatus == true ? "Active" : "Inactive")</td>
+
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" onclick="EditMenuDetail(this)"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true" onclick="RemoveSubChildMenu(@item.SubChildMenuId)"></a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblCountryList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

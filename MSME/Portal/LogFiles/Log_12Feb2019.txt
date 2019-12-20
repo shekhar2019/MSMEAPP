@@ -1,0 +1,48 @@
+20:33:55 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\MSME\GetMSMEList.cshtml(38): error CS1061: 'Portal.Core.ViewModel.MSMEViewModel' does not contain a definition for 'AboutusId' and no extension method 'AboutusId' accepting a first argument of type 'Portal.Core.ViewModel.MSMEViewModel' could be found (are you missing a using directive or an assembly reference?)
+--------------------------------------------------------------------------------------------------------------------------------
+
+20:34:49 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\MSME\GetMSMEList.cshtml(38): error CS1061: 'Portal.Core.ViewModel.MSMEViewModel' does not contain a definition for 'AboutusId' and no extension method 'AboutusId' accepting a first argument of type 'Portal.Core.ViewModel.MSMEViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+20:34:57 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\MSME\GetMSMEList.cshtml(38): error CS1061: 'Portal.Core.ViewModel.MSMEViewModel' does not contain a definition for 'AboutusId' and no extension method 'AboutusId' accepting a first argument of type 'Portal.Core.ViewModel.MSMEViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+20:36:58 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\MSME\GetMSMEList.cshtml(38): error CS1061: 'Portal.Core.ViewModel.MSMEViewModel' does not contain a definition for 'AboutusId' and no extension method 'AboutusId' accepting a first argument of type 'Portal.Core.ViewModel.MSMEViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+20:37:13 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\MSME\GetMSMEList.cshtml(38): error CS1061: 'Portal.Core.ViewModel.MSMEViewModel' does not contain a definition for 'AboutusId' and no extension method 'AboutusId' accepting a first argument of type 'Portal.Core.ViewModel.MSMEViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+20:39:30 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\MSME\GetMSMEList.cshtml(38): error CS1061: 'Portal.Core.ViewModel.MSMEViewModel' does not contain a definition for 'AboutusId' and no extension method 'AboutusId' accepting a first argument of type 'Portal.Core.ViewModel.MSMEViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+

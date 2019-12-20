@@ -1,0 +1,249 @@
+12:03:41 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+12:03:57 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductSubChildGroupList
+Error Line No : 1624
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:03:57 PM
+Source : Portal.Core.ProductSubChildGroupBL
+Method Name : GetProductSubChildGroupList
+Error Line No : 124
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:03:57 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductSubChildGroupList
+Error Line No : 212
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:04:00 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductSubChildGroupList
+Error Line No : 1624
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:04:00 PM
+Source : Portal.Core.ProductSubChildGroupBL
+Method Name : GetProductSubChildGroupList
+Error Line No : 124
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:04:00 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductSubChildGroupList
+Error Line No : 212
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:04:18 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductSubChildGroupList
+Error Line No : 1624
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:04:18 PM
+Source : Portal.Core.ProductSubChildGroupBL
+Method Name : GetProductSubChildGroupList
+Error Line No : 124
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:04:18 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductSubChildGroupList
+Error Line No : 212
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:10:13 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductSubChildGroupList
+Error Line No : 1624
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:10:13 PM
+Source : Portal.Core.ProductSubChildGroupBL
+Method Name : GetProductSubChildGroupList
+Error Line No : 124
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:10:13 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductSubChildGroupList
+Error Line No : 212
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:06:43 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:09:49 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductSubChildGroupList
+Error Line No : 1624
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:09:49 PM
+Source : Portal.Core.ProductSubChildGroupBL
+Method Name : GetProductSubChildGroupList
+Error Line No : 124
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:09:49 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductSubChildGroupList
+Error Line No : 212
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:11:46 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:13:33 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductSubChildGroupList
+Error Line No : 1624
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:13:33 PM
+Source : Portal.Core.ProductSubChildGroupBL
+Method Name : GetProductSubChildGroupList
+Error Line No : 124
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:13:33 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductSubChildGroupList
+Error Line No : 212
+Exception Type : System.NotSupportedException
+Details: The specified type member 'ProductMainGroupName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:14:17 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:23:51 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:37:07 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:45:15 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:13:49 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:14:48 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:19:28 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:45:08 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:45:53 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productSubGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetProductSubChildGroupList(Int32, Int32)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+14:47:42 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,147 @@
+F:\Code\MSME\temp\temp\Portal.Common\bin\Debug\Portal.Common.dll
+F:\Code\MSME\temp\temp\Portal.Common\bin\Debug\Portal.Common.pdb
+F:\Code\MSME\temp\temp\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+F:\Code\MSME\temp\temp\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+F:\Code\MSME\temp\temp\Portal.Common\obj\Debug\MSME.Common.csprojResolveAssemblyReference.cache
+F:\Code\MSME\temp\temp\Portal.Common\obj\Debug\Portal.Common.dll
+F:\Code\MSME\temp\temp\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\Portal.Common.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\System.Web.Http.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\System.Web.Mvc.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\System.Web.Http.xml
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\System.Web.Mvc.xml
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\bin\Debug\System.Net.Http.Formatting.xml
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\obj\Debug\MSME.Common.csprojResolveAssemblyReference.cache
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\obj\Debug\Portal.Common.dll
+D:\AnilWorkArea\MSME\Backup\MSME June 11 2019\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\System.Web.Http.dll
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\System.Web.Mvc.dll
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\AnilWorkArea\MSME\Portal.Common\bin\Debug\System.Web.Mvc.xml
+D:\AnilWorkArea\MSME\Portal.Common\obj\Debug\MSME.Common.csprojResolveAssemblyReference.cache
+D:\AnilWorkArea\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+D:\AnilWorkArea\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\UK\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+D:\UK\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\UK\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.Http.dll
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.Mvc.dll
+D:\UK\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.Razor.dll
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.dll
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.WebPages.dll
+D:\UK\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\UK\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.Http.xml
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.Mvc.xml
+D:\UK\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.xml
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.Razor.xml
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.xml
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.WebPages.xml
+D:\UK\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\UK\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\UK\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CoreCompileInputs.cache
+D:\UK\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
+D:\UK\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+D:\UK\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.Http.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.Mvc.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.Razor.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.WebPages.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.Http.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.Mvc.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.Razor.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.WebPages.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CoreCompileInputs.cache
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\UK\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\MSME.Common.csprojAssemblyReference.cache
+D:\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+D:\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\MSME Oct 16 2019\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CoreCompileInputs.cache
+D:\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
+D:\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+D:\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\MSME Oct 16 2019\MSME\Portal.Common\obj\Debug\MSME.Common.csprojAssemblyReference.cache
+D:\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+D:\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CoreCompileInputs.cache
+D:\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
+D:\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+D:\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.Http.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.Mvc.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.Razor.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.WebPages.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.Http.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.Mvc.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.Razor.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.WebPages.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\UK\MSME\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\UK\MSME\MSME\Portal.Common\obj\Debug\MSME.Common.csprojAssemblyReference.cache
+D:\UK\MSME\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CoreCompileInputs.cache
+D:\UK\MSME\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
+D:\UK\MSME\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+D:\UK\MSME\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.Http.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.Mvc.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.Razor.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.WebPages.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.Http.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.Mvc.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.Razor.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.WebPages.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Application\MVC\MSME\Portal.Common\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Application\MVC\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CoreCompileInputs.cache
+D:\Application\MVC\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
+D:\Application\MVC\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+D:\Application\MVC\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\Application\MVC\MSME\Portal.Common\obj\Debug\MSME.Common.csprojAssemblyReference.cache

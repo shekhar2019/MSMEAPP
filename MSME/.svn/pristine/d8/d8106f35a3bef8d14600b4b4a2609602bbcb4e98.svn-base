@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMSME.cshtml";
+}
+
+<section id="section_home">
+
+    <div class="container">
+        
+           @{
+               foreach (var item in ViewBag.MSMEList)
+               {
+                   if (item.MSMEContentArea == "commodity")
+                   {
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-8">
+                    <div class="fdiv_knowledge_center_head">
+                        <p class="Knowledge_head">@item.MSMETitle</p>
+
+                    </div>
+                    <p style="text-align:justify;"> @Html.Raw(HttpUtility.HtmlDecode(item.MSMEDescription))</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="Knowledge_head">&nbsp;</p>
+                    <div class="display-field" style="margin-top:100px;">
+
+                        @if (@item.MSMEImageUrl != null)
+                        {
+                            <img src="/Images/MSME/@Url.Content(@item.MSMEImageUrl)" title="commodity" alt="commodity" width="300" style="height:300px!important;padding:10px;">
+
+                        }
+                        else
+                        {
+                            <img src="/Images/ImageNotFound.jpg" title="Not Uploaded" alt="Image Not Uploaded" width="350" style="height:350px!important;padding:10px;">
+                        }
+                    </div>
+                </div>
+            </div>
+
+        </div>
+                   }
+               }
+        }
+        
+        
+       
+    </div>
+
+</section>
+

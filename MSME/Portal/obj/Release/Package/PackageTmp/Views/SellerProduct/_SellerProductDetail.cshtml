@@ -1,0 +1,34 @@
+﻿@model  IEnumerable<Portal.Core.ViewModel.SellerProductDashboardViewModel>
+
+@if (Model != null && Model.Count() > 0)
+{
+    foreach (Portal.Core.ViewModel.SellerProductDashboardViewModel item in Model)
+    {
+        <div class="portItem" onclick="showBuyerAsPerProduct(@item.CategoryId, @item.SubCategoryId, @item.ProductId,'@item.ProductName',@item.SellerId);">
+            <h3>@item.ProductName</h3>
+            <div class="portItemCont" style="display: block;">
+                <div class="category">
+                    <p><strong>Category : </strong><span> @item.CategoryName</span></p>
+                    <p><strong>Sub-Category : </strong><span>@item.SubCategoryName</span></p>
+                </div>
+                <div class="product_detail">
+                    <p><strong>Code : </strong><span></span></p>
+                    <p><strong>Sell Price : </strong><span>@item.SalePrice rs</span></p>
+                    <p><strong>Purchase Price : </strong><span>@item.PurchasePrice rs</span></p>
+                    <p><strong>HSN Code : </strong><span>@item.HSN_Code</span></p>
+                    <p><strong>UOM : </strong><span>@item.UOMName </span></p>
+                    <p><strong>Brand/Manufacturer : </strong><span>@item.BrandName</span></p>
+                    <p><strong>Item Code : </strong><span>@item.ProductCode</span></p>
+                </div>
+                <div class="Product_desc">
+                    @item.ProductFullDesc
+                </div>
+                <div style="display:none;">
+                    <figure>
+                        <img src="../Images/papers.jpg" alt="" class="Product_img">
+                    </figure>
+                </div>
+            </div><!--portItemCont-->
+        </div>
+    }
+}

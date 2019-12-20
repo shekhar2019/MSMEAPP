@@ -1,0 +1,67 @@
+﻿@model List<Portal.Core.ContactInfoViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblLogoList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th style="width:15%;">Contact Title</th>
+                    <th style="width:15%;">Phone</th>
+                    <th style="width:15%;">Email</th>
+                    <th style="width:15%;">Website By</th>
+                    <th style="width:15%;">Address</th>
+                    <th style="width:15%;">Status</th>
+                    <th align="center" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td>@item.ContactTitle
+                        <input type="hidden" id="hdnId" value="@item.ContactInfoId" />
+                        <input type="hidden" id="hdnContactTitle" value="@item.ContactTitle" />
+                        <input type="hidden" id="hdnPhone" value="@item.Phone" />
+                        <input type="hidden" id="hdnEmail" value="@item.Email" />
+                        <input type="hidden" id="hdnWebsite" value="@item.Website" />
+                        <input type="hidden" id="hdnAddress" value="@item.Address" />
+                        <input type="hidden" id="hdnContactInfoStatus" value="@(item.ContactInfoStatus == true ? "true" : "false")" />
+                        </td>
+                        
+                        <td>@item.Phone</td>
+                        <td>@item.Email</td>
+                        <td>@item.Website</td>
+                        <td>@item.Address</td>
+                        @*<td>@item.CreatedByUserName</td>*@
+                        <td>@(item.ContactInfoStatus == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="javascript:void(0)" onclick="EditRow(this)"></a> &nbsp;
+                            &nbsp;
+                        </td>
+                        
+                        <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true" href="javascript:void(0)" onclick="RemoveContactInfo(@item.ContactInfoId)" title="Remove Contact US"></a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblLogoList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

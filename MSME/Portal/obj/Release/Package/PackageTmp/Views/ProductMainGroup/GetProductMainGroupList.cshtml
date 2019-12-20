@@ -1,0 +1,54 @@
+﻿@model List<Portal.Core.ViewModel.ProductMainGroupViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblProductMainGroupList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th style="width:20%;">Parent Class Name</th>
+                    <th style="width:10%;">Code</th>
+                    <th style="width:40%;">Description</th>
+                    <th style="width:10%;">Image</th>
+                    <th style="width:10%;">Status</th>
+                    <th colspan="2" align="center" style="width:10%;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.ProductMainGroupName</td>
+                        <td>@item.ProductMainGroupCode</td>
+                        <td>@item.ProductMainGroupDesc</td>
+                        <td><img src="../Images/ProductMainGroupImages/@item.ProductMainGroupImageUrl" title="@item.ProductMainGroupName" alt="@item.ProductMainGroupName" width="50" height="50" /> </td>
+                        <td>@(item.ProductMainGroup_Status == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white" class="fa fa-eye" aria-hidden="true" href="~/ProductMainGroup/AddEditProductMainGroup?ProductMainGroupId=@item.ProductMainGroupId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/ProductMainGroup/AddEditProductMainGroup?ProductMainGroupId=@item.ProductMainGroupId&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblProductMainGroupList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

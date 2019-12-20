@@ -1,0 +1,46 @@
+﻿@model List<Portal.Core.HomeUpdateViewModel>
+
+<h3 class="title-default-left">Whats new...</h3>
+<div id="marquee2" class="container-marquee" onmouseover="zxcMarquee2.scroll2('marquee2',0);" scrollamount="4" onmouseout="zxcMarquee2.scroll2('marquee2',-1);" direction="up">
+    <div style="width: 100%; height:525px;  z-index:0;">
+        <ul class="event-wrapper">
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    if (item.UpdateStatus == true)
+                    {
+                    <li>
+                        <div class="event-calender-wrapper">
+                            <div class="event-calender-holder">
+                                <a href="single-upcoming_eventsd708.html"><img src="../Images/HomeUpdate/@item.ImageUrl" alt="@item.ImageAlt" class="img-responsive" alt="news" width="150"></a>
+                            </div>
+                        </div>
+                        <div class="event-content-holder">
+                            <h3><a href="@item.UpdateUrl">@item.UpdateTitle</a></h3>
+                            <p>
+                               @Html.Raw(item.UpdateDec)
+                            </p>
+                        </div>
+                    </li>
+                    }
+                }
+
+            }
+
+            @*<li>
+                <div class="event-calender-wrapper">
+                    <div class="event-calender-holder">
+                        <a href="single-upcoming_events681a.html"><img src="~/Media/images/upcoming/Congrats%20Grundfos.jpg" class="img-responsive" alt="news" width="150"></a>
+                    </div>
+                </div>
+                <div class="event-content-holder">
+                    <h3><a href="single-upcoming_events681a.html">Grundfos 20 Years Celebration!!</a></h3>
+                    <p>Grundfos is celebrating 20 glorious years in India at Chennai!....</p>
+
+                </div>
+            </li>*@
+
+        </ul>
+    </div>
+</div>

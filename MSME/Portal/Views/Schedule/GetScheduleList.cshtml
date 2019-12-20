@@ -1,0 +1,55 @@
+﻿@model List<Portal.Core.ViewModel.ScheduleViewModel>
+
+
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblGLMainGroupList">
+            <thead>
+                <tr>
+                    <th>Schedule Name</th>                   
+                    <th>Created By User</th>
+                    <th>Created Date</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.ScheduleName</td>                       
+                        <td>@item.CreatedName</td>
+                        <td>@item.CreatedDate</td>
+                        <td>@(item.Schedule_Status == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white" class="fa fa-eye" aria-hidden="true" href="~/Schedule/AddEditSchedule?ScheduleId=@item.ScheduleId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/Schedule/AddEditSchedule?ScheduleId=@item.ScheduleId&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblssGLMainGroupList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

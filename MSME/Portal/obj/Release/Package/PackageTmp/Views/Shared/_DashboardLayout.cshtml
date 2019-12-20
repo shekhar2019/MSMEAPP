@@ -1,0 +1,960 @@
+﻿
+@model  IEnumerable<Portal.Core.ViewModel.SellerProductPriceDashboardViewModel>
+@using Newtonsoft.Json
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSME BAZAR</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/dashboard-style.css" rel="stylesheet" />
+    <link href="~/Content/main-style.css" rel="stylesheet" />
+    <link href="~/Content/custom-0.4.3.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Bitter" rel="stylesheet" type="text/css">
+    <style>
+        .modal-small {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!--  wrapper -->
+    <div id="wrapper">
+        <!-- navbar top -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+            <!-- navbar-header -->
+            <div class="row">
+                <!-- Page Header -->
+                <!--slider-->
+
+                <div class="col-lg-2"><a href="../Dashboard/BuyerDashboard" style="border-bottom:none! important;" class="waves-effect"><img src="../Images/Vector.png" class="img-responsive" style="width:70%; margin:18px auto;"></a></div>
+                <div class="col-lg-10">
+                    <!--end slider-->
+                    <div class="col-lg-5">
+                        <h1 class="page-header">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control search-input" placeholder="Search by Keyword" value="@ViewBag.category">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button" id="btnFilterCategory" onclick="Filter();">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </h1>
+                    </div>
+                    <div class="col-lg-4">
+                        <h1 class="page-header">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control search-input" placeholder="Search by city" value="@ViewBag.city">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button" id="btnFilterCity" onclick="Filter();">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </h1>
+                    </div>
+                    <div class="col-lg-3">
+                        <h1 class="page-header">
+                            <div class="input-group custom-search-form" style="width:100%;">
+                                <select id="ddlSortBy" onchange="Filter()" class="form-control" style="width:79%;">
+                                    
+                                    @if ((Session["KYCCode"] != null ? Session["KYCCode"].ToString() : "") == "B")
+                                    {
+                                        <option value="@Portal.Common.SortDashboardBy.LowestPrice">Lowest first</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@Portal.Common.SortDashboardBy.LargestPrice">Largest first</option>
+                                    }
+                                    @if (ViewBag.sortBy == Portal.Common.SortDashboardBy.LatestDate)
+                                    {
+                                        <option value="@Portal.Common.SortDashboardBy.LatestDate" selected="selected">Latest first</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@Portal.Common.SortDashboardBy.LatestDate" selected="selected">Latest first</option>
+                                    }
+                                </select>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+
+                <!--End Page Header -->
+            </div>
+
+        </nav>
+        <!-- end navbar top -->
+        <!-- navbar side -->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <!-- sidebar-collapse -->
+            <div class="sidebar-collapse">
+                <!-- side-menu -->
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <!-- user image section-->
+                        <div class="user-section">
+                            <div class="user-section-inner">
+                                <img src="../Images/dash-user.jpg" alt="">
+                            </div>
+                            <div class="user-info">
+                                <div>
+                                    Welcome<br /> <strong> @Session["UserFullName"] </strong>
+                                  
+                                    @{ string cls = Session["KYCCode"] != null ? Session["KYCCode"].ToString() : "";
+                                    }
+                                    @if (cls == "B")
+                                    {
+
+                                        <span style="font-size: 17px;font-family:it">Buyer</span>
+                                    }
+                                    else if (cls == "S")
+                                    {
+                                    <span style="font-size: 17px;">Seller</span>
+                                    }
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!--end user image section-->
+                    </li>
+                    <li style="background:white; border:none; height:111px; display:none;">
+                        <a href="dashboard.html" style="border-bottom:none! important;" class="waves-effect"><img src="../Images/logo.jpg" class="img-responsive" style="width:60%;"></a>
+                    </li>
+
+                    @RenderSection("UserMenu", required: true)
+                    <li style="border:none; border-bottom:none! important; top:-10px;height:111px;">
+                        <a href="../Dashboard/BuyerDashboard" style="border-bottom:none! important; " class="waves-effect">
+                            @*<img src="~/Images/advertisement.gif" class="img-responsive" style="width:80%;">
+                                <img src="~/Images/audi.jpg" class="img-responsive" style="width:80%;" />*@
+                            <img src="../Images/at.png" class="img-responsive" style="width:80%;margin-top:30px;" />
+                        </a>
+
+                    </li>
+
+
+                </ul>
+                <!-- end side-menu -->
+            </div>
+            <!-- end sidebar-collapse -->
+        </nav>
+        <!-- end navbar side -->
+        <!--  page-wrapper -->
+        <div id="page-wrapper">
+            @RenderSection("DashboardContent", required: true)
+        </div>
+
+        <div class="modal fade" id="ProductSpecModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Product Specifications</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td style="width:50%;">Product Name</td>
+                                    <td class="product-name"></td>
+
+                                </tr>
+                                @*<tr class="success">
+                                        <td>Product Code</td>
+                                        <td class="product-code"></td>
+                                    </tr>*@
+                                <tr class="danger">
+                                    <td>Parent Class</td>
+                                    <td class="product-c1"></td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>Category </td>
+                                    <td class="product-c2"></td>
+
+                                </tr>
+                                <tr class="warning">
+                                    <td>Sub Category</td>
+                                    <td class="product-c3"></td>
+
+                                </tr>
+                                <tr style="text-align:center;">
+                                    <td colspan="2" style="text-align:center!important;">
+                                        <table width="100%" style="text-align:center!important;" cellpadding="10" class="spec-table">
+                                            <tr>
+                                                <th style="text-align:center!important;color:#fff;width:50%;height:27px!important">Specification Name</th>
+                                                <th style="text-align:center!important;color:#fff;width:25%">Value</th>
+                                                <th style="text-align:center!important;color:#fff;width:25%">UOM</th>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr class="info">
+                                    <td>Brand</td>
+                                    <td class="product-brand"></td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>Commercial(Grade/CODE)</td>
+                                    <td class="product-code"></td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="PersonModal" role="dialog">
+            <div class="modal-dialog modal-small">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modaltitle">Microdot Tech Aspire Solution</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+
+                            <tbody>
+                                <tr class="danger">
+                                    <td colspan="2">Company</td>
+                                    <td class="username">Microdot Tech Aspire Solution</td>
+                                    <td>Rate</td>
+                                    <td class="rate">11100.56</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td colspan="2">Contact</td>
+                                    <td class="contact">Anil Kumar 7827574047</td>
+                                    <td>Unit</td>
+                                    <td class="unit">kg/mtr</td>
+                                </tr>
+                                <tr class="info">
+                                    <td colspan="2">Email</td>
+                                    <td class="useremail">anilsoni15@gmail.com</td>
+                                    <td>MOQ</td>
+                                    <td class="moq">100</td>
+                                </tr>
+
+                                <tr class="success">
+                                    <td colspan="2">Address</td>
+                                    <td class="address">A-22 Sector -63 Noida</td>
+                                    <td>GST Status</td>
+                                    <td class="gst">Inclusive</td>
+                                </tr>
+
+                                <tr class="success">
+                                    <td colspan="2">Delivery Status</td>
+                                    <td class="deliveryStatus" colspan="3">We can deliver in NCR</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal3" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Seller Details</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+
+                            <tbody>
+                                <tr>
+                                    <td>First Name</td>
+                                    <td>Varun Mittal</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>Last Name</td>
+                                    <td>Varun Mittal</td>
+
+                                </tr>
+                                <tr class="success">
+                                    <td>Email</td>
+                                    <td>D00003040@gmail.com</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>Enter Primary contact</td>
+                                    <td>3333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>Alternative Number</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="warning">
+                                    <td>WhatsApp Number</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>FAX No</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="warning">
+                                    <td>State</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>City</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                </tr>
+                                <tr class="info">
+                                    <td>SubCity</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                </tr>
+                                <tr class="danger">
+                                    <td>LandMark</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>Building Number</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>Pin Code</td>
+                                    <td>Varun</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>Pan nO</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>AAdhar Number</td>
+                                    <td>Varun</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal fade" id="myModal4" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Seller Details</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+
+                            <tbody>
+                                <tr>
+                                    <td>First Name</td>
+                                    <td>Varun Mittal</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>Last Name</td>
+                                    <td>Varun Mittal</td>
+
+                                </tr>
+                                <tr class="success">
+                                    <td>Email</td>
+                                    <td>D00003040@gmail.com</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>Enter Primary contact</td>
+                                    <td>3333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>Alternative Number</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="warning">
+                                    <td>WhatsApp Number</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>FAX No</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="warning">
+                                    <td>State</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>City</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                </tr>
+                                <tr class="info">
+                                    <td>SubCity</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                </tr>
+                                <tr class="danger">
+                                    <td>LandMark</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>Building Number</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>Pin Code</td>
+                                    <td>Varun</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>Pan nO</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>AAdhar Number</td>
+                                    <td>Varun</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal fade" id="myModal5" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Seller Details</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+
+                            <tbody>
+                                <tr>
+                                    <td>First Name</td>
+                                    <td>Varun Mittal</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>Last Name</td>
+                                    <td>Varun Mittal</td>
+
+                                </tr>
+                                <tr class="success">
+                                    <td>Email</td>
+                                    <td>D00003040@gmail.com</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>Enter Primary contact</td>
+                                    <td>3333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>Alternative Number</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="warning">
+                                    <td>WhatsApp Number</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>FAX No</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="warning">
+                                    <td>State</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="danger">
+                                    <td>City</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                </tr>
+                                <tr class="info">
+                                    <td>SubCity</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                </tr>
+                                <tr class="danger">
+                                    <td>LandMark</td>
+                                    <td>4444444</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>Building Number</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>Pin Code</td>
+                                    <td>Varun</td>
+
+                                </tr>
+                                <tr class="active">
+                                    <td>Pan nO</td>
+                                    <td>3333333333</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td>AAdhar Number</td>
+                                    <td>Varun</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="ProductquatationModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content" style="width: 850px;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <b>   My Quote for  </b>  <label id="lblpriceProductName"></label>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-lg-12 buyer-list">
+
+                            <div class="carousel carousel-showmanymoveone slide" id="crouselIdprice">
+                                <div class="carousel-inner">
+                                    <div id="divproductpricemainview"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td style="width:50%;">Price</td>
+                                    <td>
+
+                                        <input id="txtsellerOrderprice" type="text" required name="txtsellerOrderprice" value="" />
+                                    </td>
+
+                                    <td style="width:50%;">Minimum Order Quantity</td>
+                                    <td>
+                                        <input id="txtMinimumOrderQuantity" type="text" required name="txtMinimumOrderQuantity" value="1" />
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td colspan="4" style=" text-align: right;">
+                                        <input id="hdnsellerproductdetailsID" type="hidden" name="hdnsellerproductdetailsID" value="" />
+                                        <button class="btn btn-default" onclick="savesellerproductprice();">Save</button>
+                                        <label id="lblpriceupdatesucessmessage" style="font-size:15px;font-weight:bold;color:green;"></label>
+
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="modal fade" id="BuyerProductquatationModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content" style="width:860px;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                       <b>   My Demand for  </b>  <label id="lbldemandProductName"></label>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-lg-12 buyer-list">
+
+                            <div class="carousel carousel-showmanymoveone slide" id="crouselIdqtye">
+                                <div class="carousel-inner">
+                                    <div id="divproductqtymainview"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td style="width:50%;">Demand Quantity</td>
+                                    <td>
+
+                                        <input id="txtbuyerOrderqty" type="text" required name="txtbuyerOrderqty" value="1" />
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+
+                                    <td colspan="2" style=" text-align: right;">
+                                        <input id="hdnbuyerproductdetailsID" type="hidden" name="hdnbuyerproductdetailsID" value="" />
+                                        <button class="btn btn-default" onclick="savebuyerproductqty();">Save</button>
+                                        <button style="text-align:right;" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <label id="lblqtyupdatesucessmessage" style="font-size:15px;font-weight:bold;color:green;"></label>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    @*<div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>*@
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="~/Scripts/jquery-2.2.4.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            SetCrousel();
+            $(".search-input").keypress(function (event) {
+                var keycode = (event.keyCode ? event.keyCode : event.which);
+                if (keycode == '13') {
+                    Filter();
+                }
+            })
+
+            $(".search-input").keyup(function (event) {
+                var value = $(this).val();
+                if (value == '') {
+                    Filter();
+                }
+            })
+        })
+
+        function SetCrousel() {
+            $('.carousel-showmanymoveone').carousel({ interval: 900000 });
+            $('#carouselABC').carousel({ interval: 500000 });
+
+            $('.carousel-showmanymoveone .item').each(function () {
+                var itemToClone = $(this);
+                for (var i = 1; i < 4; i++) {
+                    itemToClone = itemToClone.next();
+
+                    // wrap around if at end of item collection
+                    if (!itemToClone.length) {
+                        itemToClone = $(this).siblings(':first');
+                    }
+
+                    // grab item, clone, add marker class, add to collection
+                    itemToClone.children(':first-child').clone()
+                        .addClass("cloneditem-" + (i))
+                        .appendTo($(this));
+                }
+            });
+        }
+
+        function ShowPersonModal(sellerId, user) {
+            $.ajax({
+                url: "../User/GetUserDetail",
+                data: { userId: sellerId },
+                contentType: "json",
+                success: function (data) {
+                    $("#PersonModal .user-name").text(data.FullName);
+                    $("#PersonModal .user-email").text(data.Email);
+                    $("#PersonModal .user-pcontact").text(data.MobileNo);
+                    $("#PersonModal .user-scontact").text(data.ProductSubChildGroupName);
+                    $("#PersonModal .user-whatsapp").text(data.SpecificationName);
+                    $("#PersonModal .user-fax").text(data.SpecificationValue);
+                    $("#PersonModal .user-state").text(data.UOMName);
+                    $("#PersonModal .user-city").text(data.UOMName);
+                    $("#PersonModal .user-subcity").text(data.UOMName);
+                    $("#PersonModal .user-landmark").text(data.Landmark);
+                    $("#PersonModal .user-building").text(data.Building);
+                    $("#PersonModal .user-pincode").text(data.PinCode);
+                    $("#PersonModal .modal-title").text(user + " Details");
+                    $("#PersonModal").modal();
+                },
+                error: function () {
+                    ShowErrorModal("Product Specifications", "Error fetching details")
+                }
+            });
+        }
+
+        function ShowProductModal(ProductName, ProductCode, ParentClassName, CategoryName, SubCategoryName, BrandName, specifications) {
+            $("#ProductSpecModal .product-name").text(ProductName);
+            $("#ProductSpecModal .product-code").text(ProductCode);
+            $("#ProductSpecModal .product-c1").text(ParentClassName);
+            $("#ProductSpecModal .product-c2").text(CategoryName);
+            $("#ProductSpecModal .product-c3").text(SubCategoryName);
+            $("#ProductSpecModal .product-brand").text(BrandName);
+            $(".spec-table tr").not(":first").html("");
+
+            $(JSON.parse(specifications)).each(function () {
+                var row = "<tr><td>" + this.SpecName + "</td><td>" + this.SpecValue + "</td><td>" + this.UomName + "</td><tr/>";
+                $(".spec-table").append(row);
+            });
+            $("#ProductSpecModal").modal();
+        }
+
+        function ShowSellerPriceProductModal(sellerproductdetailsID, ProductName) {
+
+            $("#hdnsellerproductdetailsID").val(sellerproductdetailsID);
+            $("#lblpriceProductName").text(ProductName);
+            getselllerproductpricedetails(sellerproductdetailsID);
+
+            $("#ProductquatationModal").modal();
+        }
+
+        function ShowBuyerOrderProductModal(buyerproductdetailsID, ProductName) {
+           
+            $("#hdnbuyerproductdetailsID").val(buyerproductdetailsID);
+            $("#lbldemandProductName").text(ProductName);
+            getbuyerproductqtydetails(buyerproductdetailsID);
+
+            $("#BuyerProductquatationModal").modal();
+        }
+
+        function getselllerproductpricedetails(sellerproductdetailsID) {
+
+            var requestData = {
+
+                salerProductDetailId: sellerproductdetailsID,
+
+            };
+
+            $.ajax({
+                url: "../SellerProduct/GetDashboardSellerProductsPricedetails",
+                cache: false,
+                type: "POST",
+                dataType: "html",
+                data: JSON.stringify(requestData),
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                    $("#divproductpricemainview").html("");
+                    $("#divproductpricemainview").html(data);
+
+                },
+                error: function (err) {
+
+                }
+            });
+        }
+
+        function getbuyerproductqtydetails(buyerproductdetailsID) {
+            debugger;
+            var requestData = {
+
+                buyerproductdetailsID: buyerproductdetailsID,
+
+            };
+
+            $.ajax({
+                url: "../BuyerProduct/GetDashboardBuyerProductsQuantitydetails",
+                cache: false,
+                type: "POST",
+                dataType: "html",
+                data: JSON.stringify(requestData),
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                    $("#divproductqtymainview").html("");
+                    $("#divproductqtymainview").html(data);
+                   // $("#divproductqtymainview").html(data[0])
+
+                },
+                error: function (err) {
+
+                }
+            });
+        }
+        function ShowErrorModal(title, body) {
+            $("#ErrorModal .modal-title").text(title);
+            $("#ErrorModal .modal-body").text(body);
+            $("#ErrorModal").modal();
+        }
+
+        function Filter() {
+            var category1 = $("#btnFilterCategory").closest("div").find("input").val();
+            var category2 = $("#btnFilterCategory").closest("div").find("input").val();
+            var category3 = $("#btnFilterCategory").closest("div").find("input").val();
+            var city = $("#btnFilterCity").closest("div").find("input").val();
+            var sortBy = $("#ddlSortBy").val();
+            var url = $("#UpdatedDataUrl").val();
+
+            $.ajax(
+                {
+                    url: url + "?category=" + category1 + "&city=" + city + "&sortBy=" + sortBy,
+                    contentType: "json",
+                    success: function (html) {
+                        $(".right-pane").html(html);
+                        SetCrousel();
+                    },
+                    error: function () {
+                        ShowErrorModal("Error", "Couldn't load the dashboard");
+                    }
+                }
+            );
+        }
+
+
+        function savesellerproductprice() {
+
+            var sellerproductdetailsID = $("#hdnsellerproductdetailsID").val();
+            var sellerOrderprice = $("#txtsellerOrderprice").val();
+            var MinimumOrderQuantity = $("#txtMinimumOrderQuantity").val();
+
+            if (sellerOrderprice == "" || sellerOrderprice == "0") {
+                alert("Please Enter Price");
+
+                return false;
+            }
+            if (MinimumOrderQuantity == "" || MinimumOrderQuantity == "0") {
+                alert("Please Enter Minimum Order Quantity");
+
+                return false;
+            }
+
+            var requestData = {
+
+                sellerproductdetailsID: sellerproductdetailsID,
+                price: sellerOrderprice,
+                MinimumOrderQuantity: MinimumOrderQuantity
+            };
+
+            $.ajax({
+                url: "../SellerProduct/UpdateSellerProductPrice",
+                cache: false,
+                type: "POST",
+                dataType: "json",
+                data: JSON.stringify(requestData),
+                contentType: 'application/json',
+                success: function (data) {
+
+                    alert("Price Sucessfully updated");
+                    $("#txtsellerOrderprice").val("");
+                    $("#txtMinimumOrderQuantity").val("");
+                    getselllerproductpricedetails(sellerproductdetailsID);
+                },
+                error: function (err) {
+
+                }
+            });
+        }
+
+        function savebuyerproductqty() {
+            debugger;
+            var buyerproductdetailsID = $("#hdnbuyerproductdetailsID").val();
+            var DemandOrderQTY = $("#txtbuyerOrderqty").val();
+
+
+            if (DemandOrderQTY == "" || DemandOrderQTY == "0") {
+                alert("Please Enter  Order Quantity");
+
+                return false;
+            }
+
+            var requestData = {
+
+                buyerproductdetailsID: buyerproductdetailsID,
+                DemandOrderQTY: DemandOrderQTY
+            };
+
+            $.ajax({
+                url: "../BuyerProduct/UpdateBuyerProductQTY",
+                cache: false,
+                type: "POST",
+                dataType: "json",
+                data: JSON.stringify(requestData),
+                contentType: 'application/json',
+                success: function (data) {
+                    alert("Quantity Sucessfully updated");
+                    $("#txtbuyerOrderqty").val("");
+                    getbuyerproductqtydetails(buyerproductdetailsID);
+                },
+                error: function (err) {
+
+                }
+            });
+        }
+
+
+    </script>
+    @RenderBody()
+</body>
+
+</html>
+
+@RenderSection("DashboardScripts", required: false)

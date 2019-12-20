@@ -1,0 +1,27 @@
+16:22:17 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentOutOfRangeException
+Details: Index and length must refer to a location within the string.
+Parameter name: length
+--------------------------------------------------------------------------------------------------------------------------------
+
+17:46:25 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentOutOfRangeException
+Details: Index and length must refer to a location within the string.
+Parameter name: length
+---------------------------------------------------------------------------------------------------------------------------
+
+18:36:56 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+

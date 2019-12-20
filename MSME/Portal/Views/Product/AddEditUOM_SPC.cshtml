@@ -1,0 +1,122 @@
+﻿@{
+    ViewBag.Title = "Edit UOM SPC";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .Mandatory {
+        color: red;
+        font-weight: bold;
+    }
+    /*** custom checkboxes ***/
+
+    input[type=checkbox] {
+        display: none;
+    }
+        /* to hide the checkbox itself */
+        input[type=checkbox] + label:before {
+            font-family: FontAwesome;
+            display: inline-block;
+        }
+
+        input[type=checkbox] + label:before {
+            content: "\f096";
+        }
+        /* unchecked icon */
+        input[type=checkbox] + label:before {
+            letter-spacing: 10px;
+        }
+        /* space between checkbox and label */
+
+        input[type=checkbox]:checked + label:before {
+            content: "\f046";
+        }
+        /* checked icon */
+        input[type=checkbox]:checked + label:before {
+            letter-spacing: 5px;
+        }
+    /* allow space for check mark */
+</style>
+<h4 class="main_head_cate blue">Edit UOM and Sepcification</h4>
+<div class="creative_tabs inner" style="padding:2px;">
+    <div class="creative_tabs_container">
+        <div class="Your_Profile_div">
+            <form>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label>Parent Class(C1)&nbsp;<span class="Mandatory">(*)</span></label>
+                        <select id="ddlProductMainGroup" name="ddlProductMainGroup" onchange="BindProductSubGroupList(this)" tabindex="1" class="form-control category-1"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 form-group">
+                        <label>Category(C2)&nbsp;<span class="Mandatory">(*)</span></label>
+                        <select id="ddlProductSubGroup" name="ddlProductSubGroup" onchange="BindProductSubChildGroupList(this)" tabindex="2" class="form-control category-2"></select>
+                        <input type="hidden" id="hdnUserId" name="hdnUserId" value="@ViewData[" userid"]" />
+                    </div>
+                    <div class="col-md-4 form-group">
+                        <label>Category(C3)&nbsp;<span class="Mandatory">(*)</span></label>
+                        <select id="ddlProductSubChildGroup" name="ddlProductSubChildGroup" tabindex="3" class="form-control  category-3" onchange="BindSpecificationNamesForUOM_EDIT()"></select>
+                    </div>
+                    <div class="col-md-4 form-group">
+                        <label>Traded Unit (TUM) : &nbsp;<span class="Mandatory">(*)</span></label>
+                        <select id="ddlProductUOM" name="ddlProductUOM" tabindex="4" class="form-control uom-list ddl-product-uom"></select>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="spec-row">
+                        <div class="col-md-4 form-group">
+                            <label>Name of Specification </label>
+                            <select id="ddlSpecification" name="ddlSpecification" tabindex="4" class="form-control ddl-spec-name" onchange="SetUOM_SUM_SPC(this)"></select>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label>Specification Unit (SUM)  </label>
+                            <select id="ddlUOM_SPC" name="ddlUOM_SPC" class="form-control uom-list ddl-spec-uom"></select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row col-sm-6 col-lg-12 col-md-12 ftop">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <center>
+                            <a onclick="UpdateUOM_SPC()" class="btn btn-default">Update</a>
+                        </center>
+                    </div>
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="alertModel" role="dialog">
+                    <div class="modal-dialog  modal-sm">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" id="modelHeader"></h4>
+                            </div>
+                            <div class="modal-body">
+                                <p id="modelText"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary  btn-block" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div><!--creative_tabs_container-->
+</div>
+
+<script src="~/Scripts/Product/EditUOM_SPC.js"></script>
+

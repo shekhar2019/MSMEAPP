@@ -1,0 +1,875 @@
+00:10:02 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+00:12:10 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:12:24 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:12:38 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentOutOfRangeException
+Details: Index and length must refer to a location within the string.
+Parameter name: length
+---------------------------------------------------------------------------------------------------------------------------
+
+00:12:40 AM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:12:53 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:13:32 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:13:50 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:13:59 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:19:00 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:20:02 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:22:06 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:23:41 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:23:48 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentOutOfRangeException
+Details: Index and length must refer to a location within the string.
+Parameter name: length
+---------------------------------------------------------------------------------------------------------------------------
+
+00:23:49 AM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:24:48 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:25:19 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:25:47 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:26:27 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:26:48 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:27:20 AM
+Source : Portal.Controllers.UserLoginController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:31:39 AM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:37:59 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:42:24 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:19:09 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:20:02 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:20:31 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:20:49 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:21:20 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:23:49 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:33:49 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Encountered end tag "a" with no matching start tag.  Are your start/end tags properly balanced?
+
+---------------------------------------------------------------------------------------------------------------------------
+
+16:34:07 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Encountered end tag "a" with no matching start tag.  Are your start/end tags properly balanced?
+
+---------------------------------------------------------------------------------------------------------------------------
+
+16:37:33 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:37:54 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:57:16 PM
+Source : Portal.Controllers.UserLoginController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:57:31 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:58:55 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductMainGroupList
+Error Line No : 1093
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:58:55 PM
+Source : Portal.Core.ProductMainGroupBL
+Method Name : GetProductMainGroupList
+Error Line No : 56
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:58:55 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : Index
+Error Line No : 24
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:59:04 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+17:00:29 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:10 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductMainGroupList
+Error Line No : 1093
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:10 PM
+Source : Portal.Core.ProductMainGroupBL
+Method Name : GetProductMainGroupList
+Error Line No : 56
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:10 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : Index
+Error Line No : 24
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:20 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:31 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductMainGroupList
+Error Line No : 1093
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:31 PM
+Source : Portal.Core.ProductMainGroupBL
+Method Name : GetProductMainGroupList
+Error Line No : 56
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:09 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : Index
+Error Line No : 0
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:09 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:16 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductMainGroupList
+Error Line No : 1093
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:16 PM
+Source : Portal.Core.ProductMainGroupBL
+Method Name : GetProductMainGroupList
+Error Line No : 56
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:16 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : Index
+Error Line No : 0
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:18 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:58 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductMainGroupList
+Error Line No : 1093
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:58 PM
+Source : Portal.Core.ProductMainGroupBL
+Method Name : GetProductMainGroupList
+Error Line No : 56
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:58 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : Index
+Error Line No : 0
+Exception Type : System.Data.SqlClient.SqlException
+Details: Procedure or function 'proc_GetProductMainGroupDetails' expects parameter '@ProductMainGroupName', which was not supplied.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:59 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+17:11:34 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:13:23 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:15:26 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:22:38 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:23:46 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:29:03 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:29:15 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:51:23 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:17:09 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:18:32 PM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:18:50 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:37:03 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:40:03 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The partial view 'PraentClass' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/KnowledgeCenter/PraentClass.aspx
+~/Views/KnowledgeCenter/PraentClass.ascx
+~/Views/Shared/PraentClass.aspx
+~/Views/Shared/PraentClass.ascx
+~/Views/KnowledgeCenter/PraentClass.cshtml
+~/Views/KnowledgeCenter/PraentClass.vbhtml
+~/Views/Shared/PraentClass.cshtml
+~/Views/Shared/PraentClass.vbhtml
+---------------------------------------------------------------------------------------------------------------------------
+
+18:40:12 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The partial view 'PraentClass' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/KnowledgeCenter/PraentClass.aspx
+~/Views/KnowledgeCenter/PraentClass.ascx
+~/Views/Shared/PraentClass.aspx
+~/Views/Shared/PraentClass.ascx
+~/Views/KnowledgeCenter/PraentClass.cshtml
+~/Views/KnowledgeCenter/PraentClass.vbhtml
+~/Views/Shared/PraentClass.cshtml
+~/Views/Shared/PraentClass.vbhtml
+---------------------------------------------------------------------------------------------------------------------------
+
+19:06:29 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:12:45 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:13:13 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:19:37 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:20:54 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Category(Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:21:44 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:23:27 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:24:09 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:32:34 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+19:33:13 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Cannot perform runtime binding on a null reference
+---------------------------------------------------------------------------------------------------------------------------
+
+19:42:54 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productMainGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Category(Int32)' in 'Portal.Controllers.KnowledgeCenterController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:43:30 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:57 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult GetProductTechSpecificationList(System.Collections.Generic.List`1[Portal.Core.ViewModel.ProductTechSpecificationViewModel], Int32)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:46:57 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult GetProductImageDetailList(System.Collections.Generic.List`1[Portal.Core.ViewModel.ProductImageDetailViewModel], Int32)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:00 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productid' of non-nullable type 'System.Int64' for method 'System.Web.Mvc.JsonResult GetProductDetail(Int64)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:34 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult GetProductTechSpecificationList(System.Collections.Generic.List`1[Portal.Core.ViewModel.ProductTechSpecificationViewModel], Int32)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+19:47:35 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult GetProductImageDetailList(System.Collections.Generic.List`1[Portal.Core.ViewModel.ProductImageDetailViewModel], Int32)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+20:15:15 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:16:54 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:22:03 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:27:37 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:27:53 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:30:39 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:44:22 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:01:46 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:01:57 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:11:00 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:12:44 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:13:03 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:37 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:57 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:32:20 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:32:43 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:39:07 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:39:33 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

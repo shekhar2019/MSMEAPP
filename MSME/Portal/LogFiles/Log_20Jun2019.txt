@@ -1,0 +1,72 @@
+21:16:23 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+21:35:08 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddUpdateBuyerProduct
+Error Line No : 0
+Exception Type : System.Reflection.TargetException
+Details: Non-static field requires a target.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:44:04 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:45:46 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddUpdateBuyerProduct
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:45:46 PM
+Source : Portal.Core.BuyerProductBL
+Method Name : AddUpdateBuyerProduct
+Error Line No : 57
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:45:46 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : AddEditBuyerProduct
+Error Line No : 44
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:53:40 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Reflection.TargetException
+Details: Non-static field requires a target.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:22:27 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:23:59 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

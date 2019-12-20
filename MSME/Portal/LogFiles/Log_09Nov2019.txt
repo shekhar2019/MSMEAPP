@@ -1,0 +1,224 @@
+00:04:31 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+--------------------------------------------------------------------------------------------------------------------------------
+
+00:04:31 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:32 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:32 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:38 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:38 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:39 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:39 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:40 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:40 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:40 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:40 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:44 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:45 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:45 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:45 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:46 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:46 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:46 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductsRateGroupbyKnowledgeCenter
+Error Line No : 585
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:47 AM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : GetGraphData
+Error Line No : 149
+Exception Type : System.ArgumentException
+Details: Column 'Text' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+00:19:52 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:19:58 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:20:04 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:20:16 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:08:25 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:27:56 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:36:57 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:37:46 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

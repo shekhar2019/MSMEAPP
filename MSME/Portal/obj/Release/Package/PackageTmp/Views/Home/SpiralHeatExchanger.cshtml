@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "SpiralHeatExchanger";
+    Layout = "~/Views/Shared/_LayoutWebSite.cshtml";
+}
+
+<!-- Inner Page Banner Area Start Here -->
+<div class="inner-page-banner-area" style="background-image: url('../Images/banner/5.html');">
+    <div class="container">
+        <div class="pagination-area">
+            <center><h2>Spiral Heat Exchanger</h2></center>
+            <ul>
+                <li><a href="index.html">Home</a> -</li>
+                <li>Spiral Heat Exchanger</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Inner Page Banner Area End Here -->
+<!-- Courses Page 3 Area Start Here -->
+<div class="courses-page-area3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-8 col-xs-12">
+                <div class="row">
+                    <div class=" product-list clearfix">
+                        <div class="product clearfix" id="product8">
+                            <div class="col-md-12 col-xs-12">
+                                <h4 class="h4-heading">Spiral Heat Exchanger</h4>
+                            </div>
+                            <div class="col-md-3 col-xs-12">
+                                <figure class="figure-class">
+                                    @foreach (var productImages in ViewBag.productImagesList)
+                                    {
+                                        <a href="#"><img alt="Plate Heat Exchanger" src="~/Images/ProductImage/@productImages.ImageUrl"></a>
+
+                                        <div class="overlay">
+                                            <a class="zoom" href="~/Images/ProductImage/@productImages.ImageUrl"></a>
+                                            <a class="link" href="#"></a>
+                                        </div>
+
+                                    }
+                                </figure>
+                                <a id="popup" onclick="yes_show('Please send me the latest price and details of Spiral Heat Exchanger.',13);"><input type="submit" value="Enquiry" class="btn btn-danger sub-cat-btn" style="margin-top:2px;"></a><a href="#lightbox" data-toggle="modal"><input type="submit" value="Applications" class="btn btn-danger sub-cat-btn" style="margin-top: 5px; margin-left:2px;"></a>
+                                <a href="~/Media/Images/products/fileUpload/_eIAbU.html" target="_blank"><img src="~/Images/pdf/pdf.jpg" width="50"></a>
+                            </div>
+                            <div class="detail col-md-9">
+                                @foreach (var productImages in ViewBag.productImage)
+                                {
+                                    <p>
+                                        @Html.Raw(productImages.ProductFullDesc)
+                                    </p>
+                                }
+                                @*<p><p>
+                                    <span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 14px;"><strong>SPIRAL Plate heat exchanger</strong></span></span>
+                                </p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                                <p>
+                                    A problem solver heat exchanger for a wide range of heating and cooling applications of slurries and fluids with suspend particles. Offers excellent performance as vapor condensers for bulk drug and other chemical industries, capable of working in very high vacuum conditions with very low pressure drops.
+                                </p>
+                                <p>
+                                    Max flow: No real limitation*
+                                </p>
+                                <p>
+                                    Max work. pressure: 36 bar
+                                </p>
+                                <p>
+                                    Temp. range: -195&deg;C &ndash; +350&deg;C standard execution
+                                </p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                                </p>*@
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="container">
+                            <div class="modal fade and carousel slide" id="lightbox">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src="~/Media/images/products/Product%204.jpg" alt="First slide">
+                                                    <div class="carousel-caption"><p>Spiral Heat Exchanger</p></div>
+                                                </div>
+
+                                            </div><!-- /.carousel-inner -->
+                                            <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                            </a>
+                                        </div><!-- /.modal-body -->
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
+                        </div><!-- /.container -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div style="display: none;" id="pqr">
+    <div id="popupContact">
+        <form class="popupform" method="post" id="form">
+            <img src="~/Media/images/3.png" id="close" onclick="yes_hide()" />
+
+            <input type="hidden" id="id1" value="" name="id">
+            <span id="askpp">Send Enquiry</span>
+            <input name="name" required="required" id="nm" placeholder="Name" type="text" />
+            <textarea name="description" required="required" id="txtdetail1"></textarea>
+            <input name="email" required="required" id="em" placeholder="Enter your Email" type="email" />
+            <input name="phone" required="required" id="ph" placeholder="Enter your Contact Number" type="text" />
+
+            <textarea name="address" required="required" placeholder="Enter your address.." rows="2" cols="41"></textarea>
+            <input class="btnsub" type="submit" name="submit" id="submit" value="submit" />
+        </form>
+    </div>
+</div>
+
+<!-- Courses Page 3 Area End Here -->
+

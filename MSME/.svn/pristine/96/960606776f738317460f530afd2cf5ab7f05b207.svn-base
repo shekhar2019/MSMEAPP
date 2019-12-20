@@ -1,0 +1,62 @@
+﻿@model List<Portal.Core.ViewModel.CompanyBranchViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblCompanyList">
+            <thead>
+                <tr>
+                    <th>Company Branch Name</th>                  
+                    <th>Contact Person</th>
+                    <th>Mobile No.</th>
+                    <th>Contact No.</th>
+                    <th>Email</th>                   
+                    <th>City</th>
+                    <th>PAN No.</th>
+                    <th>TIN No.</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.BranchName</td>                                          
+                        <td>@item.ContactPersonName</td>
+                        <td>@item.MobileNo</td>
+                        <td>@item.ContactNo</td>
+                        <td>@item.Email</td>                       
+                        <td>@item.City</td>
+                        <td>@item.PANNo</td>
+                        <td>@item.TINNo</td>
+                        <td>@(item.CompanyBranch_Status == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white"  class="fa fa-eye" aria-hidden="true" href="~/CompanyBranch/AddEditCompanyBranch?CompanyBranchId=@item.CompanyBranchId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/CompanyBranch/AddEditCompanyBranch?CompanyBranchId=@item.CompanyBranchId&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+              
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblCompanyList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

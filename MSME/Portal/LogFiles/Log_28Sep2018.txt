@@ -1,0 +1,152 @@
+16:54:20 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+17:01:02 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditProduct
+Error Line No : 1446
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:05 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditProduct
+Error Line No : 69
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:08 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditProduct
+Error Line No : 60
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:00 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditProduct
+Error Line No : 1446
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:03 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditProduct
+Error Line No : 69
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:02:05 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditProduct
+Error Line No : 60
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:12:37 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditProduct
+Error Line No : 1446
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:12:41 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditProduct
+Error Line No : 69
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:12:43 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditProduct
+Error Line No : 60
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:24:51 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditProduct
+Error Line No : 1446
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:25:57 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditProduct
+Error Line No : 69
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:26:01 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditProduct
+Error Line No : 60
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:26:34 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditProduct
+Error Line No : 1446
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:26:37 PM
+Source : Portal.Core.ProductBL
+Method Name : AddEditProduct
+Error Line No : 69
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:26:39 PM
+Source : Portal.Controllers.ProductController
+Method Name : AddEditProduct
+Error Line No : 60
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:38:08 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: The view 'BrazedPlateHeatExchangers' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/BrazedPlateHeatExchangers.aspx
+~/Views/Home/BrazedPlateHeatExchangers.ascx
+~/Views/Shared/BrazedPlateHeatExchangers.aspx
+~/Views/Shared/BrazedPlateHeatExchangers.ascx
+~/Views/Home/BrazedPlateHeatExchangers.cshtml
+~/Views/Home/BrazedPlateHeatExchangers.vbhtml
+~/Views/Shared/BrazedPlateHeatExchangers.cshtml
+~/Views/Shared/BrazedPlateHeatExchangers.vbhtml
+---------------------------------------------------------------------------------------------------------------------------
+
+17:43:57 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

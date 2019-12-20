@@ -1,0 +1,444 @@
+﻿
+/*====================================
+ Free To Use For Personal And Commercial Usage
+Author: http://binarytheme.com
+ Share Us if You Like our work 
+ Enjoy Our Codes For Free always.
+======================================*/
+
+/* user image section */
+.user-section {
+    margin-top:30px;
+    font-size:17px;
+    background-color:#9B0214;
+	
+}
+.user-section-inner {
+ height: 70px;
+width: 65px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+overflow: hidden;
+display: inline-block;
+margin-right: 15px;
+}
+    .user-section-inner img {
+        margin-left:10px;
+        width:55px;
+        height:60px;
+        
+    }
+.user-info {
+    display: block;
+    color:#fff!important;
+display: inline-block;
+position:absolute;
+margin-bottom: 0px;
+padding-top: 0px;
+}
+.user-text-online {
+    font-size:18px;
+    color:#fff
+}
+.user-circle-online {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+/* side-menu section */
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color:rgba(74, 72, 126, 0);
+}
+.navbar-top-links  .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #75C5B8;
+}
+.navbar-top-links > li > a {
+color: #FFFFFF;
+}
+.nav > li > a {
+padding: 8px 15px;
+}
+#side-menu {
+    background-color:#9B0214;
+	position:fixed;
+	z-index:99999;
+    width:16%;
+    top:109px;
+}
+
+ #side-menu a {
+            color:#fff;
+           border-bottom: 1px solid #84B899 !important;
+           height: 35px;
+        }
+        .selected {
+            background-color:rgb(83, 163, 163);
+        }
+/* back colors */
+        .blue {
+            background-color:rgb(113, 159, 241);
+        }
+         .green {
+            background-color:rgb(144, 236, 192);
+        }
+          .red {
+            background-color:rgb(255, 102, 133);
+        }
+        .yellow {
+            background-color:rgb(237, 253, 46);
+        }
+
+  /* No border */
+.no-boder {
+    border:0px solid #5bc0de !important;
+}
+/* tap nvbar Section */
+
+#navbar {
+    background-color:#9B0214;
+}
+
+.navbar-brand {
+    padding-left:20px;
+}
+.navbar-brand img {
+    height:57px;
+}
+.top-label {
+    position: absolute;
+top: 50%;
+right: 50%;
+margin-top: -24px;
+margin-right: -24px;
+}
+
+/*large font*/
+.large-font {
+    font-size:18px;
+}
+
+.body-Login-back {
+    background-color:#84B899;
+}
+
+.margin-tips {
+    margin:5px;
+}
+.navbar-default {
+border-color: #9B0214;
+}
+/*media queries*/
+
+@media(min-width:768px) 
+{
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        min-height: 700px;
+       
+       
+    }
+
+}
+@media(max-width:768px) 
+{
+#side-menu {
+ 
+    width:100%;
+}
+}
+@media(max-width:768px) {
+#wrapper {
+    margin-top:140px!important;
+    
+}
+}
+
+.navbar {
+    
+    height: 55px;
+
+}
+
+/*slide*/
+.carousel-showmanymoveone
+{
+  .carousel-control
+  { 
+    width: 4%;
+    background-image:none;
+
+    &.left 
+    {
+      margin-left:15px;
+    }
+
+    &.right 
+    {
+      margin-right:15px;
+    }
+  }
+
+  .cloneditem-1, 
+  .cloneditem-2, 
+  .cloneditem-3
+  {
+    display: none;
+  }
+
+  .carousel-inner
+  {
+    @media all and (min-width: 768px)
+    {
+      @media (transform-3d), (-webkit-transform-3d)
+      {
+        > .item.active.right,
+        > .item.next
+        { 
+          transform: translate3d(50%, 0, 0);  
+          left: 0;
+        }
+
+        > .item.active.left,
+        > .item.prev
+        { 
+          transform: translate3d(-50%, 0, 0);
+          left: 0;
+        }
+
+        > .item.left,
+        > .item.prev.right,
+        > .item.active
+        {
+          transform: translate3d(0, 0, 0);
+          left: 0;
+        }    
+      } 
+
+      > .active.left,
+      > .prev
+      {
+        left: -50%;
+      }
+
+      > .active.right,
+      > .next
+      {
+        left:  50%;
+      }
+
+      > .left,
+      > .prev.right,
+      > .active
+      {
+        left: 0;
+      }
+
+      .cloneditem-1 
+      {
+        display: block;
+      }
+    }
+
+    @media all and (min-width: 992px)
+    {    
+      @media (transform-3d), (-webkit-transform-3d)
+      {
+        > .item.active.right,
+        > .item.next
+        { 
+          transform: translate3d(25%, 0, 0);  
+          left: 0;
+        }    
+
+        > .item.active.left,
+        > .item.prev
+        { 
+          transform: translate3d(-25%, 0, 0);
+          left: 0;
+        }
+
+        > .item.left,
+        > .item.prev.right,
+        > .item.active
+        {
+          transform: translate3d(0, 0, 0);
+          left: 0;
+        }
+      }
+
+      > .active.left,
+      > .prev
+      {
+        left: -25%;
+      }
+
+      > .active.right,
+      > .next
+      {
+        left:  25%;
+      }
+
+      > .left,
+      > .prev.right,
+      > .active
+      {
+        left: 0;
+      }
+
+      .cloneditem-2, 
+      .cloneditem-3
+      {
+        display: block;
+      }
+    }    
+  }
+}
+
+
+// demo setup only, not needed for carousel
+.container
+{
+  margin-bottom: 50px;
+}
+body
+{
+  font-family: 'Bitter', sans-serif;
+  color: #000;
+  background-image: url('//static.rtpdesign.co.uk/blog/img/background.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 20%;
+}
+p
+{
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  margin-bottom: 2em;
+}
+h2
+{
+  margin: 2em 0 1em;
+}
+
+.logo
+{
+  margin: 20px auto;
+  height: 100px;  
+  
+  @media only screen and (min-width : 768px) {  
+    margin: 28px;
+    float: left;
+  }
+}
+
+.title
+{
+  padding: 28px;
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+}
+.carousel-control.left{background-image:none! important;}
+.carousel-control.right{background-image:none! important;}
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+        width: 30px;
+        height: 30px;
+        margin-top: -35px;
+        margin-left: -64px !important;
+        font-size: 16px !important;
+        color: #9B0214 !important;
+    }
+
+    .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+        right: 0%;
+    }
+
+    .page-header {
+        padding-bottom: 9px;
+        margin: 10px 21px 33px;
+        border-bottom: none;
+    }
+
+    @media (min-width: 768px) {
+        .modal-dialog {
+            width: 773px;
+            margin: 30px auto;
+        }
+
+        .modal-footer {
+            padding: 3px 20px 5px;
+        }
+
+        .modal-body {
+            padding: 2px;
+        }
+
+        
+        .alert-warning, .alert {
+            text-align: left;
+            padding: 0px;
+            height: 130px;
+        }
+
+    }
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 43%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+}
+.right-pane{padding-top:15px;}
+table{border:1px solid #9B0214;}
+table th{background-color:#9B0214; border:1px solid #9B0214;}
+table tr{border:1px solid #9B0214;}
+table td{border:1px solid #9B0214;}
+
+.modal-header {
+        padding: 5px;
+    border-bottom: none;
+    background: #9B0214;
+    color: #fff;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #9B0214;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #9B0214;
+    border-color: #ccc;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #9B0214;
+    border-color: #adadad;
+}
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 0.9;
+}
+        
+    

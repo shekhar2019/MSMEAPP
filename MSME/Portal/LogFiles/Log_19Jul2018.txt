@@ -1,0 +1,392 @@
+18:35:24 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+--------------------------------------------------------------------------------------------------------------------------------
+
+18:35:24 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:35:24 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:35:44 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:35:44 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:37:58 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:37:58 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:37:58 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:40:54 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:40:54 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:41:11 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:41:11 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:41:11 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:40 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:40 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:40 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:44 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:44 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:44 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:56 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:56 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:48:43 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:48:43 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:48:43 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:52:14 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:52:14 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:54:30 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:54:30 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:54:30 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 56
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:59:35 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:59:35 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:59:35 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 57
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:00:40 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:00:40 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:00:40 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 57
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:00:57 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:00:57 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:00:57 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 57
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:01:03 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:01:03 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:02:58 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 57
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:03:23 PM
+Source : Portal.DAL.DBInterface
+Method Name : AddEditLogo
+Error Line No : 5624
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:03:23 PM
+Source : Portal.Core.LogoBL
+Method Name : AddEditLogo
+Error Line No : 28
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:03:24 PM
+Source : Portal.Controllers.LogoController
+Method Name : AddEditLogo
+Error Line No : 57
+Exception Type : System.Data.Entity.Validation.DbEntityValidationException
+Details: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:04:26 PM
+Source : Portal.Controllers.LogoController
+Method Name : UpdateLogo
+Error Line No : 108
+Exception Type : System.IO.DirectoryNotFoundException
+Details: Could not find a part of the path 'D:\AnilWorkArea\CMS\Portal\Images\ProductImages\3_zoho-crm-integration.png'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:05:40 PM
+Source : Portal.Controllers.LogoController
+Method Name : UpdateLogo
+Error Line No : 108
+Exception Type : System.IO.DirectoryNotFoundException
+Details: Could not find a part of the path 'D:\AnilWorkArea\CMS\Portal\Images\ProductImages\4_zoho-crm-integration.png'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:07:55 PM
+Source : Portal.Controllers.LogoController
+Method Name : UpdateLogo
+Error Line No : 108
+Exception Type : System.IO.DirectoryNotFoundException
+Details: Could not find a part of the path 'D:\AnilWorkArea\CMS\Portal\Images\ProductImages\5_zoho-crm-integration.png'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:14:50 PM
+Source : Portal.Controllers.LogoController
+Method Name : UpdateLogo
+Error Line No : 108
+Exception Type : System.IO.DirectoryNotFoundException
+Details: Could not find a part of the path 'D:\AnilWorkArea\CMS\Portal\Images\ProductImages\6_emp1.jpg'.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:15:12 PM
+Source : Portal.Controllers.LogoController
+Method Name : UpdateLogo
+Error Line No : 108
+Exception Type : System.IO.DirectoryNotFoundException
+Details: Could not find a part of the path 'D:\AnilWorkArea\CMS\Portal\Images\ProductImages\7_emp1.jpg'.
+---------------------------------------------------------------------------------------------------------------------------
+

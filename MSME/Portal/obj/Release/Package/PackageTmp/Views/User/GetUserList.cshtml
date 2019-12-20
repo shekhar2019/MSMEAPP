@@ -1,0 +1,62 @@
+﻿@model List<Portal.Core.ViewModel.UserViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblUserList">
+            <thead>
+                <tr>
+                    <th>Login ID</th>
+                    <th>Full Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Created By</th>
+                    <th>Created Date</th>
+                    <th>Expiry Date</th>
+                    <th>User Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.UserName</td>
+                        <td>@item.FullName</td>
+                        <td>@item.MobileNo</td>
+                        <td>@item.Email</td>
+                        <td>@item.RoleName</td>
+                        <td>@item.CreatedByName</td>
+                        <td>@item.CreatedDate</td>
+                        <td>@item.ExpiryDate</td>
+                        <td>@(item.UserStatus==true?"Active":"Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white"  class="fa fa-eye" aria-hidden="true" href="~/User/AddEditUser?UserId=@item.UserId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/User/AddEditUser?UserId=@item.UserId&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+              
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblUserList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

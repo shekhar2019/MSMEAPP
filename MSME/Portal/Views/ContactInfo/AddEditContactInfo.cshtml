@@ -1,0 +1,153 @@
+﻿@{
+    ViewBag.Title = "AddEditLogo";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+<link href="~/Content/editor.css" rel="stylesheet" />
+<style>
+    .Mandatory {
+        color: red;
+        font-weight: bold;
+    }
+
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow: 0px 0px 0px 0px #000;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+
+    legend {
+        display: block;
+        width: 37%;
+        padding: 0;
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: inherit;
+        color: #333;
+        border: 0;
+        border-bottom: 0px solid #e5e5e5;
+    }
+    .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999999;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    margin-top: 122px;
+}
+</style>
+
+<div class="row top-head">
+    <div class="col-md-12"><p><b><a style="color:#fff;" href="~/Dashboard/AccountDashboard">Admin</a> >> About Us </b></p></div>
+</div>
+<section>
+    <form action="#" id="frmAddEditLogo" class="form-horizontal as" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+        <div class="row inner">
+            <div class="message">
+                <div class="col-md-12 ftop">
+                    <div class="form-group col-md-6">
+                        <label for="txtContactTitle" class="col-sm-4 control-label">Contact Title&nbsp;<span class="Mandatory">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="txtContactTitle" name="txtContactTitle" tabindex="2" placeholder="Enter Contact Title" type="text" maxlength="100" />
+                            <input id="hdnId" type="hidden" value="@ViewData["Id"]" />
+                            <input id="hdnAccessMode" type="hidden" value="@ViewData["accessMode"]" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="txtPhone" class="col-sm-4 control-label" style="margin-top:10px">Phone&nbsp;<span class="Mandatory">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="txtPhone" name="txtPhone" tabindex="2" placeholder="Enter Phone" type="text" maxlength="100" />
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-md-12">
+                    <div class="form-group col-md-6">
+                        <label for="txtEmail" class="col-sm-4 control-label" style="margin-top:10px">Email&nbsp;<span class="Mandatory">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="txtEmail" name="txtEmail" tabindex="2" placeholder="Enter Email" type="text" maxlength="200" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="txtWebsite" class="col-sm-4 control-label" style="margin-top:10px">Website&nbsp;<span class="Mandatory">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="txtWebsite" name="txtWebsite" tabindex="2" placeholder="Enter Website" type="text" maxlength="100" />
+                        </div>
+                    </div>
+                </div>
+             
+
+                <div class="col-md-12">
+                    <div class="form-group col-md-6">
+                        <label for="txtAddress" class="col-sm-4 control-label" style="margin-top:10px">Address&nbsp;<span class="Mandatory">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input class="form-control" id="txtAddress" name="txtAddress" tabindex="2" placeholder="Enter Address" type="text" maxlength="225" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="chkStatus" class="col-sm-4 control-label">Active Status</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" name="chkStatus" id="chkStatus" checked="checked" tabindex="19" class="" />
+                            <label style="font-size: 24px; " for="chkStatus"></label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row col-sm-6 col-lg-12 col-md-12">
+                <div class="col-md-5"></div>
+                <div class="col-md-3">
+                  
+                        <input class="btn btn-success" value="Save" alt="Save" id="btnSave" tabindex="20" onclick="SaveData(1)" type="button" border="0">&nbsp;&nbsp;
+                        <input class="btn btn-success" value="Update" style="display:none;" tabindex="20" alt="Update" id="btnUpdate" onclick="SaveData(2)" type="button" border="0">&nbsp;&nbsp;
+                        <input class="btn btn-success" type="button" id="btnReset" tabindex="21" onclick="ClearFields()" value="Reset" /> &nbsp;&nbsp;
+                        <input class="btn btn-success" type="button" id="btnList" tabindex="22" value="Search List" onclick="GetContactInfoList()" />
+                   
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <div class="col-sm-12 col-lg-12 col-md-12">
+                <div id="divContactInfoList">
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="alertModel" role="dialog">
+            <div class="modal-dialog  modal-sm">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" id="modelHeader"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p id="modelText"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary  btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</section>
+<script src="~/Scripts/jquery-ui.js"></script>
+<script src="~/Scripts/editor.js"></script>
+
+<script src="~/Scripts/paging.js"></script>
+<script src="~/Scripts/ContactInfo/AddContactInfo.js"></script>
+

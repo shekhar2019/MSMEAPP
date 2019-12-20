@@ -1,0 +1,48 @@
+00:03:01 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+--------------------------------------------------------------------------------------------------------------------------------
+
+00:03:01 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+00:03:01 AM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+00:09:24 AM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetProductList
+Error Line No : 766
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+00:09:24 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 162
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+
+00:09:24 AM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.Data.SqlClient.SqlException
+Details: Must declare the scalar variable "@CompanyId".
+---------------------------------------------------------------------------------------------------------------------------
+

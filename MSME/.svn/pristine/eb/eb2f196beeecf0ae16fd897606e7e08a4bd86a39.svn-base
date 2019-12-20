@@ -1,0 +1,393 @@
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media(max-width:640px){
+	
+	.nivoSlider {
+ 
+  margin-top: 54px;
+ 
+}
+}
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+.mt-0 {
+  margin-top: 0;
+}
+.bg-theme-colored {
+  background-color: #46A6AF;
+}
+.text-white {
+  color: #fff;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.p-30 {
+  padding: 30px;
+}
+.lead {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.lead {
+  font-size: 18px;
+}
+.btn-theme-colored {
+  background-color: #1f386b;
+  border-color: #1f386b;
+  color: #fff;
+}
+.btn-sm {
+  font-size: 12px;
+  padding: 5px 17px;
+}
+.letter-space-1 {
+  letter-spacing: 1px;
+}
+.img-fullwidth {
+  width: 100%;
+}
+.text-theme-color-2, .work-gallery .gallery-bottom-part .title {
+  color: #e41937;
+}
+.btn-theme-colored:hover {
+  background-color: #142343;
+  border-color: #111f3c;
+  color: #fff;
+}
+.btn.focus, .btn:focus, .btn:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+#about{padding-top:50px; padding-left:40px; padding-right:40px;}
+
+.layer-overlay.overlay-dark-8::before {
+  background-color: rgba(17, 17, 17, 0.8);
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+.divider .container {
+  padding-bottom: 0px;
+  padding-top: 12px;
+}
+.boxed-layout .container {
+  max-width: 1170px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+*::-moz-selection {
+  background: #333333 none repeat scroll 0 0;
+  color: #fff;
+  text-shadow: none;
+}
+.pricing.table-horizontal, .pricing {
+  background: #e41937 none repeat scroll 0 0;
+}
+.pricing {
+  background-color: #3fb179;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.tab-slider .nav.nav-pills a:hover, .tab-slider .nav.nav-pills a.active, .custom-nav-tabs > li > a:hover, .widget .tags a:hover, .progress-item .progress-bar, .small-title .title::after, .testimonial .item::after, .drop-caps.colored-square p:first-child::first-letter, .drop-caps.colored-rounded p:first-child::first-letter, .list-icon.theme-colored.square li i, .list-icon.theme-colored.rounded li i, .working-process.theme-colored a, .blog-posts .post .entry-content .post-date.right, .horizontal-tab-centered .nav-pills > li > a:hover, .horizontal-tab-centered .nav-pills > li.active > a, .horizontal-tab-centered .nav-pills > li.active > a:hover, .horizontal-tab-centered .nav-pills > li.active > a:focus, .owl-theme.dot-theme-colored .owl-controls .owl-dot span, .pagination.theme-colored li.active a, .section-title .both-side-line::after, .section-title .both-side-line::before, .section-title .top-side-line::after, .section-title .left-side-line::before, .section-title .right-side-line::before, .product .tag-sale, .owl-theme .owl-dots .owl-dot.active span, .line-bottom::after, .line-bottom-center::after, .progress-item .progress-bar .percent, .progress-item .progress-bar, .pricing.table-horizontal:hover, .pricing:hover, .portfolio-filter a.active, .portfolio-filter a:hover, .project .hover-link i {
+  background: #1f386b none repeat scroll 0 0;
+}

@@ -1,0 +1,116 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMSME.cshtml";
+
+}
+<style>
+    .table {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 18px !important;
+        margin-left: 10px !important;
+        margin-right: 5px !important;
+    }
+
+    .product_image_div {
+        width: 240px;
+        padding: 20px;
+    }
+
+    .fdiv_knowledge_center {
+        display: flex !important;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .detail_product p {
+        color: #fff;
+        margin-top: -104px !important;
+        width: 200px;
+        position: absolute;
+        top: -44px;
+        left: -23px;
+    }
+</style>
+<section id="section_home">
+
+    <div class="container">
+        <div class="fdiv_knowledge_center_head" style="margin: 1% 0% !important;">
+            <p class="Knowledge_head">Knowledge Center</p>
+
+        </div>
+
+        <div class="col-lg-5" style="margin: 1% 0% !important;">
+            <h4> <b>Major raw material/commodity onboard</b></h4>
+            <div class="input-group custom-search-form">
+                <input type="text" class="form-control search-input" placeholder="Search by Parent Class">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" id="btnFilterCategory" onclick="Filter();">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+          
+        </div>
+
+        <div id="divcategory" class="fdiv_knowledge_center">
+
+          
+
+        </div>
+
+
+    </div>
+
+    <script>
+
+        $(document).ready(function () {
+            $.ajax(
+                {
+                    url: "../KnowledgeCenter/PraentClass?category=" + "",
+                    cache: false,
+                    type: "POST",
+                    dataType: "html",
+                    data: "{}",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+
+                        $("#divcategory").html("");
+                        $("#divcategory").html(data);
+
+                    },
+                    error: function (err) {
+
+                    }
+                }
+            );
+        })
+
+        function Filter() {
+            var category1 = $("#btnFilterCategory").closest("div").find("input").val();
+            debugger;
+          
+            $.ajax(
+                {
+                    url: "../KnowledgeCenter/PraentClass?category=" + category1,
+                    cache: false,
+                    type: "POST",
+                    dataType: "html",
+                    data: "{}",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+
+                        $("#divcategory").html("");
+                        $("#divcategory").html(data);
+
+                    },
+                    error: function (err) {
+
+                    }
+                }
+            );
+        }
+
+    </script>
+</section>

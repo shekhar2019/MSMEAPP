@@ -1,0 +1,76 @@
+﻿@model List<Portal.Core.ViewModel.UserRegistrationViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblUserRegistrationList">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <th>User Name</th>
+                    <th>KYCCode</th>
+                    <th>Email</th>
+                    <th>ContactNo</th>
+                    <th>AlternateContactno</th>
+                    <th>Whatsapp No</th>
+                    <th>Fax</th>
+                    <th>BuildingNo/th>
+                    <th>Landmark</th>
+                    <th>City</th>
+                    <th>SubCity</th>
+                    <th>State</th>
+                    <th>PINCode</th>
+                    <th>GSTNo</th>
+
+                    @*<th colspan="2" align="center">Action</th>*@
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr class="success">
+                    <td>@item.FullName</td>
+                    <td>@item.KYCCode</td>
+                    <td>@item.UserName</td>
+                    <td>@item.Email</td>
+                    <td>@item.ContactNo</td>
+                    <td>@item.AlternateContactno</td>
+                    <td>@item.WhatsaapPhone</td>
+                    <td>@item.Fax</td>
+                    <td>@item.BuildingNo</td>
+                    <td>@item.Landmark</td>
+                    <td>@item.City</td>
+                    <td>@item.SubCity</td>
+                    <td>@item.StateName</td>
+                    <td>@item.PINCode</td>
+                    <td>@item.GSTNo</td>
+                    @*<td>@(item.Customer_Status)</td>*@
+                    @*<td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+            <a style="color:white" class="fa fa-eye" aria-hidden="true" href="~/Customer/AddEditCustomer?CustomerId=@item.CustomerId&AccessMode=3"></a>
+        </td>
+        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+            <a style="color:white" class="fa fa-pencil-square-o" href="~/Customer/AddEditCustomer?CustomerId=@item.CustomerId&AccessMode=2"></a>
+        </td>*@
+
+                </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblCountryList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

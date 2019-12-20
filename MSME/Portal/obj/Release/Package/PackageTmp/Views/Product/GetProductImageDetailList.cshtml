@@ -1,0 +1,74 @@
+﻿@model List<Portal.Core.ViewModel.ProductImageDetailViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblLogoList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Image</th>
+                    <th>Image Title</th>
+                    <th>Alternative Text</th>
+                    <th>Navigate Url</th>
+                    <th>Sequence</th>
+                    <th align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td><img src="~/Images/ProductImage/@item.ImageUrl" title="@item.ImageTitle" alt="@item.ImageAlt" width="50" height="50" /> </td>
+
+                        <td>
+                            @item.ImageTitle
+                            <input type="hidden" id="hdnProductImageDetailId" value="@item.ProductImageDetailId" />
+                            <input type="hidden" id="hdnImageTitle" value="@item.ImageTitle" />
+                            <input type="hidden" id="hdnImageAlt" value="@item.ImageAlt" />
+                            <input type="hidden" id="hdnImageNavigateUrl" value="@item.ImageNavigateUrl" />
+                            <input type="hidden" id="hdnImageSequence" value="@item.ImageSequence" />
+                            <input type="hidden" id="hdnImageUrl" value="@item.ImageUrl" />
+                            
+                        </td>
+                       
+                        <td>@item.ImageAlt</td>
+                        <td>@item.ImageNavigateUrl</td>
+                        <td>@item.ImageSequence</td>
+                       <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true" href="javascript:void(0)" onclick="RemoveProductImageRow(this)" title="Remove Slider Image"></a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <table class="table" id="tblLogoList">
+        <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+            <tr>
+                <th>Image</th>
+                <th>Image Title</th>
+                <th>Alternative Text</th>
+                <th>Navigate Url</th>
+                <th>Sequence</th>
+                <th align="center" colspan="2">Action</th>
+            </tr>
+        </thead>
+        </table>
+        }
+        <script>
+            $(document).ready(function () {
+                $('#tblLogoList').paging({
+                    limit: 10,
+                    rowDisplayStyle: 'block',
+                    activePage: 0,
+                    rows: []
+                });
+
+            });
+        </script>

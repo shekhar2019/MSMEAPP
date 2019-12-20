@@ -1,0 +1,211 @@
+﻿@{
+    ViewBag.Title = "PlateHeatExchanger";
+    Layout = "~/Views/Shared/_LayoutWebSite.cshtml";
+}
+
+<!-- Inner Page Banner Area Start Here -->
+<div class="inner-page-banner-area" style="background-image: url('img/banner/5.html');">
+    <div class="container">
+        <div class="pagination-area">
+            <center><h2>Plate Heat Exchanger</h2></center>
+            <ul>
+                <li><a href="index.html">Home</a> -</li>
+                <li>Plate Heat Exchanger</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Inner Page Banner Area End Here -->
+<!-- Courses Page 5 Area Start Here -->
+<div class="courses-page-area5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="course-details-inner">
+                    <h2 class="title-default-left title-bar-high"></h2>
+                    @foreach (var productImages in ViewBag.productImagesList)
+                    {
+                        <a href="#"><img src="~/Images/ProductImage/@productImages.ImageUrl" title="@productImages.ImageTitle" alt="@productImages.ImageAlt"></a>
+
+                        <div class="overlay">
+                            <a class="zoom" href="~/Images/ProductImage/@productImages.ImageUrl" title="@productImages.ImageTitle"></a>
+                            <a class="link" href="@productImages.ImageNavigateUrl"></a>
+                        </div>
+
+                    }
+                    @*<img src="~/Media/images/catogery/Banner2.png" />*@
+                    <div class="course-details-tab-area">
+                        <div class="row">
+                            @foreach (var productImages in ViewBag.productImages)
+                            {
+                                <p>
+                                    @Html.Raw(productImages.ProductFullDesc)
+                                </p>
+                            }
+                            @*<p><p>
+                                ARH Technologies is authorized channel partner of Tranter India in for Delhi NCR, West UP and Uttrakhand. Tranter India Pvt. Ltd. Is a 100% subsidiary of Tranter Inc. of USA. Tranter Inc. of USA, headquartered in Plano, Dallas in Texas has manufacturing centers across the globe with plate pressing facilities in USA, Sweden, Brazil &amp; India. Tranter Inc. of USA Also has a host of assembly shops worldwide. TRANTER India Pvt. Ltd., started operations in India in 1994 under name of IndSwep PHE Energy Systems Pvt. Ltd. Since 1994, we have been serving the Indian industry with great dedication and enthusiasm having thousands of Heat Exchanger installations to our credit for various applications.
+                            </p>
+                            <p>
+                                Our manufacturing center at Dingrajwadi (Pune, India), is approved by following Approving/certifying bodies:
+                            </p>
+                            <ul>
+                                <li>
+                                    ASME &ldquo;U&rdquo; Stamp
+                                </li>
+                                <li>
+                                    PED (Pressure Equipment Directive, Europe)
+                                </li>
+                                <li>
+                                    SQL , China
+                                </li>
+                                <li>
+                                    ISO-9001
+                                </li>
+                            </ul>
+                            <p>
+                                The heart of the heat exchanger, the heat transfer plate is manufactured on a fully automated high power hydraulic press. The plates are manufactured from a direct coil feed ensuring &ldquo;zero&rdquo; manual intervention. The pressed plates undergo a series of tests like dye penetrant test, Ultra violet crack detection tests, press depth measurements amongst others.
+                            </p>
+                            <p>
+                                Tranter India is equipped with a state of the art Research and Development (R &amp; D) Division. The R &amp; D division houses all modern instruments to qualify a new product and to conduct performance tests. We also conduct pressure drop related experiments on plates by simulating different flow conditions across various channel patterns.
+                            </p>
+                            <p>
+                                Tranter offers a wide variety of Welded PHEs for applications which limit the use of gasketted PHEs due to gasket incompatibility or due to high pressure and temperature operating conditions. Tranter&rsquo;s range of Welded PHEs consists of MAXCHANGER-small sized welded heat exchanger for oil cooling, sub cooling applications, SUPERMAX-circular Plate &amp; Shell heat exchanger, ULTRAMAX, a highly versatile product which can handle very high flow rates and ECONOCOIL&reg; / PLATECOIL&reg;, prime surface heat exchanger used for a variety of heat recovery applications.
+                            </p>
+                            </p>*@
+
+
+                        </div>
+
+                    </div>
+
+                    <div id="shadow-carousel" class="related-courses-carousel">
+                        <div class="related-courses-title-area">
+                            <h3>Choose Your Product</h3>
+                        </div>
+                        <div class="rc-carousel"
+                             data-loop="true"
+                             data-items="3"
+                             data-margin="15"
+                             data-autoplay="false"
+                             data-autoplay-timeout="10000"
+                             data-smart-speed="2000"
+                             data-dots="false"
+                             data-nav="true"
+                             data-nav-speed="false"
+                             data-r-x-small="1"
+                             data-r-x-small-nav="true"
+                             data-r-x-small-dots="false"
+                             data-r-x-medium="2"
+                             data-r-x-medium-nav="true"
+                             data-r-x-medium-dots="false"
+                             data-r-small="1"
+                             data-r-small-nav="true"
+                             data-r-small-dots="false"
+                             data-r-medium="2"
+                             data-r-medium-nav="true"
+                             data-r-medium-dots="false"
+                             data-r-large="3"
+                             data-r-large-nav="true"
+                             data-r-large-dots="false">
+
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-right">
+                                        @*<img class="img-responsive" src="media/images/products/Product%201.png" alt="courses">*@
+
+                                        <img  class="img-responsive" src="~/Media/images/products/Product1.png" />
+                                        <a href="sub_producte44d.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <h3 class="item-title"><a href="../Home/GasketedPHE">Gasketed PHE</a></h3>
+                                        <center><a href="../Home/GasketedPHE" class="btn default-btn product-btn">Get Details</a></center>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-right">
+                                        @*<img class="img-responsive" src="media/images/products/Suprmax.png" alt="courses">*@
+                                        <img class="img-responsive" src="~/Media/images/products/Suprmax.png" alt="courses" />
+                                        <a href="../Home/SuperMaxPHE"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <h3 class="item-title"><a href="../Home/SuperMaxPHE">Welded PHE -SUPERMAX</a></h3>
+                                        <center><a href="../Home/SuperMaxPHE" class="btn default-btn product-btn">Get Details</a></center>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-right">
+                                        @*<img class="img-responsive" src="media/images/products/Product%202.png" alt="courses">*@
+                                        <img src="~/Media/images/products/Product2.png" class="img-responsive" alt="courses" />
+                                        <a href="../Home/UltraMaxPHE"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <h3 class="item-title"><a href="../Home/UltraMaxPHE">Welded PHE - ULTRAMAX</a></h3>
+                                        <center><a href="../Home/UltraMaxPHE" class="btn default-btn product-btn">Get Details</a></center>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-right">
+                                        @*<img class="img-responsive" src="media/images/products/Product%203.jpg" alt="courses">*@
+                                        <img src="~/Media/images/products/Product3.jpg" class="img-responsive"  />
+                                        <a href="../Home/MaxChangerMaxPHE"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <h3 class="item-title"><a href="../Home/MaxChangerMaxPHE">Welded PHE - MAXCHANGER</a></h3>
+                                        <center><a href="../Home/MaxChangerMaxPHE" class="btn default-btn product-btn">Get Details</a></center>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-right">
+                                        @*<img class="img-responsive" src="media/images/products/Product%204.jpg" alt="courses">*@
+                                        <img class="img-responsive" src="~/Media/images/products/Product4.jpg" alt="courses" />
+                                        <a href="../Home/SpiralHeatExchanger"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <h3 class="item-title"><a href="../Home/SpiralHeatExchanger">Spiral Heat Exchanger</a></h3>
+                                        <center><a href="../Home/SpiralHeatExchanger" class="btn default-btn product-btn">Get Details</a></center>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-right">
+                                        @*<img class="img-responsive" src="media/images/products/Product%205.jpg" alt="courses">*@
+                                        <img src="~/Media/images/products/Product5.jpg"  class="img-responsive" alt="courses" />
+                                        <a href="../Home/PlatecoilEconocoi"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <h3 class="item-title"><a href="../Home/PlatecoilEconocoi">PLATECOIL & ECONOCOIL</a></h3>
+                                        <center><a href="../Home/PlatecoilEconocoi" class="btn default-btn product-btn">Get Details</a></center>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

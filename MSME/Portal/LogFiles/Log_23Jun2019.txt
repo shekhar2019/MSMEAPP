@@ -1,0 +1,227 @@
+11:46:59 AM
+Source : Portal.Controllers.UserRegisterController
+Method Name : EditProfile
+Error Line No : 116
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+11:57:09 AM
+Source : Portal.Controllers.UserRegisterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Invalid JSON primitive: FirstName.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:58:08 AM
+Source : Portal.Controllers.UserRegisterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Invalid JSON primitive: FirstName.
+---------------------------------------------------------------------------------------------------------------------------
+
+11:58:17 AM
+Source : Portal.Controllers.UserRegisterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Invalid JSON primitive: FirstName.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:00:48 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Invalid JSON primitive: FirstName.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:03:03 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Invalid JSON primitive: FirstName.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:27:51 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : EditProfile
+Error Line No : 116
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:28:00 PM
+Source : Portal.Controllers.CityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'stateId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetStateCities(Int32)' in 'Portal.Controllers.CityController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:39:22 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : EditProfile
+Error Line No : 116
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:39:28 PM
+Source : Portal.Controllers.CityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'stateId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetStateCities(Int32)' in 'Portal.Controllers.CityController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:39:40 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : EditProfile
+Error Line No : 116
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:39:41 PM
+Source : Portal.Controllers.CityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'stateId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetStateCities(Int32)' in 'Portal.Controllers.CityController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+12:54:59 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7591
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:54:59 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:55:07 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+12:57:53 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+13:27:12 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:16:31 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:28:26 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:28:32 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:31:00 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:31:16 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:31:22 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:31:40 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:32:26 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:34:56 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:35:12 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+22:36:04 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

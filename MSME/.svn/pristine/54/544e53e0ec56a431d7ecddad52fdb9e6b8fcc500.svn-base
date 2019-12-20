@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Add New Sub Category</title>
+    <style>
+        .Mandatory {
+            color: red;
+            font-weight: bold;
+        }
+
+        .ftop {
+            margin-top: 10px;
+        }
+
+        fieldset.scheduler-border {
+            border: 1px groove #ddd !important;
+            padding: 0 1.4em 1.4em 1.4em !important;
+            margin: 0 0 1.5em 0 !important;
+            -webkit-box-shadow: 0px 0px 0px 0px #000;
+            box-shadow: 0px 0px 0px 0px #000;
+        }
+
+        legend {
+            display: block;
+            width: 37%;
+            padding: 0;
+            margin-bottom: 20px;
+            font-size: 21px;
+            line-height: inherit;
+            color: #333;
+            border: 0;
+            border-bottom: 0px solid #e5e5e5;
+        }
+    </style>
+</head>
+
+<body class="sidebar-condensed" id="body">
+
+    <section>
+        <form action="#" id="frmAddEditCategory" class="form-horizontal as" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+            <div class="" >
+                <div id="tabs">
+                    <div id="tabs-1">
+                        <div class="col-md-12 ftop">
+                            <div class="form-group col-md-6">
+                                <label for="txtPopUpProductSubChildGroupName" class="col-sm-4 control-label">
+                                    Sub Category
+                                    <span class="Mandatory">(*)</span>
+                                </label>
+
+
+                                <div class="col-sm-8">
+                                    <input class="form-control" id="txtPopUpProductSubChildGroupName" name="txtPopUpProductSubChildGroupName" tabindex="1" placeholder="Enter Sub Category Name" type="text" maxlength="100" />
+
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="txtPopUpProductSu bChildGroupDesc" class="col-sm-4 control-label">Description</label>
+                                <div class="col-sm-8">
+                                    <textarea id="txtPopUpProductSubChildGroupDesc" name="txtPopUpProductSubChildGroupDesc" rows="3" tabindex="3" placeholder="Enter Sub Category Description" maxlength="500" class="form-control"></textarea>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group col-md-6">
+                                <label for="imgPopUpProductSubChildGroupPic" class="col-sm-4 control-label">Upload Image</label>
+                                <div class="col-sm-8">
+                                    <img id="imgPopUpProductSubChildGroupPic" class="imgUserPic" width="70" height="70" style="margin-bottom:20px;" src="" />
+                                    <input type="file" id="FilePopUpUpload2" tabindex="2" name="FilePopUpUpload2" onchange="ShowPopupProductSubChildImagePreview(this);" />
+                                    <a id="btnPopUpRemoveImg" style="display:none" onclick="ConfirmPopupProductSubChildRemoveImage()">Remove Image</a>
+                                    <input type="hidden" id="hdnPopupProductSubChildRemoveImage" value="0" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+
+                            <div class="form-group col-md-6" style="display:none;">
+                                <label for="txtPopUpProductSubChildGroupCode" class="col-sm-4 control-label">Code &nbsp;<span class="Mandatory">(*)</span></label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" id="txtPopUpProductSubChildGroupCode" name="txtProductSubChildGroupCode" tabindex="2" placeholder="Enter Category Code" type="text" maxlength="20" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-sm-12 col-lg-12 col-md-12 ftop">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <center>
+                            <input class="btn btn-success" value="Save" alt="Save" id="btnPopupProductSubChildSave" tabindex="19" onclick="SaveDataProductSubChildPopUp()" type="button" border="0">
+                        </center>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
+<script src="~/Scripts/jquery-ui.js"></script>
+<script>
+    $(".alpha-only").on("input", function () {
+        var regexp = /[^a-zA-Z]/g;
+        if ($(this).val().match(regexp)) {
+            $(this).val($(this).val().replace(regexp, ''));
+        }
+    });
+    $(".alpha-space-only").on("input", function () {
+        var regexp = /[^a-zA-Z\s]+$/g;
+        if ($(this).val().match(regexp)) {
+            $(this).val($(this).val().replace(regexp, ''));
+        }
+    });
+    $(".numeric-only").on("input", function () {
+        var regexp = /\D/g;
+        if ($(this).val().match(regexp)) {
+            $(this).val($(this).val().replace(regexp, ''));
+        }
+    });
+    $(".alpha-numeric-only").on("input", function () {
+        var regexp = /[^a-zA-Z0-9]/g;
+        if ($(this).val().match(regexp)) {
+            $(this).val($(this).val().replace(regexp, ''));
+        }
+    });
+
+    $(document).ready(function () {
+
+
+    });
+
+    function checkDecPopUp(el) {
+        var ex = /^[0-9]+\.?[0-9]*$/;
+        if (ex.test(el.value) == false) {
+            el.value = el.value.substring(0, el.value.length - 1);
+        }
+
+    }
+
+    //Save Customer Data------------
+
+    function SaveDataProductSubChildPopUp() {
+        var hdnProductSubChildGroupId = 0;
+        var txtProductSubChildGroupName = $("#txtPopUpProductSubChildGroupName");
+        var txtPopUpProductSubChildGroupCode = $("#txtPopUpProductSubChildGroupCode");
+        var ddlProductSubGroup = $("#ddlProductSubGroup");
+        var ddlProductMainGroup = $("#ddlProductMainGroup");
+        var chkstatus = $("#chkstatus").is(':checked') ? true : false;
+        var txtProductSubChildGroupDesc = $("#txtPopUpProductSubChildGroupDesc");
+        var subchildimage = "";
+
+        if (txtProductSubChildGroupName.val().trim() == "") {
+            alert("Please Enter Sub Category Name");
+            txtProductSubChildGroupName.focus();
+            return false;
+        }
+        //if (txtPopUpProductSubChildGroupCode.val().trim() == "") {
+        //    alert("Please Enter Sub Category  Code");
+        //    txtPopUpProductSubChildGroupCode.focus();
+        //    return false;
+        //}
+
+        var imageUrl = "";
+        var productSubChildGroupViewModel = {
+            ProductSubChildGroupId: 0,
+            ProductSubChildGroupName: txtProductSubChildGroupName.val().trim(),
+            ProductSubChildGroupCode: txtPopUpProductSubChildGroupCode.val().trim(),
+            ProductMainGroupId: $("#ddlProductMainGroup").val(),
+            ProductSubGroupId: $("#ddlProductSubGroup").val(),
+            ProductSubChildGroupDesc: txtProductSubChildGroupDesc.val().trim(),
+            ProductSubChildGroupImageUrl: imageUrl,
+            ProductSubGroupStatus: 1
+        };
+        var requestData = { ProductSubChildGroupVM: productSubChildGroupViewModel };
+        $.ajax({
+            url: "../BuyerProduct/AddEditProductSubChildGroup",
+            cache: false,
+            type: "POST",
+            dataType: "json",
+            data: JSON.stringify(requestData),
+            contentType: 'application/json',
+            success: function (data) {
+                if (data.status == "SUCCESS") {
+                    ShowModel("Alert", "Sub Category Created Sucessfully");
+                    setTimeout(
+                     function () {
+                         SaveProductSubChildGroupImage(data.trnId);
+                        
+                         txtProductSubChildGroupName.val("");
+                         txtProductSubChildGroupDesc.val("");
+                         BindProductSubChildGroupListNew(data.trnId);
+                         BindSpecNamesNew();
+                         BindBrandList();
+                         BindItemList();
+                         GenerateProductName();
+                     }, 2000);
+                    $('#AddSubCategory').modal('hide');
+                }
+                else {
+                    ShowModel("Error", data.message)
+                }
+            },
+            error: function (err) {
+                ShowModel("Error", err)
+            }
+        });
+
+
+    }
+
+    function ShowPopupProductSubChildImagePreview(input) {
+        var fname = input.value;
+        var ext = fname.split(".");
+        var x = ext.length;
+        var extstr = ext[x - 1].toLowerCase();
+        if (extstr == 'jpg' || extstr == 'jpeg' || extstr == 'png' || extstr == 'gif') {
+
+        }
+        else {
+            alert("File doesnt match png, jpg or gif");
+            input.focus();
+            input.value = "";
+            return false;
+        }
+        if (typeof (FileReader) != "undefined") {
+            if (input.files && input.files[0]) {
+                if (input.files[0].name.length < 1) {
+                }
+                else if (input.files[0].size > 50000000) {
+                    input.files[0].name.length = 0;
+                    alert("File is too big");
+                    input.value = "";
+                    return false;
+                }
+                else if (input.files[0].type != 'image/png' && input.files[0].type != 'image/jpg' && !input.files[0].type != 'image/gif' && input.files[0].type != 'image/jpeg') {
+                    input.files[0].name.length = 0;
+                    alert("File doesnt match png, jpg or gif");
+                    input.value = "";
+                    return false;
+                }
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $("#imgPopUpProductSubChildGroupPic").prop('src', e.target.result)
+                        .width(70)
+                        .height(70);
+
+                };
+                reader.readAsDataURL(input.files[0]);
+
+                if ($("#FilePopUpUpload2").val() != '') {
+                    $("#btnPopUpRemoveImg").show();
+                }
+                else {
+                    $("#btnPopUpRemoveImg").hide();
+                }
+            }
+        }
+        else {
+
+            alert("This browser does not support FileReader.");
+            input.value = "";
+            //return false;
+        }
+    }
+
+    function SaveProductSubChildGroupImage(productSubChildGroupId) {
+        if (parseInt(productSubChildGroupId) <= 0) {
+            ShowModel("Alert", "Parent Category Id not available")
+            return false;
+        }
+        if (window.FormData !== undefined) {
+            var uploadfile = document.getElementById('FilePopUpUpload2');
+            var fileData = new FormData();
+            if (uploadfile.value != '') {
+
+                var fileUpload = $("#FilePopUpUpload2").get(0);
+                var files = fileUpload.files;
+
+                if (uploadfile.files[0].size > 50000000) {
+                    uploadfile.files[0].name.length = 0;
+                    ShowModel("Alert", "File is too big")
+                    uploadfile.value = "";
+                    return false;
+                }
+
+                for (var i = 0; i < files.length; i++) {
+                    fileData.append(files[i].name, files[i]);
+                }
+            }
+            fileData.append("productSubChildGroupId", productSubChildGroupId);
+
+        } else {
+
+            ShowModel("Alert", "FormData is not supported.")
+        }
+
+        $.ajax({
+            url: "../ProductSubChildGroup/UpdateProductSubChildGroupImage",
+            type: "POST",
+            contentType: false, // Not to set any content header
+            processData: false, // Not to process data
+            data: fileData,
+            error: function () {
+                ShowModel("Alert", "An error occured")
+                return;
+            },
+            success: function (result) {
+                if (result.status == "SUCCESS") {
+
+                    document.getElementById('FilePopUpUpload2').value = "";
+                    document.getElementById('imgPopUpProductSubChildGroupPic').src = "";
+                }
+                else {
+                    ShowModel("Alert", result.message);
+                }
+            }
+        });
+    }
+
+    function ConfirmRemoveImage() {
+        if (confirm("Do you want to remove selected Image?")) {
+            $("#hdnPopupProductSubChildRemoveImage").val(1);
+            document.getElementById('FilePopUpUpload2').value = "";
+            document.getElementById('imgPopUpProductSubChildGroupPic').src = "";
+            $("#btnPopUpRemoveImg").hide();
+        }
+    }
+
+
+    function ShowModelPopUp(headerText, bodyText) {
+        $("#alertModel").modal();
+        $("#modelHeader").html(headerText);
+        $("#modelText").html(bodyText);
+    }
+
+    function BindProductSubChildGroupList(productSubChildGroupId) {
+     
+        var productMainGroupId = $("#ddlProductMainGroup option:selected").val();
+        var productSubGroupId = $("#ddlProductSubGroup option:selected").val();
+
+        $("#ddlProductSubChildGroup").val(0);
+        $("#ddlProductSubChildGroup").html("");
+        if (productMainGroupId != undefined && productMainGroupId != "" || productSubGroupId != undefined && productSubGroupId != "" && productSubGroupId != "0") {
+            var data = { productMainGroupId: productMainGroupId, productSubGroupId: productSubGroupId };
+            $.ajax({
+                type: "GET",
+                url: "../Product/GetProductSubChildGroupList",
+                data: data,
+                asnc: false,
+                dataType: "json",
+                success: function (data) {
+                    $("#ddlProductSubChildGroup").append($("<option></option>").val(0).html("-Select Category (C3)-"));
+                    $.each(data, function (i, item) {
+                        $("#ddlProductSubChildGroup").append($("<option></option>").val(item.ProductSubGroupId).html(item.ProductSubGroupName));
+                    });
+                    $("#ddlProductSubChildGroup").val(productSubGroupId);
+                },
+                error: function (Result) {
+                    $("#ddlProductSubChildGroup").append($("<option></option>").val(0).html("-Select Category (C3)-"));
+                }
+            });
+        }
+        else {
+
+            $("#ddlProductSubChildGroup").append($("<option></option>").val(0).html("-Select Sub Category-"));
+        }
+
+    }
+
+
+    
+
+
+
+</script>

@@ -1,0 +1,20 @@
+﻿@for (int i = 0; i < ViewBag.ProductMainGroup.Count; i++)
+{
+    <a href="../KnowledgeCenter/Category?productMainGroupId=@ViewBag.ProductMainGroup[i].ProductMainGroupId">
+        <div class="product_image_div">
+
+            <div class="Knowledge_Center_div">
+
+                <figure>
+                    <img src="../Images/ProductMainGroupImages/@ViewBag.ProductMainGroup[i].ProductMainGroupImageUrl" alt="@ViewBag.ProductMainGroup[i].ProductMainGroupName" title="@ViewBag.ProductMainGroup[i].ProductMainGroupName" title="@ViewBag.ProductMainGroup[i].ProductMainGroupImageUrl" alt="@ViewBag.ProductMainGroup[i].ProductMainGroupName" title="@ViewBag.ProductMainGroup[i].ProductMainGroupImageUrl" style="width: 100%;height:200px;" />
+                </figure>
+                @*<div class="detail_product">
+                        <p>@ViewBag.ProductMainGroup[i].ProductMainGroupDesc</p>
+                        <p>@ViewBag.ProductMainGroup[i].ProductMainGroupCode</p>
+                    </div>*@
+            </div>
+            <h2>@ViewBag.ProductMainGroup[i].ProductMainGroupName</h2>
+        </div>
+    </a>
+
+}

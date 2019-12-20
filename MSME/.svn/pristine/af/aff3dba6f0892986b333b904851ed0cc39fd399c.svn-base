@@ -1,0 +1,57 @@
+﻿@model List<Portal.Core.ViewModel.WelcomeHomeViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblLogoList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Created By</th>
+                    <th>Status</th>
+                    <th align="center" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td>@item.Title
+                            <input type="hidden" id="hdnWelcomeHomeId" value="@item.WelcomeHomeId" />
+                            <input type="hidden" id="hdnTitle" value="@item.Title" />
+                            <input type="hidden" id="hdnWelcomeContent" value="@item.WelcomeContent" />
+                            <input type="hidden" id="hdnWelcomeHomeStatus" value="@(item.WelcomeHomeStatus == true ? "true" : "false")" />
+                        </td>
+                        <td>@item.WelcomeContent</td>
+                        <td>@item.CreatedByName</td>
+                        <td>@(item.WelcomeHomeStatus == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:10px auto;">
+                            <a style="color:white" class="fa fa-pencil" aria-hidden="true" href="javascript:void(0)" onclick="EditRow(this)" title="Edit Welcome Title"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:10px auto;">
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true" href="javascript:void(0)" onclick="RemoveWelcome(@item.WelcomeHomeId)" title="Remove Welcome Title"></a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblLogoList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

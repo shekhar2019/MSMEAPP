@@ -1,0 +1,355 @@
+﻿@{
+    ViewBag.Title = "AddEditBuyerSellerProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<link href="~/Content/editor.css" rel="stylesheet" />
+<link href="~/Content/jquery-ui.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.1.min.js"></script>
+<style>
+    .Mandatory {
+        color: red;
+        font-weight: bold;
+    }
+    /*** custom checkboxes ***/
+
+    input[type=checkbox] {
+        display: none;
+    }
+        /* to hide the checkbox itself */
+        input[type=checkbox] + label:before {
+            font-family: FontAwesome;
+            display: inline-block;
+        }
+
+        input[type=checkbox] + label:before {
+            content: "\f096";
+        }
+        /* unchecked icon */
+        input[type=checkbox] + label:before {
+            letter-spacing: 10px;
+        }
+        /* space between checkbox and label */
+
+        input[type=checkbox]:checked + label:before {
+            content: "\f046";
+        }
+        /* checked icon */
+        input[type=checkbox]:checked + label:before {
+            letter-spacing: 5px;
+        }
+    /* allow space for check mark */
+</style>
+<h4 class="main_head_cate blue">Add Product</h4>
+<div class="creative_tabs inner" style="padding:2px;">
+    <div class="creative_tabs_container">
+        <div class="Your_Profile_div">
+            <form>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <div>
+                            <input type="radio" id="BuyerSellerChoice1"
+                                   name="BuyerSeller" value="Buyer">
+                            <label for="contactChoice1">Buyer</label>
+
+                            <input type="radio" id="BuyerSellerChoice2"
+                                   name="BuyerSeller" value="Seller">
+                            <label for="contactChoice2">Seller</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label>Parent Class(C1)&nbsp;<span class="Mandatory">(*)</span></label>
+                        <select id="ddlProductMainGroup" name="ddlProductMainGroup" onchange="BindProductSubGroupList(this)" tabindex="4" class="form-control category-1"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label>Category(C2)&nbsp;<span class="Mandatory">(*)</span></label>
+                        <select id="ddlProductSubGroup" name="ddlProductSubGroup" onchange="BindProductSubChildGroupList(this)" tabindex="4" class="form-control category-2"></select>
+                        <input type="hidden" id="hdnUserId" name="hdnUserId" value="@ViewData["userid"]" />
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>Category(C3)&nbsp;<span class="Mandatory">(*)</span></label>
+                        <select id="ddlProductSubChildGroup" name="ddlProductSubChildGroup" tabindex="4" class="form-control  category-3" onchange="ShowAddProductIcon(this)" onchange="LoadFilteredSellerProducts()"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label>Product Name :</label>
+                        <input type="text" id="txtProductName" name="txtProductName" class="form-control" placeholder="Enter Product Name">
+                        <input type="hidden" id="hdnProductId" name="hdnProductId" value="0" />
+                    </div>
+
+                    <div class="col-md-6 form-group">
+                        <label>Price :</label>
+                        <input id="txtPrice" name="txtPrice" class="form-control" placeholder="Enter Price">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label>GST :</label>
+                        <select id="ddlGST" name="ddlGST" tabindex="4" class="form-control"></select>
+                        <input type="hidden" id="hdnGSTID" name="hdnGSTID" value="0" />
+                    </div>
+
+                    <div class="col-md-6 form-group">
+                        <label>GST@@ :</label>
+                        <select id="ddlGSTPercentage" name="ddlGSTPercentage" tabindex="4" class="form-control"></select>
+                        <input type="hidden" id="hdnGSTIDPercentage" name="hdnGSTID" value="0" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label>MOQ :</label>
+                        <input type="text" id="txtMOQ" name="txtMOQ" class="form-control" placeholder="Enter Product Name">
+                        <input type="hidden" id="hdnMOQ" name="hdnMOQ" value="0" />
+                    </div>
+
+                    <div class="col-md-6 form-group">
+                        <label>Delivary Status :</label>
+                        <select id="ddlDeliveryStatus" name="ddlDeliveryStatus" tabindex="4" class="form-control"></select>
+                        <input type="hidden" id="hdnDeliveryStatus" name="hdnDeliveryStatus" value="0" />
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-4 form-group">
+                        <label>Name of Specification (A1.1) :</label>
+                        <input type="text" id="txtSpecificationName" name="txtSpecificationName" class="form-control" placeholder="Name of Specification">
+                    </div>
+                    <div class="col-md-4 form-group">
+                        <label>Specification value (A1.2) :</label>
+                        <input type="text" id="txtSpecificationValue" name="txtSpecificationValue" class="form-control" placeholder="Specification value">
+                    </div>
+                    <div class="col-md-4 form-group">
+                        <label>UOM(A1.3)* :</label>
+                        <select id="ddlUOM" name="ddlUOM" class="form-control uom-list"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label>Brand/Manufacturer(A2) :</label>
+                        <input type="text" name="txtBrand" id="txtBrandName" class="form-control" placeholder="Brand/Manufacturer">
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label>Item Code(A3)</label>
+                        <input type="text" id="txtItemCode" name="txtItemCode" class="form-control" placeholder="Item Code">
+                    </div>
+                </div>
+                <div class="row col-sm-6 col-lg-12 col-md-12 ftop">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <center>
+                            <a onclick="SaveProductAsPerBuyerSeller()" class="btn btn-default">Save</a>
+                            <button type="submit" class="btn btn-default">Reset</button>
+                            <a class="btn btn-success" tabindex="21" id="btnList" href="@Url.Content("~/Product/ListBuyerSellerProduct")">Search Product</a>
+                        </center>
+                    </div>
+                </div>
+
+                
+                <!-- Modal -->
+                <div class="modal fade" id="alertModel" role="dialog">
+                    <div class="modal-dialog  modal-sm">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" id="modelHeader"></h4>
+                            </div>
+                            <div class="modal-body">
+                                <p id="modelText"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary  btn-block" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div><!--creative_tabs_container-->
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>  
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-ui.js"></script>
+<script src="~/Scripts/paging.js"></script>
+<script src="~/Scripts/Product/AddBuyerProduct.js"></script>
+<script src="~/Scripts/Dashboard/SaleDashboard.js"></script>
+<script>
+    $(document).ready(function () {
+        BindGSTList();
+        BindGSTListPercenta();
+        BindDeliveryStatusList();
+    });
+
+    function SaveProductAsPerBuyerSeller() {
+
+        var ddlProductMainGroup = $("#ddlProductMainGroup");
+        var ddlProductSubGroup = $("#ddlProductSubGroup");
+        var ddlProductSubChildGroup = $("#ddlProductSubChildGroup");
+        var hdnProductId = $("#hdnProductId");
+        var txtProductName = $("#txtProductName");
+        var txtSpecificationName = $("#txtSpecificationName");
+        var txtSpecificationValue = $("#txtSpecificationValue");
+        var ddlUOM = $("#ddlUOM");
+        var txtBrandName = $("#txtBrandName");
+        var txtItemCode = $("#txtItemCode");
+        var ddlGST = $("#ddlGST");
+        var ddlGSTPercentage = $("#ddlGSTPercentage");
+        var ddlDeliveryStatus = $("#ddlDeliveryStatus");
+        var Buyer = document.getElementById("BuyerSellerChoice1").checked;
+        var Seller = document.getElementById("BuyerSellerChoice2").checked
+
+        if (!Buyer && !Seller) {
+            ShowModel("Alert", "Please select Any Choice Between Buyer Or Seller");
+            document.getElementById("BuyerSellerChoice1").focus();
+            return false;
+        }
+
+        if (ddlProductMainGroup.val() == "" || ddlProductMainGroup.val() == "0") {
+            ShowModel("Alert", "Please select Product Main Group");
+            ddlProductMainGroup.focus();
+            return false;
+        }
+        if (ddlProductSubGroup.val() == "" || ddlProductSubGroup.val() == "0") {
+            ShowModel("Alert", "Please select Product Sub Group");
+            ddlProductSubGroup.focus();
+            return false;
+        }
+        if (ddlProductSubChildGroup.val() == "" || ddlProductSubChildGroup.val() == "0") {
+            ShowModel("Alert", "Please select Product Sub  Child Group");
+            ddlProductSubChildGroup.focus();
+            return false;
+        }
+
+        if (ddlGST.val() == "" || ddlGST.val() == "0") {
+            ShowModel("Alert", "Please select Product Sub  Child Group");
+            ddlGST.focus();
+            return false;
+        }
+        if (ddlGSTPercentage.val() == "" || ddlGSTPercentage.val() == "0") {
+            ShowModel("Alert", "Please select Product Sub  Child Group");
+            ddlGSTPercentage.focus();
+            return false;
+        }
+        if (ddlDeliveryStatus.val() == "" || ddlDeliveryStatus.val() == "0") {
+            ShowModel("Alert", "Please select Product Sub  Child Group");
+            ddlDeliveryStatus.focus();
+            return false;
+        }
+
+        if (txtProductName.val().trim() == "") {
+            ShowModel("Alert", "Please enter Product Name")
+            txtProductName.focus();
+            return false;
+        }
+        if (txtSpecificationName.val().trim() == "") {
+            ShowModel("Alert", "Please enter Specification Name")
+            txtSpecificationName.focus();
+            return false;
+        }
+        if (txtSpecificationValue.val().trim() == "") {
+            ShowModel("Alert", "Please enter Specification Value")
+            txtSpecificationValue.focus();
+            return false;
+        }
+        if (ddlUOM.val() == "" || ddlUOM.val() == "0") {
+            ShowModel("Alert", "Please select Product UOM");
+            ddlUOM.focus();
+            return false;
+        }
+        if (txtBrandName.val().trim() == "") {
+            ShowModel("Alert", "Please enter Brand Name")
+            txtBrandName.focus();
+            return false;
+        }
+        if (txtItemCode.val().trim() == "") {
+            ShowModel("Alert", "Please enter Item Code")
+            txtItemCode.focus();
+            return false;
+        }
+
+        var requestData = {
+            ParentClassId: ddlProductMainGroup.find("option:selected").val(),
+            CategoryId: ddlProductSubGroup.find("option:selected").val(),
+            SubCategoryId: ddlProductSubChildGroup.find("option:selected").val(),
+            ProductId: hdnProductId.val(),
+            ProductName: txtProductName.val(),
+            SpecificationName: txtSpecificationName.val(),
+            SpecificationValue: txtSpecificationValue.val(),
+            UomId: ddlUOM.find("option:selected").val(),
+            GSTID: ddlGST.find("option:selected").val(),
+            GSTPercentageID: ddlGSTPercentage.find("option:selected").val(),
+            DeliveryStatusID: ddlDeliveryStatus.find("option:selected").val(),
+            BrandId: "",
+            BrandName: txtBrandName.val(),
+            ProductCode: txtItemCode.val()
+        };
+
+        var BuyerSelected = document.getElementById("BuyerSellerChoice1").checked;
+
+        if (BuyerSelected) {
+            $.ajax({
+                url: "../BuyerProduct/AddEditBuyerProduct",
+                cache: false,
+                type: "POST",
+                dataType: "json",
+                data: JSON.stringify({ productViewModel: requestData, isAdmin: true }),
+                contentType: 'application/json',
+                success: function (data) {
+                    if (data.status == "SUCCESS") {
+
+                        ShowModel("Alert", data.message);
+                        setTimeout(
+                            function () {
+                                window.location.href = "../Product/AddEditBuyerSellerProduct";
+                            }, 2000);
+                    }
+                    else {
+                        ShowModel("Error", data.message)
+                    }
+                },
+                error: function (err) {
+                    ShowModel("Error", err)
+                }
+            });
+        }
+        else {
+            $.ajax({
+                url: "../SellerProduct/AddEditSellerProduct",
+                cache: false,
+                type: "POST",
+                dataType: "json",
+                data: JSON.stringify({ productViewModel: requestData, isAdmin: true }),
+                contentType: 'application/json',
+                success: function (data) {
+                    if (data.status == "SUCCESS") {
+
+                        ShowModel("Alert", data.message);
+                        setTimeout(
+                            function () {
+                                window.location.href = "../Product/AddEditBuyerSellerProduct";
+                            }, 4000);
+                    }
+                    else {
+                        ShowModel("Error", data.message)
+                    }
+                },
+                error: function (err) {
+                    ShowModel("Error", err)
+                }
+            });
+        }
+
+    }
+
+
+</script>

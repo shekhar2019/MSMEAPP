@@ -1,0 +1,80 @@
+00:01:09 AM
+Source : Portal.Controllers.DashboardController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+00:01:16 AM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 168
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:01:16 AM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:01:29 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:01:34 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:06 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\MSME\Portal\Views\BuyerProduct\_BuyerDashboardProductsQtydetails.cshtml(34): error CS1061: 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' does not contain a definition for 'UOMName' and no extension method 'UOMName' accepting a first argument of type 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:12 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\MSME\Portal\Views\BuyerProduct\_BuyerDashboardProductsQtydetails.cshtml(34): error CS1061: 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' does not contain a definition for 'UOMName' and no extension method 'UOMName' accepting a first argument of type 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:19 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\MSME\Portal\Views\BuyerProduct\_BuyerDashboardProductsQtydetails.cshtml(34): error CS1061: 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' does not contain a definition for 'UOMName' and no extension method 'UOMName' accepting a first argument of type 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:21 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\MSME\Portal\Views\BuyerProduct\_BuyerDashboardProductsQtydetails.cshtml(34): error CS1061: 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' does not contain a definition for 'UOMName' and no extension method 'UOMName' accepting a first argument of type 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+00:04:24 AM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\MSME\Portal\Views\BuyerProduct\_BuyerDashboardProductsQtydetails.cshtml(34): error CS1061: 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' does not contain a definition for 'UOMName' and no extension method 'UOMName' accepting a first argument of type 'Portal.Core.ViewModel.BuyerProductQtyDashboardViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+

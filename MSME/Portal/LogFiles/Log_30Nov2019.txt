@@ -1,0 +1,840 @@
+00:16:06 AM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+14:00:36 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:12:25 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:16:03 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:29:24 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+14:33:40 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:07:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:34:11 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:40:23 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+15:46:06 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:33:52 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:45:20 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+16:51:47 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:19:21 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:19:40 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:20:38 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:26:36 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:34:44 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:59:13 PM
+Source : Portal.Controllers.BuyerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:59:31 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:07:15 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:41:28 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:44:49 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:48:52 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:55:30 PM
+Source : Portal.DAL.SQLDbInterface
+Method Name : GetUOMListforSpecification
+Error Line No : 7750
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+18:55:30 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 624
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+18:55:30 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.Data.SqlClient.SqlException
+Details: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:00 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductMainGroupList
+Error Line No : 1807
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:00 PM
+Source : Portal.Core.ProductMainGroupBL
+Method Name : GetProductMainGroupList
+Error Line No : 117
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:00 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductMainGroupList
+Error Line No : 223
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:00 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetUOMList
+Error Line No : 2132
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:00 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 137
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:00 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMList
+Error Line No : 270
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:01 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetProductTypeList
+Error Line No : 1726
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:01 PM
+Source : Portal.Core.ProductTypeBL
+Method Name : GetProductTypeList
+Error Line No : 109
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:01 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductTypeList
+Error Line No : 208
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:01 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetFinYearList
+Error Line No : 1247
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:01 PM
+Source : Portal.Core.FinYearBL
+Method Name : GetFinancialYearList
+Error Line No : 86
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetFinYearList
+Error Line No : 319
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetGSTList
+Error Line No : 2217
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Core.GstBL
+Method Name : GetGSTList
+Error Line No : 26
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : GetGSTList
+Error Line No : 138
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetGSTPercentList
+Error Line No : 2242
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Core.GSTPercentBL
+Method Name : GetGSTPercentList
+Error Line No : 25
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : GetGSTPercentageList
+Error Line No : 153
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetDeliveryStatusList
+Error Line No : 2267
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Core.DeliveryStatusBL
+Method Name : GetDeliveryStatusList
+Error Line No : 26
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : GetDeliveryStatusList
+Error Line No : 169
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7708
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:02 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:14:15 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7708
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:14:15 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:17:29 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7708
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:17:29 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:19:05 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:26:59 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7708
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:26:59 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:29:20 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7708
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:29:20 PM
+Source : Portal.Core.WebBL
+Method Name : GetMenuList
+Error Line No : 182
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:34:40 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7708
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:40:53 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetHomeParentMenu
+Error Line No : 7708
+Exception Type : System.Data.Entity.Core.EntityException
+Details: The underlying provider failed on Open.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:57:43 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+20:57:43 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+20:58:45 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:59:02 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+20:59:02 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+20:59:37 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+20:59:37 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:00:21 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:00:21 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:00:37 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:00:37 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:00:56 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:00:56 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:32:07 PM
+Source : Portal.Controllers.SellerProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:33:19 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:33:19 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:11 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:11 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:23 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:23 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:59 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:59 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:36:30 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:36:30 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:45:22 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:46:09 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:46:09 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:46:23 PM
+Source : Portal.Core.ProductBL
+Method Name : GetUOMListforSpecification
+Error Line No : 629
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:46:23 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetUOMListforSpecification
+Error Line No : 541
+Exception Type : System.ArgumentException
+Details: Column 'UOMId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:02 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:02 PM
+Source : Portal.Controllers.UOMController
+Method Name : GetUOMList
+Error Line No : 90
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:05 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:05 PM
+Source : Portal.Controllers.UOMController
+Method Name : GetUOMList
+Error Line No : 90
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:08 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:08 PM
+Source : Portal.Controllers.UOMController
+Method Name : GetUOMList
+Error Line No : 90
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:14 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:14 PM
+Source : Portal.Controllers.UOMController
+Method Name : GetUOMList
+Error Line No : 90
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:22 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:22 PM
+Source : Portal.Controllers.UOMController
+Method Name : GetUOMList
+Error Line No : 90
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:29 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:48:29 PM
+Source : Portal.Controllers.UOMController
+Method Name : GetUOMList
+Error Line No : 90
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:49:52 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:49:52 PM
+Source : Portal.Controllers.UOMController
+Method Name : GetUOMList
+Error Line No : 90
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+21:50:58 PM
+Source : Portal.Core.UOMBL
+Method Name : GetUOMList
+Error Line No : 58
+Exception Type : System.ArgumentException
+Details: Column 'IsSUM' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+

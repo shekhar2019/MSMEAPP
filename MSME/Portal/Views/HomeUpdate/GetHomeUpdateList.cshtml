@@ -1,0 +1,74 @@
+﻿@model List<Portal.Core.HomeUpdateViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblLogoList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Update Title</th>
+                    <th>Update Date</th>
+                    <th>Description</th>
+                    <th>Area</th>
+                    <th>Image</th>
+                    <th>Created By</th>
+                    <th>Status</th>
+
+                    <th align="center" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td>@item.UpdateTitle
+                            <input type="hidden" id="hdnUpdateId" value="@item.UpdateId" />
+                            <input type="hidden" id="hdnUpdateTitle" value="@item.UpdateTitle" />
+                            <input type="hidden" id="hdnUpdateDate" value="@item.UpdateDate" />
+
+                            <input type="hidden" id="hdnUpdateDec" value="@item.UpdateDec" />
+                            <input type="hidden" id="hdnUpdateUrl" value="@item.UpdateUrl" />
+                            
+                            <input type="hidden" id="hdnImageTitile" value="@item.ImageTitile" />
+                            <input type="hidden" id="hdnImageNavigateUrl" value="@item.ImageNavigateUrl" />
+                            <input type="hidden" id="hdnImageUrl" value="@item.ImageUrl" />
+                            <input type="hidden" id="hdnImageAlt" value="@item.ImageAlt" />
+                            <input type="hidden" id="hdnImageTitile" value="@item.ImageTitile" />
+                            <input type="hidden" id="hdnUpdateArea" value="@item.UpdateArea" />
+                        </td>
+                        <td>@item.UpdateDate</td>
+                        <td>@item.UpdateDec</td>
+                        <td>@item.UpdateArea</td>
+                        <td><img src="~/Images/HomeUpdate/@item.ImageUrl" title="@item.ImageTitile" alt="@item.ImageAlt" width="50px" height="50px" /> </td>
+                        <td>@item.CreatedByUserName</td>
+                        <td>@(item.UpdateStatus == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                            <a style="color:white" class="fa fa-pencil" aria-hidden="true" href="javascript:void(0)" onclick="EditHomeUpdateRow(this)" title="Remove Logo"></a> 
+                            
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                            
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true" href="javascript:void(0)" onclick="RemoveHomeUpdate(@item.UpdateId)" title="Remove Logo"></a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblLogoList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

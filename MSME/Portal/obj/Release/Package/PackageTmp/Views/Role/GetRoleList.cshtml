@@ -1,0 +1,52 @@
+﻿@model List<Portal.Core.ViewModel.RoleViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblRoleList">
+            <thead>
+                <tr>
+                    <th>Role Name</th>
+                    <th>Role Description</th>
+                    <th>Role Type</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.RoleName</td>
+                        <td>@item.RoleDesc</td>
+                        <td>@(item.IsAdmin == true ? "Admin" : "Other")</td>
+                        <td>@(item.Role_Status==true?"Active":"Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white"  class="fa fa-eye" aria-hidden="true" href="~/Role/AddEditRole?RoleId=@item.RoleId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/Role/AddEditRole?RoleId=@item.RoleId&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+              
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblRoleList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

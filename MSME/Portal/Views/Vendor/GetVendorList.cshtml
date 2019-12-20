@@ -1,0 +1,72 @@
+﻿@model List<Portal.Core.ViewModel.VendorViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblVendorList">
+            <thead>
+                <tr>
+                    <th>Supplier Code</th>
+                    <th>Supplier Name</th>
+                    <th>Contact Person</th>
+                    <th>Email</th>
+                    <th>Mobile No.</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>State</th> 
+                    <th>ExciseNo</th> 
+                    <th>Credit Limit</th> 
+                    <th>Credit Days</th> 
+                    <th>Created By User</th>
+                    <th>Created Date</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.VendorCode</td>
+                        <td>@item.VendorName</td>
+                        <td>@item.ContactPersonName</td>
+                        <td>@item.Email</td>
+                        <td>@item.MobileNo</td>
+                        <td>@item.Address</td>
+                        <td>@item.City</td> 
+                        <td>@item.StateName</td> 
+                        <td>@item.ExciseNo</td> 
+                        <td>@item.CreditLimit</td> 
+                        <td>@item.CreditDays</td> 
+                        <td>@item.CreatedByUserName</td>
+                        <td>@item.CreatedDate</td>
+                        <td>@(item.Vendor_Status==true?"Active":"Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white"  class="fa fa-eye" aria-hidden="true" href="~/Vendor/AddEditVendor?VendorId=@item.VendorId&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/Vendor/AddEditVendor?VendorId=@item.VendorId&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+              
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblVendorList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

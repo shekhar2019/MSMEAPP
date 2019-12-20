@@ -1,0 +1,110 @@
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\AnilWorkArea\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\AnilWorkArea\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojResolveAssemblyReference.cache
+D:\AnilWorkArea\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\AnilWorkArea\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
+D:\UK\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\UK\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\UK\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\UK\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\UK\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\UK\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\UK\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\UK\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\UK\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\UK\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\UK\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\UK\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojAssemblyReference.cache
+D:\UK\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
+D:\UK\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
+D:\UK\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\UK\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojAssemblyReference.cache
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\UK\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\MSME Oct 16 2019\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojAssemblyReference.cache
+D:\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
+D:\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
+D:\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\MSME Oct 16 2019\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
+D:\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojAssemblyReference.cache
+D:\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
+D:\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
+D:\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\UK\MSME\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\UK\MSME\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojAssemblyReference.cache
+D:\UK\MSME\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
+D:\UK\MSME\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
+D:\UK\MSME\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\UK\MSME\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Application\MVC\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\Application\MVC\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojAssemblyReference.cache
+D:\Application\MVC\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
+D:\Application\MVC\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
+D:\Application\MVC\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\Application\MVC\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb

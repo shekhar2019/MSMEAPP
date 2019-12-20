@@ -1,0 +1,67 @@
+16:31:05 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetSubChildMenuList
+Error Line No : 6919
+Exception Type : System.NotSupportedException
+Details: The specified type member 'SubMenuName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+--------------------------------------------------------------------------------------------------------------------------------
+
+17:08:18 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetSubChildMenuList
+Error Line No : 6919
+Exception Type : System.NotSupportedException
+Details: The specified type member 'SubMenuName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:10:06 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetSubChildMenuList
+Error Line No : 6919
+Exception Type : System.NotSupportedException
+Details: The specified type member 'SubMenuName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:28:58 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetSubChildMenuList
+Error Line No : 6919
+Exception Type : System.NotSupportedException
+Details: The specified type member 'SubMenuName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:31:30 PM
+Source : Portal.DAL.DBInterface
+Method Name : GetSubChildMenuList
+Error Line No : 6919
+Exception Type : System.NotSupportedException
+Details: The specified type member 'SubMenuName' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:57:37 PM
+Source : Portal.Controllers.SubChildMenuController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'subMenuId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult GetSubChildMenuList(Int32)' in 'Portal.Controllers.SubChildMenuController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+17:57:44 PM
+Source : Portal.Controllers.SubChildMenuController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'subMenuId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult GetSubChildMenuList(Int32)' in 'Portal.Controllers.SubChildMenuController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+17:58:08 PM
+Source : Portal.Controllers.SubChildMenuController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'subMenuId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.PartialViewResult GetSubChildMenuList(Int32)' in 'Portal.Controllers.SubChildMenuController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,96 @@
+15:25:04 PM
+Source : Portal.DAL.DBInterface
+Method Name : RemoveLogo
+Error Line No : 5695
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+--------------------------------------------------------------------------------------------------------------------------------
+
+15:25:04 PM
+Source : Portal.Core.LogoBL
+Method Name : RemoveLogo
+Error Line No : 101
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+15:25:04 PM
+Source : Portal.Controllers.LogoController
+Method Name : RemoveLogo
+Error Line No : 158
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+15:25:08 PM
+Source : Portal.Controllers.LogoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+15:27:52 PM
+Source : Portal.Controllers.AboutusController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\Aboutus\GetAboutUsList.cshtml(28): error CS1061: 'Portal.Core.AboutUsViewModel' does not contain a definition for 'POId' and no extension method 'POId' accepting a first argument of type 'Portal.Core.AboutUsViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+15:28:06 PM
+Source : Portal.Controllers.AboutusController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\Aboutus\GetAboutUsList.cshtml(28): error CS1061: 'Portal.Core.AboutUsViewModel' does not contain a definition for 'POId' and no extension method 'POId' accepting a first argument of type 'Portal.Core.AboutUsViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+19:57:53 PM
+Source : Portal.DAL.DBInterface
+Method Name : RemoveWelcomeHome
+Error Line No : 112
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:57:54 PM
+Source : Portal.Core.WelcomeHomeBL
+Method Name : RemoveWelcomeHome
+Error Line No : 101
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:59:56 PM
+Source : Portal.DAL.DBInterface
+Method Name : RemoveWelcomeHome
+Error Line No : 112
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:59:56 PM
+Source : Portal.Core.WelcomeHomeBL
+Method Name : RemoveWelcomeHome
+Error Line No : 101
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:59:56 PM
+Source : Portal.Controllers.WelcomeHomeController
+Method Name : RemoveWelcomeHome
+Error Line No : 93
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+19:59:56 PM
+Source : Portal.Controllers.WelcomeHomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+

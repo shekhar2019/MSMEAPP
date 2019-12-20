@@ -1,0 +1,422 @@
+﻿@{ 
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MSME Bazar</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../Content/Msme/css/owl.carousel.css">
+    <link rel="stylesheet" href="../Content/Msme/css/style.css">
+
+    <!-- s -->
+    <!--[if lt IE 9]>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+
+    <![endif]-->
+    <style type="text/css">
+        .link {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+    @{
+        var contactInfo = Session["contactInfo"] as List<Portal.Core.ContactInfoViewModel>;
+        var mission = Session["mission"] as List<Portal.Core.AboutUsViewModel>;
+        var MenuList = Session["HomeMenuList"] as List<Portal.Core.ViewModel.MenuViewModel>;
+        var logo = Session["logo"] as Portal.Core.ViewModel.LogoViewModel;
+        var copyright = Session["copyright"] as List<Portal.Core.ViewModel.CopyRightViewModel>;
+        var homeAbout = Session["homeAbout"] as List<Portal.Core.ViewModel.HomeAboutViewModel>;
+        var homeSliderList = Session["homeSlider"] as List<Portal.Core.HomeSliderViewModel>;
+        var welcomeHome = Session["welcomeHome"] as List<Portal.Core.ViewModel.WelcomeHomeViewModel>;
+
+    }
+</head>
+<body>
+
+    <!--****************Header Area****************-->
+
+    <header class="head_home">
+
+        <div class="container hFlex">
+
+            <div class="hLeft">
+
+                <div class="logo">
+
+                    <a href="http://www.msmebazar.in">
+
+                        <figure>
+                            <img src="~/Images/CompanyLogo/@logo.LogoPath" class="logo1" alt="MSME Bazar" />
+                        </figure>
+                    </a>
+
+                </div><!--logo-->
+
+            </div><!--hLeft-->
+
+            <div class="hRight">
+
+                <div class="menu">
+
+                    <ul>
+
+                        <li><a href="../Aboutus" class="scrollLink">About us</a></li>
+
+                        <li><a href="../KnowledgeCenter" class="scrollLink">Knowledge Center</a></li>
+
+                        <li><a href="../ContactUs" class="scrollLink">Contact us</a></li>
+
+                        <li><a href="../UserLogin" class="scrollLink">Login</a></li>
+
+                        <li><a href="../UserRegister" class="scrollLink">Registration</a></li>
+
+                    </ul>
+
+                </div><!--menu-->
+
+            </div><!--hRight-->
+            <!-- responsive menu bar -->
+
+            <span class="hammenu" onclick="openNav()">&#9776;</span>
+
+            <div id="mySidenav" class="sidenav">
+
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <a href="../Aboutus">About us</a>
+
+                <a href="../KnowledgeCenter">Knowledge Center</a>
+
+                <a href="../ContactUs">Contact</a>
+
+                <a href="../UserLogin">Login</a>
+
+                <a href="../UserRegister">Registration</a>
+
+            </div>
+
+            <!--end responsive menu bar -->
+
+        </div><!--container-->
+
+    </header><!--header-->
+    <!--****************Header Area****************-->
+
+
+    <div class="bBack">
+        <img src="../Content/Msme/images/Group.png" alt="">
+    </div>
+    <!--****************Banner Area****************-->
+
+    <section id="banner" class="animated fadeIn ">
+        <div class="owl_slider owl-carousel">
+            @if (homeSliderList != null)
+            {
+                foreach (var item in homeSliderList)
+                {
+                    <div class="item ">
+                        <img src="../@item.Image" alt="@item.ImageAlt" title="@item.ImageTitle" />
+                    </div>
+
+                }
+            }
+            @*<div class="item ">
+                    <img src="../Content/Msme/images/banner1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img src="../Content/Msme/images/banner2.png" alt="" />
+                </div>*@
+
+        </div>
+
+    </section><!-- banner -->
+    <!--****************Banner Area****************-->
+    <!--****************Section1****************-->
+
+    <section id="section1">
+
+        <div class="container">
+
+            <div class="fdiv">
+
+                <div class="fbox1">
+
+                    <figure>
+
+                        <img src="../Content/Msme/images/MSMELogo.png" alt="editorial-design" />
+
+                    </figure>
+                    <p class="flex head">
+                        <a href="../MSME" title="What is MSME?" class="link">
+                            What is MSME?
+                        </a>
+                    </p>
+
+                </div><!-- fbox1 -->
+
+
+
+                <div class="fbox2">
+
+                    <figure>
+
+                        <img src="../Content/Msme/images/MSMELogo.png" alt="editorial-design" />
+
+                    </figure>
+                    <p class="flex head">
+                        <a href="../Commodity" title="What is a Commodity?" class="link">
+                            What is a Commodity?
+                        </a>
+                    </p>
+                </div><!-- fbox2 -->
+
+
+                <div class="fbox3">
+
+                    <figure>
+
+                        <img src="../Content/Msme/images/MSMELogo.png" alt="editorial-design" />
+
+                    </figure>
+                    <p class="flex head">
+                        <a href="../Seller" title="Who is Seller ?" class="link">
+                            Who is Seller ?
+                        </a>
+                    </p>
+
+                </div><!-- fbox3 -->
+
+
+                <div class="fbox4">
+
+                    <figure>
+
+                        <img src="../Content/Msme/images/MSMELogo.png" alt="editorial-design" />
+
+                    </figure>
+                    <p class="flex head">
+                        <a href="../Buyer" title="Who is Buyer ?" class="link">
+                            Who is Buyer ?
+                        </a>
+                    </p>
+                </div><!-- fbox4 -->
+
+            </div><!-- functionalityBox -->
+
+        </div><!-- container -->
+
+    </section><!-- section1 -->
+    <!--****************Section1****************-->
+    <!--****************Section2****************-->
+
+    <section id="section2">
+
+        <div class="container">
+            @if (welcomeHome != null)
+            {
+                foreach (var item in welcomeHome)
+                {
+                    if (item.WelcomeHomeStatus == true)
+                    {
+                       <h3 style="margin:10px;">@item.Title</h3>
+                       <hr />
+                       <div class="welcomeHome"> @Html.Raw(@item.WelcomeContent)</div>
+                    }
+                }
+            }
+            <h3></h3>
+
+        </div><!-- container -->
+
+    </section>
+    <!-- section2 -->
+    <!--****************Section2****************-->
+    <!--****************Footer****************-->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footerArea">
+
+                <div class="col-1">
+
+                    <h3 class="footerHead">Reach us</h3>
+
+                    <ul class="footerLink">
+
+                        @if (contactInfo != null)
+                        {
+                            foreach (var item in contactInfo)
+                            {
+                                if (item.ContactInfoStatus == true)
+                                {
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="#"><p>@item.Address</p></a></li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="#">@Html.Raw(@item.Phone)</a></li>
+                                    <li><i class="fa fa-globe" aria-hidden="true"></i><a href="http://www.msmebazar.com/" target="_blank">@item.Website</a></li>
+                                    <li><a href="mailto:@item.Email"><i class="fa fa-envelope-o" aria-hidden="true"></i>@Html.Raw(@item.Email)</a></li>
+                                }
+                            }
+                        }
+
+
+
+                    </ul>
+
+                </div><!-- col-1 -->
+
+
+
+                <div class="col-2">
+
+                    <h3 class="footerHead">About Us</h3>
+
+                    @if (contactInfo != null)
+                    {
+                        foreach (var item in homeAbout)
+                        {
+
+                            if (item.HomeAboutStatus == true)
+                            {
+                                <a href="../Aboutus" target="_blank">
+                                    <p style="text-align:justify;height:200px;line-height:20px;">
+                                        @item.Description
+                                    </p>
+                                </a>
+                            }
+                        }
+                    }
+
+
+                </div><!-- col-2 -->
+
+
+
+                <div class="col-3">
+
+                    <h3 class="footerHead">Quick Links</h3>
+
+                    <ul class="footerLink">
+
+                        @*<li>Privacy Policy</li>*@
+
+                        <li><a href="../Faq">Faq's</a> </li>
+
+                        <li><a href="../ContactUs">Contact Us </a></li>
+
+                        <li><a href="../AboutUs">About Us</a> </li>
+
+                    </ul>
+
+                </div><!-- col-3 -->
+
+
+
+                <div class="col-4">
+
+
+                    <figure>
+
+                        <a href="http://www.msmebazar.in">
+                            <img src="~/Images/CompanyLogo/@logo.LogoPath" class="footerLogo" alt="MSME Bazar" />
+                        </a>
+                    </figure>
+
+                    <ul class="socialMedia">
+
+                        <li>
+
+                            <figure>
+                                <a href="https://www.facebook.com/Msmebazar-103298507755411/" target="_blank">
+                                    <img src="../Content/Msme/images/facebook.png" alt="Connect with us in  facebook" />
+                                </a>
+
+                            </figure>
+
+                        </li>
+
+                        <li>
+
+                            <figure>
+
+                                <a href="https://twitter.com/bazarmsme" target="_blank">
+                                    <img src="../Content/Msme/images/twitter.png" alt="twitter" />
+                                </a>
+                            </figure>
+
+                        </li>
+
+                        <li>
+
+                            <figure>
+
+                                <img src="../Content/Msme/images/linkedin.png" alt="linkedin" />
+
+                            </figure>
+
+                        </li>
+
+                    </ul>
+
+                    <div class="copyRight">
+
+                        @if (contactInfo != null)
+                        {
+                            foreach (var item in copyright)
+                            {
+                                if (item.CopyrightStatus == true)
+                                {
+                                    <p> @Html.Raw(HttpUtility.HtmlDecode(item.Description))</p>
+                                }
+                            }
+                        }
+
+                    </div><!-- copyRight -->
+
+                </div><!-- col-4 -->
+
+            </div><!-- footerArea -->
+
+        </div><!-- container -->
+
+    </footer>
+
+    <!--****************Footer****************-->
+
+    <script src="../Content/Msme/js/jquery.js"></script>
+
+    <script src="../Content/Msme/js/owl.carousel.js"></script>
+
+    <script src="../Content/Msme/js/custom.js"></script>
+    <script>
+
+        $('.owl_slider').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            dots: true,
+            autoPlay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

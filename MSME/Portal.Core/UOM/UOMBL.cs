@@ -1,0 +1,201 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Portal.Core.ViewModel;
+using Portal.DAL;
+using Portal.Common;
+using System.Reflection;
+using System.Data;
+
+namespace Portal.Core
+{
+    public class UOMBL
+    {
+        DBInterface dbInterface;
+        public UOMBL()
+        {
+            dbInterface = new DBInterface();
+        }
+
+
+        public ResponseOut AddEditUOM(UOMViewModel uomViewModel)
+        {
+            ResponseOut responseOut = new ResponseOut();
+            try
+            {
+                UOM uom = new UOM
+                {
+                    UOMId = uomViewModel.UOMId,
+                    UOMName = uomViewModel.UOMName,
+                    UOMDesc = uomViewModel.UOMDesc,  
+                    Status = uomViewModel.UOM_Status
+                };
+                responseOut = dbInterface.AddEditUOM(uom);
+            }
+            catch (Exception ex)
+            {
+                responseOut.status = ActionStatus.Fail;
+                responseOut.message = ActionMessage.ApplicationException;
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return responseOut;
+        } 
+
+    public List<UOMViewModel> GetUOMList(string uomName = "", string uomDesc = "", string Status = "")
+        {
+            List<UOMViewModel> uoms = new List<UOMViewModel>();
+            SQLDbInterface sqlDbInterface = new SQLDbInterface();
+            try
+            {
+                DataTable dtuoms = sqlDbInterface.GetUOMList(uomName, uomDesc, Status);
+                if (dtuoms != null && dtuoms.Rows.Count > 0)
+                {
+                    foreach (DataRow dr in dtuoms.Rows)
+                    {
+                        uoms.Add(new UOMViewModel
+                        {
+                            UOMId = Convert.ToInt32(dr["UOMId"]),
+                            UOMName = Convert.ToString(dr["UOMName"]),
+                            UOMDesc = Convert.ToString(dr["UOMDesc"]), 
+                            UOM_Status = Convert.ToBoolean(dr["Status"]),
+                            IsSUM = Convert.ToBoolean(dr["IsSUM"])
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return uoms;
+        }
+
+        public List<UOMViewModel> GetUOMAutoCompleteList(string searchTerm, bool IsSUM)
+        {
+            List<UOMViewModel> uom = new List<UOMViewModel>();
+            try
+            {
+                List<UOM> uomList = dbInterface.GetUOMAutoCompleteList(searchTerm, IsSUM);
+                if (uomList != null && uomList.Count > 0)
+                {
+                    foreach (UOM uo in uomList)
+                    {
+                        uom.Add(new UOMViewModel { UOMId = uo.UOMId, UOMName = uo.UOMName });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return uom;
+        }
+
+        public UOMViewModel GetUOMDetail(int uomId = 0)
+        {
+            UOMViewModel uom = new UOMViewModel();
+            SQLDbInterface sqlDbInterface = new SQLDbInterface();
+            try
+            {
+                DataTable dUOMs = sqlDbInterface.GetUOMDetail(uomId);
+                if (dUOMs != null && dUOMs.Rows.Count > 0)
+                {
+                    foreach (DataRow dr in dUOMs.Rows)
+                    {
+                        uom = new UOMViewModel
+                        {
+                            UOMId = Convert.ToInt32(dr["UOMId"]),
+                            UOMName = Convert.ToString(dr["UOMName"]),
+                            UOMDesc = Convert.ToString(dr["UOMDesc"]),
+                            UOM_Status = Convert.ToBoolean(dr["Status"])
+                        };
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return uom;
+        }
+
+         
+
+
+
+        public List<UOMViewModel> GetUOMList()
+        {
+            List<UOMViewModel> uoms= new List<UOMViewModel>();
+            try
+            {
+                List<UOM> uomList = dbInterface.GetUOMList();
+                if (uomList != null && uomList.Count > 0)
+                {
+                    foreach (UOM uom in uomList)
+                    {
+                        uoms.Add(new UOMViewModel { UOMId = uom.UOMId, UOMName = uom.UOMName, IsSUM = uom.IsSUM.HasValue ? uom.IsSUM.Value:false });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return uoms;
+        }
+
+
+        public List<BrandViewModel> GetBrandList(long ProductMainGroupId, long ProductSubGroupId, long ProductSubChildGroupId)
+        {
+            List<BrandViewModel> brands = new List<BrandViewModel>();
+            try
+            {
+                List<Brand> brandlist = dbInterface.GetBrandList(ProductMainGroupId, ProductSubGroupId, ProductSubChildGroupId);
+                if (brandlist != null && brandlist.Count > 0)
+                {
+                    foreach (Brand brand in brandlist)
+                    {
+                        brands.Add(new BrandViewModel { BrandID = brand.BrandID, BrandName =  brand.BrandName });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return brands;
+        }
+
+        public List<ProductItemViewModel> GetItemList(long ProductMainGroupId, long ProductSubGroupId, long ProductSubChildGroupId)
+        {
+            List<ProductItemViewModel> items = new List<ProductItemViewModel>();
+            try
+            {
+                List<ProductCode> itemlist = dbInterface.GetProductList(ProductMainGroupId, ProductSubGroupId, ProductSubChildGroupId);
+                if (itemlist != null && itemlist.Count > 0)
+                {
+                    foreach (ProductCode item in itemlist)
+                    {
+                        items.Add(new ProductItemViewModel { ProductCodeID = item.ProductCodeID, ProductCodeValue = item.ProductCodeValue });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return items;
+        }
+
+
+    }
+}

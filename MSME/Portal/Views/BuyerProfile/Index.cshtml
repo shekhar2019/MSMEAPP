@@ -1,0 +1,127 @@
+﻿@{
+    Layout = null;
+}
+<html>
+<head>
+    <title></title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../Content/Msme/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/dashstyle.css">
+    <script type="text/javascript" src="http://cmsbox.in/wordpress/roaringtrades/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+    <section id="main_content_area">
+        <div class="container_new">
+            <ul class="main_content_inner">
+                <li class="small what_new">
+                    <div class="welcome main_head">
+                        <h3>Welcome <span>@Session["UserFullName"]</span></h3>
+                    </div>
+                    <div class="profile_img wn_list">
+                        <figure>
+                            <img src="../images/images.png" alt="">
+                        </figure>
+                    </div>
+                    <br />
+                    <div class="logo_img wn_list">
+                        <figure>
+                            <img src="../Images/msme.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li class="wn_list edit_profile">
+                                <a href="../Dashboard/BuyerDashboard">My Dashboard</a>
+                            </li>
+                            <li class="wn_list edit_profile">
+                                <a href="Your_Profile.html">Your Profile</a>
+                            </li>
+                            <li class="wn_list edit_account">
+                                <a href="Your_Account.html">Your Account</a>
+                            </li>
+                            <li class="wn_list fav_item">
+                                <a href="Favourite_Items.html">Favourite Items</a>
+                            </li>
+                            <li class="wn_list knowledge_center">
+                                <a href="http://msme.linguee.in/KnowledgeCenter">Knowledge Center</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="advertise wn_list">
+                        <a href="">
+                            <figure>
+                                <img src="../Images/advertisement.gif" alt="advertisement">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="logo wn_list">
+                        <a href="">
+                            <figure>
+                                <img src="img/msme.png" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                </li>
+                <!-- small what_new -->
+                <li class="medium what_rising">
+                    <h4 class="main_head_cate blue">Edit Pofile</h4>
+                    <div class="creative_tabs ">
+                        <div class="creative_tabs_container">
+                            <div class="Your_Profile_div">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <label>First Name:</label>
+                                            <input type="text" class="form-control" value="Pallavi">
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label>Last Name:</label>
+                                            <input type="text" class="form-control" value="Paliwal">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <label>Email:</label>
+                                            <input type="email" class="form-control" value="Pallavi.paliwal07@gmail.com">
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label>Phone no</label>
+                                            <input type="text" class="form-control" value="9999999999">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <label>City:</label>
+                                            <select class="form-control">
+                                                <option value="Delhi" selected>Delhi</option>
+                                                <option value="Noida">Noida</option>
+                                                <option value="Bhopal">Bhopal</option>
+                                                <option value="Indore">Indore</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <label>State</label>
+                                            <select class="form-control">
+                                                <option value="Delhi" selected>Delhi</option>
+                                                <option value="Noida">Noida</option>
+                                                <option value="Bhopal">Bhopal</option>
+                                                <option value="Indore">Indore</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Update</button>
+                                </form>
+                            </div>
+                        </div><!--creative_tabs_container-->
+                    </div>
+                </li>
+                <!-- mideum what_rising -->
+            </ul><!-- main_content -->
+        </div>
+    </section>
+    
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+17:25:37 PM
+Source : Portal.DAL.DBInterface
+Method Name : RemoveLogo
+Error Line No : 5683
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+--------------------------------------------------------------------------------------------------------------------------------
+
+17:25:37 PM
+Source : Portal.Core.LogoBL
+Method Name : RemoveLogo
+Error Line No : 101
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+17:25:37 PM
+Source : Portal.Controllers.LogoController
+Method Name : RemoveLogo
+Error Line No : 158
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+17:25:52 PM
+Source : Portal.Controllers.LogoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.InvalidOperationException
+Details: Sequence contains no elements
+---------------------------------------------------------------------------------------------------------------------------
+
+18:17:05 PM
+Source : Portal.Controllers.LogoController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\CMS\Portal\Views\Logo\GetLogoList.cshtml(25): error CS1061: 'Portal.Core.ViewModel.LogoViewModel' does not contain a definition for 'CreatedByName' and no extension method 'CreatedByName' accepting a first argument of type 'Portal.Core.ViewModel.LogoViewModel' could be found (are you missing a using directive or an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,70 @@
+﻿@model List<Portal.Core.ViewModel.ProductViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblUserList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Code</th>
+                    <th>HSN</th>
+                    @*<th>Product Type</th>
+                        <th>Assembly Type</th>*@
+                    <th>Parent Class</th>
+                    <th>Category</th>
+                    <th>Sub Category </th>
+                    @*<th>UOM</th>*@
+                    <th>Purchase Price</th>
+                    <th>Sale Price</th>
+                    <th>Re-Order Qty.</th>
+                    <th>Status</th>
+                    <th colspan="2" align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.ProductName</td>
+                        <td>@item.ProductCode</td>
+                        <td>@item.HSN_Code</td>
+                        @*<td>@item.ProductTypeName</td>
+                            <td>@item.AssemblyType</td>*@
+                        <td>@item.ProductMainGroupName</td>
+                        <td>@item.ProductSubGroupName</td>
+                        <td>@item.ProductSubChildGroupName</td>
+                        @*<td>@item.UOMName</td>*@
+                        <td>@item.PurchasePrice</td>
+                        <td>@item.SalePrice</td>
+                        <td>@item.ReOrderQty</td>
+                        <td>@(item.Product_Status == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px auto;">
+                            <a style="color:white" class="fa fa-eye" aria-hidden="true" href="~/Product/AddEditProduct?ProductId=@item.Productid&AccessMode=3"></a>
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:0px 2px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="~/Product/AddEditProduct?ProductId=@item.Productid&AccessMode=2"></a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblUserList').paging({
+            limit: 15,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

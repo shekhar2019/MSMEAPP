@@ -1,0 +1,112 @@
+19:39:18 PM
+Source : Portal.Core.MenuBL
+Method Name : AddEditMenu
+Error Line No : 36
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+19:39:23 PM
+Source : Portal.Controllers.MenuController
+Method Name : AddEditMenu
+Error Line No : 42
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:39:36 PM
+Source : Portal.Core.MenuBL
+Method Name : AddEditMenu
+Error Line No : 36
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:39:36 PM
+Source : Portal.Controllers.MenuController
+Method Name : AddEditMenu
+Error Line No : 42
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:45:24 PM
+Source : Portal.Core.MenuBL
+Method Name : AddEditMenu
+Error Line No : 38
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:45:32 PM
+Source : Portal.Controllers.MenuController
+Method Name : AddEditMenu
+Error Line No : 44
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:42 PM
+Source : Portal.Core.MenuBL
+Method Name : AddEditMenu
+Error Line No : 38
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:48:42 PM
+Source : Portal.Controllers.MenuController
+Method Name : AddEditMenu
+Error Line No : 44
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:51:28 PM
+Source : Portal.Core.MenuBL
+Method Name : AddEditMenu
+Error Line No : 38
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:51:28 PM
+Source : Portal.Controllers.MenuController
+Method Name : AddEditMenu
+Error Line No : 44
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:54:09 PM
+Source : Portal.Core.MenuBL
+Method Name : AddEditMenu
+Error Line No : 41
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:55:35 PM
+Source : Portal.Controllers.MenuController
+Method Name : AddEditMenu
+Error Line No : 44
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:56:26 PM
+Source : Portal.Core.MenuBL
+Method Name : AddEditMenu
+Error Line No : 41
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:56:26 PM
+Source : Portal.Controllers.MenuController
+Method Name : AddEditMenu
+Error Line No : 44
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+

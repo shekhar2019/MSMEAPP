@@ -1,0 +1,56 @@
+20:54:36 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductDetail
+Error Line No : 194
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+--------------------------------------------------------------------------------------------------------------------------------
+
+20:54:36 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductDetail
+Error Line No : 116
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:56:46 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductDetail
+Error Line No : 194
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:56:46 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductDetail
+Error Line No : 116
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:57:42 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductDetail
+Error Line No : 194
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:02:51 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductDetail
+Error Line No : 194
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:02:51 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductDetail
+Error Line No : 116
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+

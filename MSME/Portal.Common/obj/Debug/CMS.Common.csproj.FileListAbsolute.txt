@@ -1,0 +1,7 @@
+D:\AnilWorkArea\CMS\Portal.Common\bin\Debug\Portal.Common.dll
+D:\AnilWorkArea\CMS\Portal.Common\bin\Debug\Portal.Common.pdb
+D:\AnilWorkArea\CMS\Portal.Common\bin\Debug\System.Web.Http.dll
+D:\AnilWorkArea\CMS\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\AnilWorkArea\CMS\Portal.Common\obj\Debug\Portal.Common.dll
+D:\AnilWorkArea\CMS\Portal.Common\obj\Debug\Portal.Common.pdb
+D:\AnilWorkArea\CMS\Portal.Common\obj\Debug\CMS.Common.csprojResolveAssemblyReference.cache

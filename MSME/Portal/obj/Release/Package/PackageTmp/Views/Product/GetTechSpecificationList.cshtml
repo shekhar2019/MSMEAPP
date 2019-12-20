@@ -1,0 +1,72 @@
+﻿@model List<Portal.Core.ViewModel.ProductTechSpecificationViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblSpecificationList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>Specification Name</th>
+                    <th>Specification value</th>
+                    <th>UOM</th>
+                    <th>Brand</th>
+                    <th>Commercial(Grade/CODE) </th>
+        
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td>@item.ProductTechSpecName</td>
+
+                        <td>
+                            @item.ProductTechSpecValue
+                            <input type="hidden" id="hdnProductTechSpecId" value="@item.ProductTechSpecId" />
+                            <input type="hidden" id="hdnProductTechSpecName" value="@item.ProductTechSpecName" />
+                            <input type="hidden" id="hdnProductTechSpecValue" value="@item.ProductTechSpecValue" />
+                            <input type="hidden" id="hdnUomId" value="@item.UomId" />
+                            <input type="hidden" id="hdnUomName" value="@item.UomName" />
+                            <input type="hidden" id="hdnBrandName" value="@item.BrandName" />
+                            <input type="hidden" id="hdnItemCode" value="@item.ItemCode" />
+
+                        </td>
+
+                        <td>@item.UomName</td>
+                        <td>@item.BrandName</td>
+                        <td>@item.ItemCode</td>
+                        
+
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <table class="table" id="tblSpecificationList">
+        <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+            <tr>
+                <th>Specification Name</th>
+                <th>Specification value</th>
+                <th>UOM</th>
+                <th>Brand</th>
+                <th>Commercial(Grade/CODE) </th>
+                
+            </tr>
+        </thead>
+    </table>
+}
+<script>
+            $(document).ready(function () {
+                $('#tblLogoList').paging({
+                    limit: 10,
+                    rowDisplayStyle: 'block',
+                    activePage: 0,
+                    rows: []
+                });
+
+            });
+</script>

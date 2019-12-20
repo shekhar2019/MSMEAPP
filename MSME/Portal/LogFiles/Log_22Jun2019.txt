@@ -1,0 +1,130 @@
+14:20:54 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+--------------------------------------------------------------------------------------------------------------------------------
+
+14:20:59 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:01:29 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:06:02 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:09:22 PM
+Source : Portal.Controllers.DashboardController
+Method Name : BuyerDashboard
+Error Line No : 120
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:14:27 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpException
+Details: The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_BuyerLayout.cshtml": "scripts".
+---------------------------------------------------------------------------------------------------------------------------
+
+19:29:33 PM
+Source : Portal.Controllers.UserRegisterController
+Method Name : EditProfile
+Error Line No : 118
+Exception Type : System.NullReferenceException
+Details: Object reference not set to an instance of an object.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:30:36 PM
+Source : Portal.Controllers.StateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Type 'System.Collections.Generic.Dictionary`2[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' is not supported for serialization/deserialization of a dictionary, keys must be strings or objects.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:31:52 PM
+Source : Portal.Controllers.StateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Type 'System.Collections.Generic.Dictionary`2[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' is not supported for serialization/deserialization of a dictionary, keys must be strings or objects.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:33:10 PM
+Source : Portal.Controllers.StateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Type 'System.Collections.Generic.Dictionary`2[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' is not supported for serialization/deserialization of a dictionary, keys must be strings or objects.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:35:24 PM
+Source : Portal.Controllers.StateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Type 'System.Collections.Generic.Dictionary`2[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' is not supported for serialization/deserialization of a dictionary, keys must be strings or objects.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:36:14 PM
+Source : Portal.Controllers.StateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Type 'System.Collections.Generic.Dictionary`2[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' is not supported for serialization/deserialization of a dictionary, keys must be strings or objects.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:38:04 PM
+Source : Portal.Controllers.StateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Type 'System.Collections.Generic.Dictionary`2[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' is not supported for serialization/deserialization of a dictionary, keys must be strings or objects.
+---------------------------------------------------------------------------------------------------------------------------
+
+19:38:58 PM
+Source : Portal.Controllers.StateController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: Type 'System.Collections.Generic.Dictionary`2[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' is not supported for serialization/deserialization of a dictionary, keys must be strings or objects.
+---------------------------------------------------------------------------------------------------------------------------
+
+20:00:38 PM
+Source : Portal.Controllers.CityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'stateId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetStateCities(Int32)' in 'Portal.Controllers.CityController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+20:02:03 PM
+Source : Portal.Controllers.CityController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'stateId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetStateCities(Int32)' in 'Portal.Controllers.CityController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+

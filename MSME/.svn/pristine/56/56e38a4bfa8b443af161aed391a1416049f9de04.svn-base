@@ -1,0 +1,110 @@
+﻿@model List<Portal.Core.ViewModel.QuotationViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblCountryList">
+            <thead>
+                <tr>
+                    <th>Quotation No.</th>
+                    <th>Quotation Date</th>
+                    <th>Customer Name</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Ref. No.</th>
+                    <th>Ref. Date</th>
+                    <th>Gross Amount</th>
+                    <th>Net Amount</th>
+                    <th>Revised Status</th>
+                    <th>Quotation Status</th>
+                    <th>Created By User</th>
+                    <th>Created Date</th>
+                    <th>Modified By User</th>
+                    <th>Modified Date</th>
+                    <th align="center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="success">
+                        <td>@item.QuotationNo</td>
+                        <td>@item.QuotationDate</td>
+                        <td>@item.CustomerName</td>
+                        <td>@item.City</td>
+                        <td>@item.StateName</td>
+                        <td>@item.RefNo</td>
+                        <td>@item.RefDate</td>
+                        <td>@item.BasicValue</td>
+                        <td>@item.TotalValue</td>
+                        <td>@(item.QuotationRevisedStatus == true ? "Revised" : "")</td>
+                        @if (item.ApprovalStatus.ToUpper() == "DRAFT")
+                        {
+                            <td style="background-color:aquamarine">
+                                @item.ApprovalStatus
+                            </td>
+                        }
+                        else
+                        {
+                            <td style="background-color:green">
+                                @item.ApprovalStatus
+                            </td>
+
+                        }
+
+
+                        <td>@item.CreatedByUserName</td>
+                        <td>@item.CreatedDate</td>
+                        <td>@item.ModifiedByUserName</td>
+                        <td>@item.ModifiedDate</td>
+                        <td class="btn btn-success table_btn" style="margin:0px auto;">
+                            <a style="color:white" title="View" class="fa fa-eye" aria-hidden="true" href="~/Quotation/AddEditQuotation?QuotationId=@item.QuotationId&AccessMode=3"></a>
+                            @if (item.QuotationRevisedStatus == false && item.ApprovalStatus.ToUpper() == "DRAFT")
+                            {
+                                <a style="color:white" title="Edit" class="fa fa-pencil-square-o" href="~/Quotation/AddEditQuotation?QuotationId=@item.QuotationId&AccessMode=2"></a>
+                            }
+                            @if (item.QuotationRevisedStatus == false && item.ApprovalStatus.ToUpper() == "FINAL")
+                            {
+                                <a style="color:white" title="Revise" class="fa fa-plus-square-o" href="~/Quotation/AddRevisedQuotation?QuotationId=@item.QuotationId&AccessMode=1"></a>
+                            }
+                            @*@if (item.ApprovalStatus == "Final")
+                                {
+                                    <a style="color:white" title="Edit" class="fa fa-pencil-square-o" href="~/Quotation/AddEditQuotation?QuotationId=@item.QuotationId&AccessMode=2"></a>
+                                }
+                                @if (item.ApprovalStatus == "Final")
+                                {
+                                    <a style="color:white" title="Final" class="fa fa-plus-square-o" href="~/Quotation/AddRevisedQuotation?QuotationId=@item.QuotationId&AccessMode=1"></a>
+                                }*@
+                        </td>
+                      
+                           
+</tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblCountryList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>
+<style>
+    .btn-success a {
+        background-color: #446abc !important;
+        border-color: #233e79 !important;
+        display: -webkit-inline-box;
+        padding: 5px;
+    }
+</style>

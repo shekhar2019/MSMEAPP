@@ -1,0 +1,202 @@
+17:37:53 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+--------------------------------------------------------------------------------------------------------------------------------
+
+17:37:53 PM
+Source : Portal.Controllers.HomeController
+Method Name : Index
+Error Line No : 209
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:38:40 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:38:40 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:38:40 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:38:40 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:38:42 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:38:42 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:39:14 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:41:02 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.ArgumentException
+Details: Column 'ProductSubChildGroupId' does not belong to table .
+---------------------------------------------------------------------------------------------------------------------------
+
+17:41:09 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:42:13 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:42:13 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:57:50 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:57:50 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:57:54 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:57:54 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:58:09 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:58:09 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:58:10 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:58:10 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:58:33 PM
+Source : Portal.Core.ProductBL
+Method Name : GetProductList
+Error Line No : 109
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+17:58:33 PM
+Source : Portal.Controllers.ProductController
+Method Name : GetProductList
+Error Line No : 100
+Exception Type : System.InvalidCastException
+Details: Object cannot be cast from DBNull to other types.
+---------------------------------------------------------------------------------------------------------------------------
+
+18:13:21 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productSubGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetProductSubChildGroupList(Int32, Int32)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+
+18:15:19 PM
+Source : Portal.Controllers.ProductController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.ArgumentException
+Details: The parameters dictionary contains a null entry for parameter 'productSubGroupId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult GetProductSubChildGroupList(Int32, Int32)' in 'Portal.Controllers.ProductController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+---------------------------------------------------------------------------------------------------------------------------
+

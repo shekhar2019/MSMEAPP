@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMSME.cshtml";
+}
+
+<div class="container">
+    <br />
+    <br />
+
+    @{
+        foreach (var item in ViewBag.MSMEList)
+        {
+            if (item.MSMEContentArea == "faq")
+            {
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-md-12">
+                            <h3>@item.MSMETitle</h3>
+                            
+                            <br />
+                            @Html.Raw(HttpUtility.HtmlDecode(item.MSMEDescription))
+                        </div>
+                        @*<div class="col-md-4">
+                            @if (@item.MSMEImageUrl != null)
+                            {
+                                <img src="/Images/MSME/@Url.Content(@item.MSMEImageUrl)" title="Faq" alt="Faq " width="150" height="150">
+
+                            }
+                            else
+                            {
+                                <img src="~/Images/ImageNotFound.jpg" title="Not Uploaded" alt="Image Not Uploaded" width="150" height="150" style="margin-top:150px">
+                            }
+                        </div>*@
+                    </div>
+
+                </div>
+   
+            }
+        }
+    }
+
+<br />
+    <br />
+</div>

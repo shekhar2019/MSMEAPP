@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMSME.cshtml";
+
+}
+<style>
+    .table {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 18px !important;
+        margin-left: 10px !important;
+        margin-right: 5px !important;
+    }
+
+    .product_image_div {
+        width: 240px;
+        padding: 20px;
+    }
+
+    .fdiv_knowledge_center {
+        display: flex !important;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+</style>
+<section id="section_home">
+
+    <div class="container">
+        <div class="fdiv_knowledge_center_head">
+            <p class="Knowledge_head">Product Sub Category</p>
+        </div>
+
+        <div class="fdiv_knowledge_center">
+
+            @for (int i = 0; i < ViewBag.ProductSubChildGroup.Count; i++)
+            {
+                <div class="product_image_div">
+                    <div class="Knowledge_Center_div">
+                        <figure>
+                            <img src="../Images/ProductSubChildGroupImages/@ViewBag.ProductSubChildGroup[i].ProductSubChildGroupImageUrl" alt="@ViewBag.ProductSubChildGroup[i].ProductSubChildGroupName" title="@ViewBag.ProductSubChildGroup[i].ProductSubChildGroupName" width="150" height="150" />
+                        </figure>
+                        <div class="detail_product">
+                            <p>@ViewBag.ProductSubChildGroup[i].ProductSubGroupName</p>
+                            <p>@ViewBag.ProductSubChildGroup[i].ProductSubGroupName<a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                    <h2><a href="../KnowledgeCenter/GetProductList?productMainGroupId=@ViewBag.ProductMainGroupId&productSubGroupId=@ViewBag.ProductSubGroupId&productSubChildGroupId=@ViewBag.ProductSubChildGroup[i].ProductSubGroupId">@ViewBag.ProductSubChildGroup[i].ProductSubGroupName </a></h2>
+                </div>
+            }
+
+
+        </div>
+
+
+    </div>
+</section>

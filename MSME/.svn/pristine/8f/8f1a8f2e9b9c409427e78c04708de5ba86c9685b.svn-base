@@ -1,0 +1,5 @@
+﻿@{
+    ViewBag.Title = "CRM Dashboard";
+    Layout = "~/Views/Shared/_CRMLayout.cshtml";
+}
+

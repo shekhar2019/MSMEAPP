@@ -1,0 +1,62 @@
+﻿@model List<Portal.Core.AboutUsViewModel>
+<script src="~/Scripts/jquery.tablesorter.js"></script>
+@if (Model != null && Model.Count > 0)
+{
+    <div style="overflow-x:scroll; padding:10px;">
+        <table class="table" id="tblLogoList">
+            <thead style="background:rgba(0, 0, 0, 0) linear-gradient(#375CB0, #6e96e2) repeat scroll 0 0; color:#fff;">
+                <tr>
+                    <th>About Us Title</th>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Created By</th>
+                    <th>Status</th>
+
+                    <th align="center" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody style="background:#dff0d8;">
+                @foreach (var item in Model)
+                {
+                    <tr class="success" style="border-bottom:1px solid #ddd;">
+                        <td>@item.AboutusTitle
+                        <input type="hidden" id="hdnAboutusId" value="@item.AboutusId" />
+                        <input type="hidden" id="hdnAboutusTitle" value="@item.AboutusTitle" />
+                        <input type="hidden" id="hdnDescription" value="@item.Description" />
+                        <input type="hidden" id="hdnImageUrl" value="@item.ImageUrl" />
+                        <input type="hidden" id="hdnAboutStatus" value="@(item.AboutStatus == true ? "true" : "false")" />
+                        </td>
+                        <td>@item.Description</td>
+                        <td><img src="~/Images/AboutUs/@item.ImageUrl" title="@item.AboutusTitle" alt="@item.AboutusTitle" width="50" height="50" /> </td>
+                        <td>@item.CreatedByUserName</td>
+                        <td>@(item.AboutStatus == true ? "Active" : "Inactive")</td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                            <a style="color:white" class="fa fa-pencil-square-o" href="javascript:void(0)" onclick="EditRow(this)"></a>
+                            
+                        </td>
+                        <td class="btn btn-success table_btn" style="width:30px; margin:7px auto;">
+                            <a style="color:white" class="fa fa-trash" aria-hidden="true" href="javascript:void(0)" onclick="RemoveLogo(@item.AboutusId)" title="Remove About US"></a>
+                            </td>
+
+</tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <h3 style="color:firebrick;text-align:center">Records not Found!!!</h3>
+}
+<script>
+    $(document).ready(function () {
+        $('#tblLogoList').paging({
+            limit: 10,
+            rowDisplayStyle: 'block',
+            activePage: 0,
+            rows: []
+        });
+
+    });
+</script>

@@ -1,0 +1,281 @@
+19:48:05 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+19:49:08 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+19:49:47 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+19:50:09 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+19:50:31 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+19:50:32 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "foreach" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "foreach" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+19:53:30 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: 'string' does not contain a definition for 'trim'
+---------------------------------------------------------------------------------------------------------------------------
+
+19:54:24 PM
+Source : Portal.Controllers.MSMEController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: 'string' does not contain a definition for 'toString'
+---------------------------------------------------------------------------------------------------------------------------
+
+21:16:23 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(36): error CS1525: Invalid expression term ';'
+---------------------------------------------------------------------------------------------------------------------------
+
+21:16:39 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(37): error CS1525: Invalid expression term '}'
+---------------------------------------------------------------------------------------------------------------------------
+
+21:17:45 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(36): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:18:19 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(36): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:18:37 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(36): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:18:41 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(36): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:18:51 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(36): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:19:41 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+21:19:57 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+21:19:59 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpParseException
+Details: Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+---------------------------------------------------------------------------------------------------------------------------
+
+21:20:18 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:20:52 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:03 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term '='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:15 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term ';'
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:16 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term ';'
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:16 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term ';'
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:16 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term ';'
+---------------------------------------------------------------------------------------------------------------------------
+
+21:21:37 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term '+='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:23:10 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(32): error CS1525: Invalid expression term '+='
+---------------------------------------------------------------------------------------------------------------------------
+
+21:32:53 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(5): error CS1646: Keyword, identifier, or string expected after verbatim specifier: @
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:03 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(5): error CS1646: Keyword, identifier, or string expected after verbatim specifier: @
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:18 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(5): error CS1646: Keyword, identifier, or string expected after verbatim specifier: @
+---------------------------------------------------------------------------------------------------------------------------
+
+21:34:58 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(5): error CS1646: Keyword, identifier, or string expected after verbatim specifier: @
+---------------------------------------------------------------------------------------------------------------------------
+
+21:40:11 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: d:\AnilWorkArea\MSME\Portal\Views\KnowledgeCenter\Index.cshtml(5): error CS1646: Keyword, identifier, or string expected after verbatim specifier: @
+---------------------------------------------------------------------------------------------------------------------------
+
+21:41:32 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Non-invocable member 'System.Collections.Generic.List<Portal.Core.ViewModel.ProductMainGroupViewModel>.Count' cannot be used like a method.
+---------------------------------------------------------------------------------------------------------------------------
+
+21:42:44 PM
+Source : Portal.Controllers.KnowledgeCenterController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: Non-invocable member 'System.Collections.Generic.List<Portal.Core.ViewModel.ProductMainGroupViewModel>.Count' cannot be used like a method.
+---------------------------------------------------------------------------------------------------------------------------
+

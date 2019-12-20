@@ -1,0 +1,40 @@
+17:25:29 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\anil\AppData\Local\Temp\Temporary ASP.NET Files\vs\2da0df02\4da9cadb\App_Web_gethomesliderlist.cshtml.a6a4d0c3.bmsjjbyk.0.cs(34): error CS0234: The type or namespace name 'HomeSliderViewModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+--------------------------------------------------------------------------------------------------------------------------------
+
+17:35:45 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\anil\AppData\Local\Temp\Temporary ASP.NET Files\vs\2da0df02\4da9cadb\App_Web_gethomesliderlist.cshtml.a6a4d0c3.okeif2qa.0.cs(34): error CS0234: The type or namespace name 'HomeSliderViewModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+17:36:41 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\anil\AppData\Local\Temp\Temporary ASP.NET Files\vs\2da0df02\4da9cadb\App_Web_gethomesliderlist.cshtml.a6a4d0c3.aatmrtf_.0.cs(34): error CS0234: The type or namespace name 'HomeSliderViewModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+17:40:12 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\anil\AppData\Local\Temp\Temporary ASP.NET Files\vs\2da0df02\4da9cadb\App_Web_gethomesliderlist.cshtml.a6a4d0c3.hidxjys_.0.cs(34): error CS0234: The type or namespace name 'HomeSliderViewModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+
+17:46:52 PM
+Source : Portal.Controllers.HomeSliderController
+Method Name : OnException
+Error Line No : 0
+Exception Type : System.Web.HttpCompileException
+Details: c:\Users\anil\AppData\Local\Temp\Temporary ASP.NET Files\vs\2da0df02\4da9cadb\App_Web_gethomesliderlist.cshtml.a6a4d0c3.lrj-sbxf.0.cs(34): error CS0234: The type or namespace name 'HomeSliderViewModel' does not exist in the namespace 'Portal.Core.ViewModel' (are you missing an assembly reference?)
+---------------------------------------------------------------------------------------------------------------------------
+

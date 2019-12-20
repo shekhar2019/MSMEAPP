@@ -1,0 +1,8 @@
+18:21:04 PM
+Source : Portal.Controllers.HomeController
+Method Name : OnException
+Error Line No : 0
+Exception Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Details: 'Portal.Core.HomeSliderViewModel' does not contain a definition for 'id'
+--------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,76 @@
+﻿@model List<Portal.Core.HomeUpdateViewModel>
+<h3 class="title-default-left">Latest updates</h3>
+
+<div id="marquee1" class="container-marquee" onmouseover="zxcMarquee.scroll('marquee1',0);" scrollamount="4" onmouseout="zxcMarquee.scroll('marquee1',-1);" direction="up">
+    <div style="width: 100%;  z-index:0;">
+        <ul class="news-wrapper">
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    if (item.UpdateStatus == true)
+                    {
+                    <li style="margin-top:10px;">
+                        <div class="news-img-holder">
+                            <a href="single-news4ef9.html?id=12"><img src="../Images/HomeUpdate/@item.ImageUrl" class="img-responsive" alt="@item.ImageAlt" width="150"></a>
+                        </div>
+                        <div class="news-content-holder">
+                            <h3><a href="single-news4ef9.html">@item.UpdateTitle</a></h3>
+                            <div class="post-date">@item.UpdateDate</div>
+                            <p>
+                                @Html.Raw(item.UpdateDec)
+                                @*Grundfos India have completed 20 glorious years in India!! Grundfos is the world leading brand in manufacturing Centrifugal pumps and leading the innovation in their field for a better tomorrow.&nbsp; ARH Technologies is proud to be associates ....*@
+                            </p>
+                        </div>
+                    </li>
+                    }
+                }
+            }
+
+
+            @*<li style="margin-top:20px;">
+                    <div class="news-img-holder">
+                        <a href="single-news0055.html"><img src="~/Media/images/latest/Award%202018.jpg" class="img-responsive" alt="news" width="150"></a>
+                    </div>
+                    <div class="news-content-holder">
+                        <h3><a href="single-news0055.html">ARH Wins Award- Tranter Sales meet 2018</a></h3>
+                        <div class="post-date">February 09, 2018</div>
+                        <p>
+                            <span style="font-size: 9pt; font-family: Arial, sans-serif;">ARH Technologies once again wins <strong>Best Performance</strong> Award Announced by <strong>Tranter India at GOA sales meet 2018</strong>. ARH Technologies is recognized for maximu....
+                        </p>
+                    </div>
+                </li>
+
+                <li style="margin-top:20px;">
+                    <div class="news-img-holder">
+                        <a href="single-news8803.html"><img src="~/Media/images/latest/Isolutions.png" class="img-responsive" alt="news" width="150"></a>
+                    </div>
+                    <div class="news-content-holder">
+                        <h3><a href="single-news8803.html">Grundfos iSOLUTIONS</a></h3>
+                        <div class="post-date">January 06, 2018</div>
+                        <p><p>
+                            <strong>What is Grundfos iSOLUTIONS?</strong><br />
+                            Grundfos iSOLUTIONS is the latest addition to Grundfos&rsquo; portfolio and takes intelligence to a brand new level. Where E-solutions primarily offer focus on product level, iSOLUTIONS will....
+                        </p>
+                    </div>
+                </li>
+
+                <li style="margin-top:20px;">
+                    <div class="news-img-holder">
+                        <a href="single-news3a9f.html"><img src="~/Media/images/latest/Protigo.jpg" class="img-responsive" alt="news" width="150"></a>
+                    </div>
+                    <div class="news-content-holder">
+                        <h3><a href="single-news3a9f.html"> news ARH Technologies Introduces Flame Arresters </a></h3>
+                        <div class="post-date">December 14, 2017</div>
+                        <p>
+                            ARH Technologies is introducing flame arrsters for the Pharma, Hazardus, Oil and Gas and petrochemical sectors. Products shall be soon available for our esteemed customers....
+                        </p>
+
+                    </div>
+                </li>*@
+
+
+
+        </ul>
+    </div>
+</div>

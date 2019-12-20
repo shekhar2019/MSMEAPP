@@ -1,0 +1,135 @@
+﻿@{
+    ViewBag.Title = "Buyer Dashboard";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml"; 
+}
+
+@section UserMenu{
+<li>
+    <a href="../Dashboard/BuyerDashboard">Dashboard</a>
+</li>
+    <li>
+        <a href="../UserRegister/EditProfile">Your Profile</a>
+    </li>
+    @*<li>
+        <a href="../BuyerProduct/BuyerFavouriteProduct">Favourite Items</a>
+    </li>*@
+    <li>
+        <a href="../KnowledgeCenter">Knowledge Center</a>
+    </li>
+    <li>
+        <a href="../BuyerProduct/AddEditBuyerProduct">Add Product</a>
+    </li>
+    <li>
+        <a href="../UserLogin/SignOut">Logout</a>
+    </li>
+}
+
+@section DashboardContent{
+
+   <input type="hidden" id="UpdatedDataUrl" value='@Url.Action("GetDashboardBuyerProducts","BuyerProduct")' />
+    <div class="right-pane">
+        @Html.Action("GetDashboardBuyerProducts", "BuyerProduct")
+    </div>
+
+<div class="modal fade" id="SellerModal" role="dialog">
+    <div class="modal-dialog modal-small">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modaltitle">Microdot Tech Aspire Solution</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+
+                    <tbody>
+                        <tr class="danger">
+                            <td colspan="2">Company</td>
+                            <td class="username"></td>
+                            <td>Rate</td>
+                            <td class="rate"></td>
+                        </tr>
+                        <tr class="danger">
+                            <td colspan="2">Contact</td>
+                            <td class="contact"></td>
+                            <td>Unit</td>
+                            <td class="unit"></td>
+                        </tr>
+                        <tr class="info">
+                            <td colspan="2">Email</td>
+                            <td class="email"></td>
+                            <td>MOQ</td>
+                            <td class="moq"></td>
+                        </tr>
+
+                        <tr class="success">
+                            <td colspan="2">Address</td>
+                            <td class="address"></td>
+                            <td>GST Status</td>
+                            <td class="gst"></td>
+                        </tr>
+
+                        <tr class="success">
+                            <td colspan="2">Delivery Status</td>
+                            <td class="deliveryStatus" colspan="3"></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+}
+
+
+
+@section DashboardScripts{
+
+<link href="~/Content/timeout-dialog.css" rel="stylesheet" />
+<script src="~/Scripts/timeout-dialog.js"></script>
+
+    <script>
+        function ShowSellerModal(salerProductDetailId) {
+            $.ajax({
+                url: "../SellerProduct/GetSellerProductDetail",
+                data: { salerProductDetailId: salerProductDetailId },
+                contentType: "json",
+                success: function (data) {
+                    $("#SellerModal .username").text(data.CompanyName);
+                    $("#SellerModal .contact").text(data.FullName + " " + data.ContactNo);
+                    $("#SellerModal .email").text(data.Email);
+                    $("#SellerModal .rate").text(data.SalePrice);
+                    $("#SellerModal .unit").text(data.UOMName);
+                    $("#SellerModal .moq").text(data.MOQ);
+                    $("#SellerModal .address").text(data.Address);
+                    $("#SellerModal .gst").text(data.GSTName);
+                    $("#SellerModal .deliveryStatus").text(data.DeliveryName);
+                    $("#SellerModal .modaltitle").text(data.CompanyName);
+                    $("#SellerModal").modal();
+                },
+                error: function () {
+                    ShowErrorModal("Product Specifications", "Error fetching details")
+                }
+            });
+        }
+
+        $(function () {
+            debugger;
+            var fnTimeOut = function () {
+                jQuery.timeoutDialog.setupDialogTimer({
+                    timeout: 7200,
+                    countdown: 300,
+                    logout_redirect_url: '@Url.Action("SignOut", "UserLogin")',
+                    keep_alive_url: '@Url.Action("Keepalive", "UserLogin")'
+               });
+            };
+            fnTimeOut();
+        });
+    </script>
+}

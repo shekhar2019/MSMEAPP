@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "About Us";
+    Layout = "~/Views/Shared/_LayoutMSME.cshtml";
+}
+
+<section id="section_home">
+
+    <div class="container">
+        <div class="fdiv_knowledge_center_head">
+            <p class="Knowledge_head">About us</p>
+        </div>
+        @foreach (var item in ViewBag.AboutList)
+        {
+            <h2>@item.AboutusTitle</h2>
+            <p>@Html.Raw(HttpUtility.HtmlDecode(item.Description))</p>
+            
+            <br />
+        }
+        
+       @* <p>We present us as a manufacturer of Thermoplastics and Rubber Hoses Tubes and Pipes for smooth flow of Water, Air, Gas & Fuel. These hoses are suitable for numerous applications in flow of fluids under various working pressures and temperatures. With maximum test pressure of 160kg/cm and temp range from -40 to 130 C. We also undertake to make Sleeves according to customer specifications and needs. </p>
+    <br>
+    <h2>How and where we make?</h2>
+    <p>We have a well organized manufacturing set up in Delhi which is lined up with latest extrusion and reinforcement technology in Hoses Production. We make the product with appropriate Polymeric Raw Materials like Plasticized Soft PVC, Thermoplastic Elastomers , Rubbers (TPR s), Thermoplastic Poly-Urethane (TPU s), Polymers like Polyethylene (PEs), Polypropylene (PP) and other engineering Plastics like Nylon etc. </p>
+    <br>
+    <h2>Do we make quality?</h2>
+    <p>We work hard in a systematic manner to see that our customer is left with no choice other than us, if he or she is searching for a quality Hose Product. We have a state of art testing laboratory at our works with profound knowledge and application of Product Quality Standards and Total Quality Management System by trained and qualified staff. Quality thus is our top most priority</p>
+    <br>
+    <h2>Are our products prices viable?</h2>
+    <p>We believe in reducing the price by having in depth knowledge about raw materials where to buy from, when to buy and how much to buy. As the raw material used here are bulk polymer and rubber commodities whose prices are volatile and governed by international markets. We procure the best specification materials direct from the source, avoiding any traders in between, thus reducing our prices to best extent.</p>
+    <br>*@
+    </div>
+
+</section>

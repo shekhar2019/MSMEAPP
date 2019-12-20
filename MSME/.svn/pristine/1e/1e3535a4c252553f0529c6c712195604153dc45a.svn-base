@@ -1,0 +1,329 @@
+﻿
+<style>
+    li {
+        list-style-type: circle;
+    }
+</style>
+<style>
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active, .collapsible:hover {
+            background-color: #ccc;
+        }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+@*<script>
+
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        debugger;
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>*@
+
+<script src="~/Scripts/jquery-ui.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#txtfromdate").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: 'dd-M-yy',
+
+            onSelect: function (selected) {
+            }
+        });
+        $("#txtTodate").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: 'dd-M-yy',
+
+            onSelect: function (selected) {
+            }
+        });
+    });
+</script>
+
+<script>
+    function setelectedproductisinhidden(e) {
+        
+        $("#hdnproductID").val(e);
+        $('.content').attr("style", "display:none");
+       
+        $("#" + e.replace("div ","")).attr("style", "display:block");
+        generategrpah(e);
+    }
+
+    function generategrpah(e) {
+        var chart1 = new CanvasJS.Chart("chartContainer " + e.replace("div ", ""), {
+            animationEnabled: true,
+            title: {
+                text: "Graph Rate Wise"
+            },
+            axisY: {
+                title: "Price",
+                valueFormatString: "#0,,.",
+                suffix: "mn",
+                stripLines: [{
+                    value: 3366500,
+                    label: "Average"
+                }]
+            },
+            data: [{
+                yValueFormatString: "#,### Units",
+                xValueFormatString: "YYYY",
+                type: "spline",
+                dataPoints: [
+                    { x: new Date(2002, 0), y: 2506000 },
+                    { x: new Date(2003, 0), y: 2798000 },
+                    { x: new Date(2004, 0), y: 3386000 },
+                    { x: new Date(2005, 0), y: 6944000 },
+                    { x: new Date(2006, 0), y: 6026000 },
+                    { x: new Date(2007, 0), y: 2394000 },
+                    { x: new Date(2008, 0), y: 1872000 },
+                    { x: new Date(2009, 0), y: 2140000 },
+                    { x: new Date(2010, 0), y: 7289000 },
+                    { x: new Date(2011, 0), y: 4830000 },
+                    { x: new Date(2012, 0), y: 2009000 },
+                    { x: new Date(2013, 0), y: 2840000 },
+                    { x: new Date(2014, 0), y: 2396000 },
+                    { x: new Date(2015, 0), y: 1613000 },
+                    { x: new Date(2016, 0), y: 2821000 },
+                    { x: new Date(2017, 0), y: 2000000 }
+                ]
+            }]
+        });
+
+        var chart2 = new CanvasJS.Chart("chartContainer2 " + e.replace("div ", ""), {
+            animationEnabled: true,
+            theme: "light2", // "light1", "light2", "dark1", "dark2"
+            title: {
+                text: "Graph Demand Wise"
+            },
+            axisY: {
+                title: "Demand"
+            },
+            data: [{
+                type: "column",
+                showInLegend: true,
+                legendMarkerColor: "grey",
+                legendText: "MMbbl = one million barrels",
+                dataPoints: [
+                    { y: 300878, label: "Venezuela" },
+                    { y: 266455, label: "Saudi" },
+                    { y: 169709, label: "Canada" },
+                    { y: 158400, label: "Iran" },
+                    { y: 142503, label: "Iraq" },
+                    { y: 101500, label: "Kuwait" },
+                    { y: 97800, label: "UAE" },
+                    { y: 80000, label: "Russia" }
+                ]
+            }]
+        });
+        chart1.render();
+
+        chart2.render();
+    }
+
+</script>
+
+
+
+<input id="hdnproductID" type="hidden" />
+
+@for (int i = 0; i < ViewBag.Products.Count; i++)
+{
+
+    @*<div class="product_image_div">*@
+
+
+    <button type="button" id="div @ViewBag.Products[i].ProductFullDesc" onclick="setelectedproductisinhidden(this.id)" style="margin-top:5px;" class="collapsible"> <b> @ViewBag.Products[i].ProductName </b></button>
+
+    <div class="content" id="@ViewBag.Products[i].ProductFullDesc">
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-5">
+                    <label>Grpah Type</label>
+                    <select id="ddlGraphtype" tabindex="4" class="form-control graphtype" onchange="Changegraphtype();">
+                        <option value="1">Daily</option>
+                        <option value="2">Monthly</option>
+                        <option value="3">Yearly</option>
+                    </select>
+                </div>
+
+                <div class="col-md-7 divdaily" id="divdaily" style="display:block;">
+                    <div class="col-md-6">
+                        <label>From Date</label>
+
+                        <input class="form-control" id="txtfromdate" name="txtfromdate" tabindex="2" readonly="readonly" placeholder="Enter From Date" value="@ViewData["currentDate"]" type="text" maxlength="50" />
+                    </div>
+                    <div class="col-md-6">
+                        <label>To Date</label>
+
+                        <input class="form-control" id="txtTodate" name="txtTodate" tabindex="2" readonly="readonly" placeholder="Enter To Date" value="@ViewData["currentDate"]" type="text" maxlength="50" />
+                    </div>
+                </div>
+
+                <div class="col-md-7 divMonthly" id="divMonthly" style="display:none;">
+                    <div class="col-md-4">
+                        <label>Year</label>
+                        <select id="ddlmonthyear" tabindex="4" class="form-control">
+                            <option value="0">Select Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-4">
+                        <label>From Month</label>
+                        <select id="ddlFromMonth" tabindex="4" class="form-control">
+                            <option value="0">Select Month</option>
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-4">
+                        <label>To Month</label>
+                        <select id="ddlToMonth" tabindex="4" class="form-control">
+                            <option value="0">Select Month</option>
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="col-md-7 divYearly" id="divYearly" style="display:none;">
+
+                    <div class="col-md-6">
+                        <label>From Year</label>
+                        <select id="ddlFromYear" tabindex="4" class="form-control">
+                            <option value="0">Select Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-6">
+                        <label>To Year</label>
+                        <select id="ddlToYear" tabindex="4" class="form-control">
+                            <option value="0">Select Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row" style="margin-top:10px;margin-bottom:5px;">
+            <div class="col-lg-6">
+                <div id="chartContainer @ViewBag.Products[i].ProductFullDesc" style="height: 300px; width: 100%;"></div>
+
+            </div>
+
+            <div class="col-lg-6">
+                <div id="chartContainer2 @ViewBag.Products[i].ProductFullDesc" style="height: 300px; width: 100%;"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+}
+
+<script>
+    function Changegraphtype() {
+
+        var hdnproductID = $("#hdnproductID").val();
+
+        var graphtype = $("#" + hdnproductID).find('.graphtype').val();
+
+        if (graphtype == '1') {
+
+            $("#" + hdnproductID).find('.divdaily').attr("style", "display:block");
+            $("#" + hdnproductID).find('.divMonthly').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divYearly').attr("style", "display:none");
+        }
+        else if (graphtype == '2') {
+            $("#" + hdnproductID).find('.divdaily').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divMonthly').attr("style", "display:block");
+            $("#" + hdnproductID).find('.divYearly').attr("style", "display:none");
+        }
+        else if (graphtype == '3') {
+            $("#" + hdnproductID).find('.divdaily').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divMonthly').attr("style", "display:none");
+            $("#" + hdnproductID).find('.divYearly').attr("style", "display:block");
+        }
+
+    }
+</script>
