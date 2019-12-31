@@ -8,7 +8,6 @@ namespace Portal.Core.ViewModel
     public partial class BuyerProductViewModel
     {
         public long BuyerProductDetailId { get; set; }
-
         public long ParentClassId { get; set; }
         public long CategoryId { get; set; }
         public long SubCategoryId { get; set; }
@@ -36,9 +35,17 @@ namespace Portal.Core.ViewModel
 
         public string Brands { get; set; }
         public string items { get; set; }
-
-
         public IEnumerable<TechSpecificationVM> Specifications { get; set; }
+    }
+    public partial class BuyerProductTechSpecificationViewModel
+    {
+        public long Id { get; set; }
+        public long ProductTechSpecId { get; set; }
+        public string ProductTechSpecName { get; set; }
+        public long BuyerProductId { get; set; }
+        public string ProductTechSpecValue { get; set; }
+        public Nullable<int> UomId { get; set; }
+        public string UomName { get; set; }
     }
 
     public partial class BuyerProductDashboardViewModel : BuyerProductViewModel

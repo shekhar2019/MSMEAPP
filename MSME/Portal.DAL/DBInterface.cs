@@ -203,6 +203,17 @@ namespace Portal.DAL
             return entities.BuyerProducts.Where(x => x.ParentClassId == parentClassId && x.CategoryId == categoryid && x.SubCategoryId == subCategoryid && x.BuyerId == buyerId);
         }
 
+        public IEnumerable<BuyerProductTechSpecification> GetBuyerProductTechSpecification(long buyerProductDetailId)
+        {
+            var res = entities.BuyerProductTechSpecifications.Join(entities.UOMs,
+                bpts => bpts.UomId,
+                u => u.UOMId,
+                (bpts, u) => new {
+                    
+                });
+            return entities.BuyerProductTechSpecifications.Where(x => x.BuyerProductId== buyerProductDetailId);
+
+        }
         public IEnumerable<City> GetStateCities(int stateId)
         {
             return entities.Cities.Where(x => x.StateId == stateId);

@@ -117,6 +117,32 @@ namespace Portal.Core
             return buyerProduct;
         }
 
+        public IEnumerable<BuyerProductTechSpecificationViewModel> GetBuyerProductTechSpecification(long buyerProductId)
+        {
+            DataTable dt = sQLDbInterface.GetBuyerProductTechSpecificationList(buyerProductId);
+            List<BuyerProductTechSpecificationViewModel> buyerProductTechSpecification = new List<BuyerProductTechSpecificationViewModel>();
+           if(dt.Rows.Count>0)
+            {
+                foreach(DataRow row in dt.Rows)
+                {
+                    buyerProductTechSpecification.Add(new BuyerProductTechSpecificationViewModel
+                    {
+                        Id=Convert.ToInt64(row["Id"]),
+                        BuyerProductId= Convert.ToInt64(row["BuyerProductId"]),
+                        ProductTechSpecId=Convert.ToInt64(row["ProductTechSpecId"]),
+                        ProductTechSpecName= Convert.ToString(row["ProductTechSpecName"]),
+                        ProductTechSpecValue= Convert.ToString(row["ProductTechSpecValue"]),
+                        UomId=Convert.ToInt32(row["UomId"]),
+                        UomName=Convert.ToString(row["UOMName"])
+
+
+                    });
+                }
+            }
+
+            return buyerProductTechSpecification;
+        }
+
 
         public IEnumerable<BuyerProductViewModel> GetProductByBuyerId(long buyerId)
         {

@@ -130,6 +130,35 @@ namespace Portal.Controllers
             IEnumerable<BuyerProductViewModel> products = buyerProductBL.GetProductByBuyerId(BSContextUser.UserId);
             return PartialView("_ByerProductList", products);
         }
+        [HttpPost]
+        public PartialViewResult GetBuyerProductTechSpecification(long buyerProductId)
+        {
+            BuyerProductBL buyerProductBL = new BuyerProductBL();
+            List<BuyerProductTechSpecificationViewModel> buyerProductTechSpecificationList = new List<BuyerProductTechSpecificationViewModel>();
+            IEnumerable<BuyerProductTechSpecificationViewModel> buyerProductTechSpecification=null;
+            try
+            {
+                buyerProductTechSpecification = buyerProductBL.GetBuyerProductTechSpecification(buyerProductId);
+                foreach(BuyerProductTechSpecificationViewModel item in buyerProductTechSpecification)
+                {
+                    buyerProductTechSpecificationList.Add(
+                        new BuyerProductTechSpecificationViewModel
+                        {
+                            BuyerProductId = item.BuyerProductId,
+                            ProductTechSpecId = item.ProductTechSpecId,
+                            ProductTechSpecName=item.ProductTechSpecName,
+                            ProductTechSpecValue = item.ProductTechSpecValue,
+                            UomId = item.UomId,
+                            UomName=item.UomName
+                        });
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+            }
+            return PartialView(buyerProductTechSpecificationList);
+        }
 
         [HttpGet]
         public ActionResult GetDashboardBuyerProducts(string sortBy = SortDashboardBy.LowestPrice, string category = "", string city = "")

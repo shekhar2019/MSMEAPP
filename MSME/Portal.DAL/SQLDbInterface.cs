@@ -933,6 +933,29 @@ namespace Portal.DAL
         }
 
 
+        public DataTable GetBuyerProductTechSpecificationList(long buyerProductId)
+        {
+            DataTable dtProductTechSpecification = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter();
+            try
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    da = new SqlDataAdapter("proc_GetBuyerProductSpec", con);
+                    da.SelectCommand.CommandType = CommandType.StoredProcedure;
+                    da.SelectCommand.Parameters.AddWithValue("@BuyerProductId", buyerProductId);
+                    da.Fill(dtProductTechSpecification);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return dtProductTechSpecification;
+
+        }
+
         #endregion
 
         #region PaymentTerm  

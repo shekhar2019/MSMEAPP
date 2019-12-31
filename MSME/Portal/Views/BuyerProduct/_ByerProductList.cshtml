@@ -1,56 +1,76 @@
 ﻿@model IEnumerable<Portal.Core.ViewModel.BuyerProductViewModel>
-
-
 <table class="table">
     <thead>
-        <tr>
-            <th>Product Name</th>
-            <th>Specification</th>
-            <th>Value</th>
-            <th>UOM</th>
-            <th>Brand</th>
-            <th>Code</th>
-            <th>Action</th>
+        <tr style="color:white!important;">
+            <th style="width:30%;">Product Name</th>
+            <th style="width:20%;">Specification</th>
+            <th style="width:10%;">Value</th>
+            <th style="width:10%;">UOM</th>
+            <th style="width:10%;">Brand</th>
+            <th style="width:10%;">Code</th>
+            <th style="width:10%;">Action</th>
         </tr>
     </thead>
     <tbody>
         @if (Model != null && Model.Count() > 0)
+        {
+            foreach (Portal.Core.ViewModel.BuyerProductViewModel item in Model)
             {
-                foreach (Portal.Core.ViewModel.BuyerProductViewModel item in Model)
+            <tr>
+                <td>
+                    @item.ProductName
+                    <input type="hidden" name="hdnProductName" id="hdnProductName" value="@item.ProductName" />
+                    <input type="hidden" name="hdnBuyerProductDetailId" id="hdnBuyerProductDetailId" value="@item.BuyerProductDetailId" />
+                    <input type="hidden" name="hdnParentClassId" id="hdnParentClassId" value="@item.ParentClassId" />
+                    <input type="hidden" name="hdnCategoryId" id="hdnCategoryId" value="@item.CategoryId" />
+                    <input type="hidden" name="hdnSubCategoryId" id="hdnSubCategoryId" value="@item.SubCategoryId" />
+
+                </td>
+            <td>
+                @foreach (var spc in item.Specifications)
                 {
-                <tr>
-                    <td>@item.ProductName</td>
-                    <td>
-                        @foreach (var spc in item.Specifications)
-                        {
-                            <div>
-                                @spc.SpecName
-                            </div>
-                        }
-                    </td>
-                    <td>
-                        @foreach (var spc in item.Specifications)
-                        {
-                            <div>
-                                @spc.SpecValue
-                            </div>
-                        }
-                    </td>
-                    <td>
-                        @foreach (var spc in item.Specifications)
-                        {
-                            <div>
-                                @spc.UomName
-                            </div>
-                        }
-                    </td>
-                    <td>@item.BrandName</td>
-                    <td>@item.ProductCode</td>
-                    <td>
-                        @Html.Hidden("BuyerProductDetailId", item.BuyerProductDetailId, new { @class = "DeleteId" })
-                        <a onclick="DeleteBuyerProduct(this)" class="btn btn-default">Delete</a>
-                    </td>
-                </tr>
+                <div>
+                    @spc.SpecName
+                    <input type="hidden" name="hdnSpecName" id="hdnSpecName" value="@spc.SpecName" />
+                </div>
+                }
+            </td>
+            <td>
+                @foreach (var spc in item.Specifications)
+                {
+                <div>
+                    @spc.SpecValue
+                    <input type="hidden" name="hdnSpecValue" id="hdnSpecValue" value="@spc.SpecValue" />
+                </div>
+                }
+            </td>
+            <td>
+                @foreach (var spc in item.Specifications)
+                {
+                <div>
+                    @spc.UomName
+                    <input type="hidden" name="hdnUomName" id="hdnUomName" value="@spc.UomName" />
+                </div>
+                }
+            </td>
+            <td>
+                @item.BrandName
+                <input type="hidden" name="hdnBrandName" id="hdnBrandName" value="@item.BrandName" />
+            </td>
+            <td>@item.ProductCode
+                <input type="hidden" name="hdnProductCode" id="hdnProductCode" value="@item.ProductCode" />
+                </td>
+            <td>
+                @Html.Hidden("BuyerProductDetailId", item.BuyerProductDetailId, new { @class = "DeleteId" })
+                @*<a onclick="DeleteBuyerProduct(this)" class="btn btn-default">Edit</a>*@
+                <a style="color:black;" href="javascript:void(0)" onclick="EditRow(this)">Edit</a>
+                &nbsp;
+                @Html.Hidden("BuyerProductDetailId", item.BuyerProductDetailId, new { @class = "DeleteId" })
+                <a style="color:black;" aria-hidden="true" href="javascript:void(0)" onclick="DeleteBuyerProduct(this)" title="Remove MSME Details">Delete</a>
+                @*<a onclick="DeleteBuyerProduct(this)" class="btn btn-default">Delete</a>*@
+            </td>
+            
+        </tr>
             }
         }
         else

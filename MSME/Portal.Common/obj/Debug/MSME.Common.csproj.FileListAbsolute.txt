@@ -145,3 +145,15 @@ D:\Application\MVC\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
 D:\Application\MVC\MSME\Portal.Common\obj\Debug\Portal.Common.dll
 D:\Application\MVC\MSME\Portal.Common\obj\Debug\Portal.Common.pdb
 D:\Application\MVC\MSME\Portal.Common\obj\Debug\MSME.Common.csprojAssemblyReference.cache
+E:\MSM\MSMEAPP\MSME\Portal.Common\bin\Debug\Portal.Common.dll
+E:\MSM\MSMEAPP\MSME\Portal.Common\bin\Debug\Portal.Common.pdb
+E:\MSM\MSMEAPP\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.dll
+E:\MSM\MSMEAPP\MSME\Portal.Common\bin\Debug\System.Web.Http.dll
+E:\MSM\MSMEAPP\MSME\Portal.Common\bin\Debug\System.Web.Mvc.dll
+E:\MSM\MSMEAPP\MSME\Portal.Common\bin\Debug\System.Net.Http.Formatting.dll
+E:\MSM\MSMEAPP\MSME\Portal.Common\bin\Debug\Newtonsoft.Json.xml
+E:\MSM\MSMEAPP\MSME\Portal.Common\obj\Debug\MSME.Common.csprojAssemblyReference.cache
+E:\MSM\MSMEAPP\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CoreCompileInputs.cache
+E:\MSM\MSMEAPP\MSME\Portal.Common\obj\Debug\MSME.Common.csproj.CopyComplete
+E:\MSM\MSMEAPP\MSME\Portal.Common\obj\Debug\Portal.Common.dll
+E:\MSM\MSMEAPP\MSME\Portal.Common\obj\Debug\Portal.Common.pdb

@@ -290,7 +290,6 @@ function SearchMSME()
 }
 
 function EditRow(obj) {
-
     var row = $(obj).closest("tr");
     var msmeId = $(row).find("#hdnMSMEId").val();
     var msmeTitle = $(row).find("#hdnMSMETitle").val();

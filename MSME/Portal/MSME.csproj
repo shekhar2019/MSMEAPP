@@ -569,6 +569,8 @@
     <Content Include="Content\web\Site.css" />
     <Content Include="Content\web\style.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
@@ -855,6 +857,13 @@
     <Content Include="Content\Uploads\Product2.csv" />
     <Content Include="Content\Uploads\ProductSubGroup.xlsx" />
     <Content Include="Content\Uploads\Vendor_Sample.xlsx" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Properties\PublishProfiles\CMS.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -1125,6 +1134,7 @@
     <Content Include="Views\GSTPercent\GetGSTPercentageList.cshtml" />
     <Content Include="Views\UserRegister\GetUserRegistrationList.cshtml" />
     <Content Include="Views\UserRegister\ListUserRegistration.cshtml" />
+    <Content Include="Views\BuyerProduct\GetBuyerProductTechSpecification.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
