@@ -4,6 +4,7 @@ $(document).ready(function () {
     BindProductMainGroupList();
     BindUOMList();
     BindProductNameGeneration();
+    BindSpecification();
     SetUOMSearch();
     $("#ddlProductSubGroup").append($("<option></option>").val(0).html("-Select Category-"));
     $("#ddlProductSubChildGroup").append($("<option></option>").val(0).html("-Select Sub Category-"));
@@ -120,7 +121,7 @@ function SetUOMSearch() {
 .autocomplete("instance")._renderItem = function (ul, item) {
 
     return $("<li>")
-        .append("<div><b>" + item.label + " || " + item.value + "</b><br>" +  "</div>")
+        .append("<div><b>" + item.label  + "</b><br>" +  "</div>")
       .appendTo(ul);
 };
 }
@@ -2139,4 +2140,8 @@ function EditRow(obj) {
     $("#btnUpdate").show();
     //$("html, body").animate({ scrollTop: 0 }, 600);
     return false;
+}
+
+function BindSpecification() {
+
 }

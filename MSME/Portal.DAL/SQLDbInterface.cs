@@ -7904,5 +7904,42 @@ namespace Portal.DAL
             }
             return UOMId;
         }
+
+        public int MaxOrderQtyForBuyer(long BuyerProductDetailId)
+        {
+            int MaxOrderQty = 0;
+            try
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand("sp_MaxOrderQtyForBuyer", con))
+                    {
+                        con.Open();
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@BuyerProductDetailId", BuyerProductDetailId);
+                        object number = cmd.ExecuteScalar();
+                        if (number != null)
+                        {
+                            MaxOrderQty = Convert.ToInt16(number);
+                        }
+                        else
+                        {
+                            MaxOrderQty = 0;
+                        }
+
+                    }
+
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
+                throw ex;
+            }
+            return MaxOrderQty;
+        }
+
+
     }
 }

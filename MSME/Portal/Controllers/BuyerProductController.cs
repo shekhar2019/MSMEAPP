@@ -134,34 +134,34 @@ namespace Portal.Controllers
         public PartialViewResult GetBuyerProductTechSpecification(long buyerProductId)
         {
             BuyerProductBL buyerProductBL = new BuyerProductBL();
-            List<BuyerProductTechSpecificationViewModel> buyerProductTechSpecificationList = new List<BuyerProductTechSpecificationViewModel>();
+            //List<BuyerProductTechSpecificationViewModel> buyerProductTechSpecificationList = new List<BuyerProductTechSpecificationViewModel>();
             IEnumerable<BuyerProductTechSpecificationViewModel> buyerProductTechSpecification=null;
             try
             {
                 buyerProductTechSpecification = buyerProductBL.GetBuyerProductTechSpecification(buyerProductId);
-                foreach(BuyerProductTechSpecificationViewModel item in buyerProductTechSpecification)
-                {
-                    buyerProductTechSpecificationList.Add(
-                        new BuyerProductTechSpecificationViewModel
-                        {
-                            BuyerProductId = item.BuyerProductId,
-                            ProductTechSpecId = item.ProductTechSpecId,
-                            ProductTechSpecName=item.ProductTechSpecName,
-                            ProductTechSpecValue = item.ProductTechSpecValue,
-                            UomId = item.UomId,
-                            UomName=item.UomName
-                        });
-                }
+                //foreach(BuyerProductTechSpecificationViewModel item in buyerProductTechSpecification)
+                //{
+                //    buyerProductTechSpecificationList.Add(
+                //        new BuyerProductTechSpecificationViewModel
+                //        {
+                //            BuyerProductId = item.BuyerProductId,
+                //            ProductTechSpecId = item.ProductTechSpecId,
+                //            ProductTechSpecName=item.ProductTechSpecName,
+                //            ProductTechSpecValue = item.ProductTechSpecValue,
+                //            UomId = item.UomId,
+                //            UomName=item.UomName
+                //        });
+                //}
             }
             catch (Exception ex)
             {
                 Logger.SaveErrorLog(this.ToString(), MethodBase.GetCurrentMethod().Name, ex);
             }
-            return PartialView(buyerProductTechSpecificationList);
+            return PartialView(buyerProductTechSpecification);
         }
 
         [HttpGet]
-        public ActionResult GetDashboardBuyerProducts(string sortBy = SortDashboardBy.LowestPrice, string category = "", string city = "")
+        public ActionResult GetDashboardBuyerProducts(string sortBy = SortDashboardBy.LatestDate, string category = "", string city = "")
         {
             BuyerProductBL buyerProductBL = new BuyerProductBL();
             IEnumerable<BuyerProductDashboardViewModel> products = buyerProductBL.GetBuyerDashBoardProducts(BSContextUser.UserId, category, city);

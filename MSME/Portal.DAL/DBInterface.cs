@@ -260,8 +260,9 @@ namespace Portal.DAL
         {
             return from x in entities.BuyerProducts
                    join user in entities.UserRegistrations on x.BuyerId equals user.UserId
+                   join uo in entities.UOMs on x.UomId equals uo.UOMId 
                    where x.ParentClassId == mainGroupId && x.CategoryId == subGroupId && x.SubCategoryId == subChildGroupId
-                   && user.City.ToLower().Contains(string.IsNullOrEmpty(city) ? user.City.ToLower() : city.ToLower())
+                   && user.City.ToLower().Contains(string.IsNullOrEmpty(city) ? user.City.ToLower() : city.ToLower()) && uo.IsSUM==false 
                    select new BuyerProductDetailList
                    {
                        BuyerProductDetailId = x.BuyerProductDetailId,
@@ -270,6 +271,7 @@ namespace Portal.DAL
                        Contact = user.ContactNo,
                        ProductId = x.ProductId,
                        ProductDate = x.ModifiedDate == null ? x.CreatedDate : x.ModifiedDate,
+                       UOMName = uo.UOMName,
                    };
         }
 

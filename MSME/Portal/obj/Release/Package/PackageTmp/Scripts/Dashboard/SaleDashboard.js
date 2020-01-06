@@ -130,15 +130,15 @@ function SaveSellerProduct() {
         return false;
     }
     if (ddlGSTPercentage.val() == "" || ddlGSTPercentage.val() == "0") {
-        ShowModel("Alert", "Please select Product Sub  Child Group");
+        ShowModel("Alert", "Please select Gst Percentage");
         ddlGSTPercentage.focus();
         return false;
     }
-    if (ddlDeliveryStatus.val() == "" || ddlDeliveryStatus.val() == "0") {
-        ShowModel("Alert", "Please select Product Sub  Child Group");
-        ddlDeliveryStatus.focus();
-        return false;
-    }
+    //if (ddlDeliveryStatus.val() == "" || ddlDeliveryStatus.val() == "0") {
+    //    ShowModel("Alert", "Please select Product Sub  Child Group");
+    //    ddlDeliveryStatus.focus();
+    //    return false;
+    //}
 
     if (txtProductName.val().trim() == "") {
         ShowModel("Alert", "Please enter Product Name")
@@ -160,16 +160,16 @@ function SaveSellerProduct() {
     //    ddlUOM.focus();
     //    return false;
     //}
-    if (txtBrandName.val().trim() == "") {
-        ShowModel("Alert", "Please enter Brand Name")
-        txtBrandName.focus();
-        return false;
-    }
-    if (txtItemCode.val().trim() == "") {
-        ShowModel("Alert", "Please enter Item Code")
-        txtItemCode.focus();
-        return false;
-    }
+    //if (txtBrandName.val().trim() == "") {
+    //    ShowModel("Alert", "Please enter Brand Name")
+    //    txtBrandName.focus();
+    //    return false;
+    //}
+    //if (txtItemCode.val().trim() == "") {
+    //    ShowModel("Alert", "Please enter Item Code")
+    //    txtItemCode.focus();
+    //    return false;
+    //}
     if (FinalProductUOM.val() == "" || FinalProductUOM.val() == "0") {
         ShowModel("Alert", "Please select Product UOM");
         FinalProductUOM.focus();
@@ -194,12 +194,12 @@ function SaveSellerProduct() {
 
         var techSpecId = ddlSpecificationName.val();
 
-        if (techSpecId == undefined || techSpecId == null || techSpecId == "0" || techSpecId == "") {
-            ShowModel("Alert", "Please enter Specification Name")
-            ddlSpecificationName.focus();
-            Specifications = []
-            return false;
-        }
+        //if (techSpecId == undefined || techSpecId == null || techSpecId == "0" || techSpecId == "") {
+        //    ShowModel("Alert", "Please enter Specification Name")
+        //    ddlSpecificationName.focus();
+        //    Specifications = []
+        //    return false;
+        //}
 
         //if (techSpecId == undefined || techSpecId == null || techSpecId == "0" || techSpecId == "") {
         //    ShowModel("Alert", "Please enter Specification Value")

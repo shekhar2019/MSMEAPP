@@ -71,6 +71,8 @@ namespace Portal.Core.ViewModel
         public string BuyerName { get; set; }
         public string Contact { get; set; }
         public DateTime? ProductDate { get; set; }
+        public Nullable<decimal> BuyerQty { get; set; }
+        public string UOMName { get; set; }
     }
 
 }

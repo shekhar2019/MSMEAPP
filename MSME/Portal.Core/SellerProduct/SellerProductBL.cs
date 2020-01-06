@@ -140,7 +140,11 @@ namespace Portal.Core
                                 BuyerId = x.BuyerId == null ? 0 : x.BuyerId.Value,
                                 BuyerName = x.BuyerName,
                                 Contact = x.Contact,
-                                ProductDate = x.ProductDate
+                                ProductDate = x.ProductDate,
+                                BuyerQty= sQLDbInterface.MaxOrderQtyForBuyer(x.BuyerProductDetailId),
+                                UOMName=x.UOMName
+
+
                             };
                         }));
 

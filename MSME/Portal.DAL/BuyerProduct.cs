@@ -30,5 +30,6 @@ namespace Portal.DAL
         public string BuyerCode { get; set; }
         public Nullable<System.DateTime> ModifiedDate { get; set; }
         public Nullable<System.DateTime> CreatedDate { get; set; }
+     
     }
 }

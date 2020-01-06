@@ -9,7 +9,7 @@
         <a href="../SellerProduct/AddEditSellerProduct">Add Product</a>
     </li>
     <li>
-        <a href="../Dashboard/SalerDashboard">Dashboard</a>
+        <a href="../Dashboard/SalerDashboard">My Bazar</a>
     </li>
     <li>
         <a href="../KnowledgeCenter">Knowledge Center</a>
@@ -19,7 +19,9 @@
         <a href="../UserRegister/EditProfile">Your Profile</a>
     </li>
 
-
+    <li>
+        <a href="../Dashboard/SalerDashboard?DType=BA">Bazar</a>
+    </li>
 
     <li>
         <a href="../UserLogin/SignOut">Logout</a>
@@ -56,8 +58,8 @@
                         <tr class="danger">
                             <td colspan="2">Contact</td>
                             <td class="contact"></td>
-                            <td>Unit</td>
-                            <td class="unit"></td>
+                            @*<td>Unit</td>
+                            <td class="unit"></td>*@
                         </tr>
                         <tr class="info">
                             <td colspan="2">Email</td>
@@ -85,7 +87,7 @@
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
-
+        <input type="hidden" id="hdndtype" name="name" value="@ViewBag.DashboradType" />
     </div>
 </div>
 
@@ -106,7 +108,7 @@
                     $("#SellerModal .contact").text(data.FullName + " " + data.ContactNo);
                     $("#SellerModal .email").text(data.Email);
                     //$("#SellerModal .rate").text(data.SalePrice);
-                    $("#SellerModal .unit").text(data.UOMName);
+                  //  $("#SellerModal .unit").text(data.UOMName);
                     //$("#SellerModal .moq").text(data.MOQ);
                     $("#SellerModal .address").text(data.Address);
                     //$("#SellerModal .gst").text(data.GSTName);

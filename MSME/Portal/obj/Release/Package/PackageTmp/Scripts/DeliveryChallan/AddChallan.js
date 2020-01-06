@@ -1671,8 +1671,6 @@ function GetSaleInvoiceProductList(saleinvoiceProducts,siId) {
         success: function (data) {
             $("#divProductList").html("");
             $("#divProductList").html(data);
-
-
             CalculateGrossandNetValues();
             ShowHideProductPanel(2);
         }

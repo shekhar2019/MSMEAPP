@@ -112,11 +112,24 @@
                         <li><a href="../KnowledgeCenter" class="scrollLink">Knowledge Center</a></li>
 
                         <li><a href="../ContactUs" class="scrollLink">Contact us</a></li>
+                        @if (Session["KYCCode"] != null)
+                        {
+                            if ((Session["KYCCode"].ToString()) == "B")
+                            {
+                                <li><a href="../Dashboard/BuyerDashboard" class="scrollLink">My Account</a></li>
 
-                        <li><a href="../UserLogin" class="scrollLink">Login</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="../Dashboard/SalerDashboard" class="scrollLink">My Account</a></li>
+                            }
+                        }
+                        else
+                        {
+                            <li><a href="../UserLogin" class="scrollLink">Login</a></li>
 
-                        <li><a href="../UserRegister" class="scrollLink">Registration</a></li>
-
+                            <li><a href="../UserRegister" class="scrollLink">Registration</a></li>
+                        }
                     </ul>
 
                 </div><!--menu-->
@@ -332,8 +345,7 @@
         });
 
     </script>
-
-    @*<script src="../Content/Msme/js/jquery.js"></script>*@
+   @*<script src="../Content/Msme/js/jquery.js"></script>*@    
 
 </body>
 </html>

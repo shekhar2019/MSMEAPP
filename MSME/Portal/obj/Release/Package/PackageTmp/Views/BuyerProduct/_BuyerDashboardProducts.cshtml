@@ -6,7 +6,7 @@
     int i = 0;
     foreach (Portal.Core.ViewModel.BuyerProductDashboardViewModel item in Model)
     {
-        string productshortname = (@item.ProductName.Length)> 40 ? @item.ProductName.Substring(1, 40) +"..." : @item.ProductName;
+        string productshortname = (@item.ProductName.Length)> 40 ? @item.ProductName.Substring(0, 39) +"..." : @item.ProductName;
 
 
         <div class="row">

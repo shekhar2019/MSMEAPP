@@ -6,13 +6,13 @@
     int i = 0;
     foreach (Portal.Core.ViewModel.SellerProductDashboardViewModel item in Model)
     {
-        string productshortname = (@item.ProductName.Length) > 40 ? @item.ProductName.Substring(1, 40) + "..." : @item.ProductName;
+        string productshortname = (@item.ProductName.Length) > 40 ? @item.ProductName.Substring(1, 39) + "..." : @item.ProductName;
 
         <div class="row">
             <div class="col-lg-3 product-info" style="line-height:1.5em;">
                 <div class="alert alert-danger text-center" style="background-color:#9B0214; color:#fff; padding:10px;" data-toggle="popover" title="@item.CategoryId         @item.SubCategoryId     @item.SpecificationName @item.SpecificationValue   @item.UomId">
-                    <span style="text-transform:uppercase;">@item.CategoryName    &nbsp;&nbsp;     @item.SubCategoryName</span>
-                    <br />
+                    @*<span style="text-transform:uppercase;">@item.CategoryName    &nbsp;&nbsp;     @item.SubCategoryName</span>*@
+              
                     <span title="@item.ProductName" style="text-transform:uppercase;">@productshortname</span>
                     <input type="hidden" id="ParentClassId" name="ParentClassId" value="@item.ParentClassId" />
                     <input type="hidden" id="CategoryId" name="CategoryId" value="@item.CategoryId" />
@@ -48,6 +48,7 @@
                                         <div style="padding:5px;">
                                             <img src="../Images/phone.png" width="20"> +91 @buyer.Contact<br />
                                             <span style="color:#9B0214;"> Date: @buyer.ProductDate.Value.ToString("MM/dd/yyyy") </span> <br />
+                                            <span style="color:#9B0214;"> Qty: @buyer.BuyerQty @buyer.UOMName </span> <br />
                                             <button style="padding:3px; float:right; background:transparent; margin-top:8px; border:none; color:#9B0214; font-size:10px;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">More Details</button>
 
                                         </div>

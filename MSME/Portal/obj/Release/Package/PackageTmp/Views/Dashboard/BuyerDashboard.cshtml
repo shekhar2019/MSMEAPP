@@ -5,7 +5,7 @@
 
 @section UserMenu{
 <li>
-    <a href="../Dashboard/BuyerDashboard">Dashboard</a>
+    <a href="../Dashboard/BuyerDashboard">My Bazar</a>
 </li>
     <li>
         <a href="../UserRegister/EditProfile">Your Profile</a>
@@ -91,6 +91,9 @@
 
 @section DashboardScripts{
 
+<link href="~/Content/timeout-dialog.css" rel="stylesheet" />
+<script src="~/Scripts/timeout-dialog.js"></script>
+
     <script>
         function ShowSellerModal(salerProductDetailId) {
             $.ajax({
@@ -115,5 +118,18 @@
                 }
             });
         }
+
+        $(function () {
+           
+            var fnTimeOut = function () {
+                jQuery.timeoutDialog.setupDialogTimer({
+                    timeout: 7200,
+                    countdown: 300,
+                    logout_redirect_url: '@Url.Action("SignOut", "UserLogin")',
+                    keep_alive_url: '@Url.Action("Keepalive", "UserLogin")'
+               });
+            };
+            fnTimeOut();
+        });
     </script>
 }

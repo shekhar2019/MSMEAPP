@@ -214,3 +214,40 @@ D:\Application\MVC\MSME\Portal.Core\obj\Release\MSME.Core.csproj.CoreCompileInpu
 D:\Application\MVC\MSME\Portal.Core\obj\Release\MSME.Core.csproj.CopyComplete
 D:\Application\MVC\MSME\Portal.Core\obj\Release\Portal.Core.dll
 D:\Application\MVC\MSME\Portal.Core\obj\Release\Portal.Core.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Portal.Core.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Portal.Core.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Newtonsoft.Json.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Portal.Common.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Portal.DAL.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Net.Http.Formatting.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Helpers.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Http.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Mvc.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Razor.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.WebPages.Deployment.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.WebPages.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.WebPages.Razor.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\WebMatrix.Data.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\WebMatrix.WebData.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\EntityFramework.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Portal.Common.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Portal.DAL.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Portal.DAL.dll.config
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\Newtonsoft.Json.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Net.Http.Formatting.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Helpers.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Http.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Mvc.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.Razor.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.WebPages.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.WebPages.Deployment.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\System.Web.WebPages.Razor.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\WebMatrix.Data.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\WebMatrix.WebData.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\bin\Release\EntityFramework.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\obj\Release\MSME.Core.csprojAssemblyReference.cache
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\obj\Release\MSME.Core.csproj.CoreCompileInputs.cache
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\obj\Release\MSME.Core.csproj.CopyComplete
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\obj\Release\Portal.Core.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.Core\obj\Release\Portal.Core.pdb

@@ -147,3 +147,19 @@ D:\Application\MVC\MSME\Portal\obj\Release\MSME.csproj.CoreCompileInputs.cache
 D:\Application\MVC\MSME\Portal\obj\Release\MSME.csproj.CopyComplete
 D:\Application\MVC\MSME\Portal\obj\Release\Portal.dll
 D:\Application\MVC\MSME\Portal\obj\Release\Portal.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.dll.config
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Microsoft.Contracts.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.Common.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.Core.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.DAL.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.Common.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.Core.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.DAL.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\bin\Portal.DAL.dll.config
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\obj\Release\MSME.csprojAssemblyReference.cache
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\obj\Release\MSME.csproj.CoreCompileInputs.cache
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\obj\Release\MSME.csproj.CopyComplete
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\obj\Release\Portal.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal\obj\Release\Portal.pdb

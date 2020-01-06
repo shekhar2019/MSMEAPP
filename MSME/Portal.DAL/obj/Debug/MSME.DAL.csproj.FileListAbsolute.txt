@@ -124,3 +124,19 @@ E:\MSM\MSMEAPP\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
 E:\MSM\MSMEAPP\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
 E:\MSM\MSMEAPP\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
 E:\MSM\MSMEAPP\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll.config
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\Portal.DAL.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\Portal.DAL.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\EntityFramework.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\Portal.Common.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\Portal.Common.pdb
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\EntityFramework.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\obj\Debug\MSME.DAL.csprojAssemblyReference.cache
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CoreCompileInputs.cache
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\obj\Debug\MSME.DAL.csproj.CopyComplete
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\obj\Debug\Portal.DAL.dll
+D:\Application\MVC\MSME Dec 20 2019\MSMEAPP\MSME\Portal.DAL\obj\Debug\Portal.DAL.pdb
